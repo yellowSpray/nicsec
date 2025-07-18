@@ -1,11 +1,14 @@
+import { TiArrowRight } from "react-icons/ti";
+
 type ButtonProps = {
     buttonTxt: string;
 };
 
 export default function Button({buttonTxt}: ButtonProps) {
     return (
-        <button className="rounded-second bg-second py-3 px-10 text-white">
+        <button className="flex flex-row align-center gap-1 rounded-second bg-second py-2 px-5 text-white text-sm">
             {buttonTxt}
+            <TiArrowRight size={20}/>
         </button>
     );
 }

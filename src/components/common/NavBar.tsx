@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { IdCard, Briefcase, CircleQuestionMark, Mail } from "lucide-react";
+import { FaSuitcaseRolling , FaIdCard  } from "react-icons/fa6";
+import { FaQuestionCircle } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 
 export default function NavBar() {
   return (
@@ -9,11 +11,11 @@ export default function NavBar() {
         to="/service"
         className={({ isActive }) =>
           `py-2 px-4 flex flex-row items-center gap-2 ${
-            isActive ? "text-white bg-green rounded-perso" : ""
+            isActive ? "text-second" : ""
           }`
         }
       >
-        <Briefcase size={18} />
+        <FaSuitcaseRolling size={18} />
         Service
       </NavLink>
       
@@ -21,11 +23,11 @@ export default function NavBar() {
         to="/about"
         className={({ isActive }) =>
           `py-2 px-4 flex flex-row items-center gap-2 ${
-            isActive ? "text-white bg-green rounded-perso" : ""
+            isActive ? "text-second" : ""
           }`
         }
       >
-        <IdCard size={20} />
+        <FaIdCard size={18} />
         About
       </NavLink>
       
@@ -33,11 +35,11 @@ export default function NavBar() {
         to="/faq"
         className={({ isActive }) =>
           `py-2 px-4 flex flex-row items-center gap-2 ${
-            isActive ? "text-white bg-green rounded-perso" : ""
+            isActive ? "text-second" : ""
           }`
         }
       >
-        <CircleQuestionMark size={18} />
+        <FaQuestionCircle size={18} />
         Faq
       </NavLink>
 
@@ -45,11 +47,11 @@ export default function NavBar() {
         to="/contact"
         className={({ isActive }) =>
           `py-2 px-4 flex flex-row items-center gap-2 ${
-            isActive ? "text-white bg-green rounded-perso" : ""
+            isActive ? "text-second" : ""
           }`
         }
       >
-        <Mail size={18} />
+        <IoMdMail size={18} />
         Contact
       </NavLink>
 

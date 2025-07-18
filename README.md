@@ -4,7 +4,7 @@
 * React
 * Typescript
 * Tailwindcss
-* react-dom-router
+* framer
 
 ## Features ✅
 * highlights of some words in the main title of each pages
@@ -17,4 +17,6 @@
 * contact page 
 * footer + map
 * language filter
+* hover effect + some animation
+* not found page
 * SEO

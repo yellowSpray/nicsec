@@ -29,7 +29,7 @@ export default function Content({
         <article className="clipped-content">
           <aside className="w-150">
             <h2>{parsedTitle}</h2>
-            <p>{text}</p>
+            <p className="mb-8">{text}</p>
           </aside>
           <Button buttonTxt="Contact Me" />
         </article>
