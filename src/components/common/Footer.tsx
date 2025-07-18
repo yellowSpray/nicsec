@@ -10,7 +10,7 @@ export default function Footer() {
         <BgFooter />
       </div>
 
-      <section className="w-full h-100 flex flex-row gap-14 px-16 py-14 z-10">
+      <section className="w-full h-100 flex flex-row gap-14 p-16 z-10">
         <div className="w-1/2 h-full flex flex-col items-start justify-between text-white">
           <h3 className="text-3xl">Contact Me Today</h3>
           <p className="text-sm">

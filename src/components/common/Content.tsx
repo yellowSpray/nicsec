@@ -23,7 +23,7 @@ export default function Content({
   }, [title]);
 
   return (
-    <div className="content">
+    <section className="w-6xl">
       <div className="clipped-container flex flex-col justify-center items-center">
         <img src={backgroundImage} alt="Private Detective Professional" />
         <article className="clipped-content">
@@ -35,7 +35,7 @@ export default function Content({
         </article>
       </div>
       <Background />
-    </div>
+    </section>
   );
 }
 

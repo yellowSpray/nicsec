@@ -5,7 +5,7 @@ import { IoMdMail } from "react-icons/io";
 
 export default function NavBar() {
   return (
-    <nav className="flex flex-row content-center items-center gap-4 p-1 text-sm font-bold">
+    <nav className="flex flex-row content-center items-center gap-4 p-1 text-sm font-medium">
       
       <NavLink
         to="/service"
