@@ -28,8 +28,8 @@ export default function Content({
         <img src={backgroundImage} alt="Private Detective Professional" />
         <article className="clipped-content">
           <aside className="w-150">
-            <h2>{parsedTitle}</h2>
-            <p className="mb-8">{text}</p>
+            <h2 className="text-5xl">{parsedTitle}</h2>
+            <p className="text-sm my-5">{text}</p>
           </aside>
           <Button buttonTxt="Contact Me" />
         </article>
