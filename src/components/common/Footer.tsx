@@ -1,4 +1,4 @@
-import BgFooter from "../ui/BgFooter";
+import SvgFooter from "../ui/SvgFooter";
 import Button from "../ui/Button";
 import { IoCall, IoCalendarClear, IoCompass } from "react-icons/io5";
 
@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="w-6xl relative flex flex-col items-center">
       <div className="w-full h-100 absolute top-0 left-0 z-0">
-        <BgFooter />
+        <SvgFooter />
       </div>
 
       <section className="w-full h-100 flex flex-row gap-14 p-16 z-10">

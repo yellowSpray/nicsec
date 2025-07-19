@@ -1,27 +1,29 @@
 import Detective from "../assets/images/detective_pic.png";
-import ServicePreview from "../assets/images/service-preview.jpg"
+import ServicePreview from "../assets/images/service-preview.jpg";
 import Content from "../components/common/Content";
-import BgService from "../components/ui/BgService";
+import BgService from "../components/ui/SvgService";
 import Testimonial from "../components/ui/Testimonial";
 import { RiShieldCheckFill, RiLock2Fill, RiTimeFill } from "react-icons/ri";
 
 export default function Home() {
-
   const reasons = [
     {
       icon: <RiShieldCheckFill size={19} />,
       title: "Licensed & Insured",
-      description: "Fully Licensed private investigator with comprehensive insurance coverage."
+      description:
+        "Fully Licensed private investigator with comprehensive insurance coverage.",
     },
     {
       icon: <RiLock2Fill size={19} />,
       title: "100% Confidential",
-      description: "Your privacy and case details are protected with the highest level of discretion."
+      description:
+        "Your privacy and case details are protected with the highest level of discretion.",
     },
     {
       icon: <RiTimeFill size={19} />,
       title: "24/7 Availability",
-      description: "Available around the clock for urgent cases and emergency situations."
+      description:
+        "Available around the clock for urgent cases and emergency situations.",
     },
   ];
 
@@ -84,47 +86,58 @@ export default function Home() {
 
       <section className="w-full mb-30 flex flex-col items-center bg-background">
         <div className="w-6xl flex flex-row py-16 gap-32">
-
           <article className="w-2/5 flex flex-col justify-between">
-
-            <h3 className="text-3xl">Why <span className="text-second">Choose</span> Nicsec investigations ?</h3>
+            <h3 className="text-3xl">
+              Why <span className="text-second">Choose</span> Nicsec
+              investigations ?
+            </h3>
             {reasons.map(({ icon, title, description }, index) => (
               <div key={index}>
                 <ul className="flex flex-row items-center gap-4 mb-1">
                   <li className="relative bottom-0.5 text-second">{icon}</li>
-                  <li><h4 className="text-lg">{title}</h4></li>
+                  <li>
+                    <h4 className="text-lg">{title}</h4>
+                  </li>
                 </ul>
                 <p className="text-sm">{description}</p>
               </div>
             ))}
           </article>
-          
+
           <div className="w-3/5 rounded-second overflow-hidden">
-            <img src={ServicePreview} alt="service preview image" loading="lazy"/>
+            <img
+              src={ServicePreview}
+              alt="service preview image"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
 
       <section className="w-6xl mb-30 flex flex-col items-center">
         <div className="mb-10">
-          <h3 className="text-3xl mb-5">Client <span className="text-second">Testimonials</span></h3>
-          <p className="text-sm text-center">Trusted by hundreds of satisfied clients</p>
+          <h3 className="text-3xl mb-5">
+            Client <span className="text-second">Testimonials</span>
+          </h3>
+          <p className="text-sm text-center">
+            Trusted by hundreds of satisfied clients
+          </p>
         </div>
         <div className="grid grid-cols-12 gap-8">
-          <Testimonial 
-            name="Sarah M." 
-            role="Corporate Client" 
-            comment="We hired him for a sensitive internal investigation. His professionalism, discretion, and swift results exceeded all our expectations. Highly reliable." 
+          <Testimonial
+            name="Sarah M."
+            role="Corporate Client"
+            comment="We hired him for a sensitive internal investigation. His professionalism, discretion, and swift results exceeded all our expectations. Highly reliable."
           />
-          <Testimonial 
-            name="James R." 
-            role="Personal Client" 
-            comment="He helped me uncover the truth in a very personal matter. Attentive, empathetic, and incredibly efficient. I can’t thank him enough and would recommend him without hesitation." 
+          <Testimonial
+            name="James R."
+            role="Personal Client"
+            comment="He helped me uncover the truth in a very personal matter. Attentive, empathetic, and incredibly efficient. I can’t thank him enough and would recommend him without hesitation."
           />
-          <Testimonial 
-            name="Lisa K." 
-            role="Attorney" 
-            comment="A trusted partner for sensitive legal cases. His thorough work has strengthened several of my cases with clear, admissible evidence. An invaluable asset in legal proceedings." 
+          <Testimonial
+            name="Lisa K."
+            role="Attorney"
+            comment="A trusted partner for sensitive legal cases. His thorough work has strengthened several of my cases with clear, admissible evidence. An invaluable asset in legal proceedings."
           />
         </div>
       </section>

@@ -1,4 +1,4 @@
-import BgFolder from "../ui/BgFolder";
+import SvgFolder from "./SvgFolder";
 import { FaCheck } from "react-icons/fa";
 
 interface ServiceProps {
@@ -35,7 +35,7 @@ export default function Folder({
             </ul>
         </div>
       </article>
-      <BgFolder />
+      <SvgFolder />
     </div>
   );
 }

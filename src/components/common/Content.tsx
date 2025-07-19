@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { highlightKeywords } from "../../features/highLight";
-import Background from "../ui/Background";
+import SvgContent from "../ui/SvgContent";
 import Button from "../ui/Button";
 
 interface ContentProps {
@@ -36,7 +36,7 @@ export default function Content({
           <Button buttonTxt="Contact Me" />
         </article>
       </div>
-      <Background />
+      <SvgContent />
     </section>
   );
 }

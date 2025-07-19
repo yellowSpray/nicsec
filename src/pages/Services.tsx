@@ -1,7 +1,7 @@
 import Detective from "../assets/images/detective_pic.png";
 import Content from "../components/common/Content";
-import Folder from "../components/ui/Folder";
-import infoService from "../features/infoService";
+import SvgFolder from "../components/ui/Folder";
+import infoService from "../data/infoService";
 import { FaShield } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { BiSolidBinoculars } from "react-icons/bi";
@@ -51,7 +51,7 @@ export default function Service() {
         </div>
         <div className="w-full grid grid-cols-12 grid-rows-2 gap-8">
           {infoService.map(({ icone, title, text, listService }, index) => (
-            <Folder
+            <SvgFolder
               key={index}
               icone={icone}
               title={title}

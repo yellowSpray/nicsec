@@ -11,11 +11,11 @@
 * main content svg background  
 
 ## TODO 🚧
-* service page
+* service page - process section
 * about page
 * contact page 
 * map in the footer
 * language filter
-* hover effect + some animation
+* hover effect + some animation + transition
 * not found page
 * SEO
