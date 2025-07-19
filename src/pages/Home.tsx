@@ -31,6 +31,7 @@ export default function Home() {
         backgroundImage={Detective}
         title="Professional & Friendly Private Detective."
         text="Providing discreet, thorough, and results-driven investigative services that empower individuals, businesses, and legal professionals, to make informed decisions."
+        positionClassName="items-center text-center"
       />
 
       <section className="w-6xl my-30">
