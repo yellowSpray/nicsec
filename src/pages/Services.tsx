@@ -7,24 +7,26 @@ import { MdComputer } from "react-icons/md";
 import { BiSolidBinoculars } from "react-icons/bi";
 
 export default function Service() {
-
   const specialized = [
     {
       iconeSpe: <FaShield size={30} />,
       titleSpe: "Corporate Security",
-      textSpe: "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes."
+      textSpe:
+        "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes.",
     },
     {
       iconeSpe: <MdComputer size={30} />,
       titleSpe: "Digital Forensics",
-      textSpe: "Computer and mobile device investigations, data recovery, and cybercrime analysis."
+      textSpe:
+        "Computer and mobile device investigations, data recovery, and cybercrime analysis.",
     },
     {
       iconeSpe: <BiSolidBinoculars size={30} />,
       titleSpe: "Insurance Claims",
-      textSpe: "Workers' compensation fraud, disability claims verification, and accident reconstruction."
-    }
-  ]
+      textSpe:
+        "Workers' compensation fraud, disability claims verification, and accident reconstruction.",
+    },
+  ];
 
   return (
     <div className="w-full flex flex-col items-center">
@@ -72,18 +74,15 @@ export default function Service() {
           </div>
           <div className="grid grid-cols-12 gap-8">
             {specialized.map(({ iconeSpe, titleSpe, textSpe }, index) => (
-                <article key={index} className="h-32 col-span-4 flex flex-col items-center justify-between">
-                  <div className="text-second">
-                    {iconeSpe}
-                  </div>
-                  <h4 className="text-lg">{titleSpe}</h4>
-                  <p className="text-sm text-center">
-                    {textSpe}
-                  </p>
-                </article>
+              <article
+                key={index}
+                className="h-32 col-span-4 flex flex-col items-center justify-between"
+              >
+                <div className="text-second">{iconeSpe}</div>
+                <h4 className="text-lg">{titleSpe}</h4>
+                <p className="text-sm text-center">{textSpe}</p>
+              </article>
             ))}
-            
-            
           </div>
         </div>
       </section>

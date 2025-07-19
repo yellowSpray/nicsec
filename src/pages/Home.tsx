@@ -99,7 +99,7 @@ export default function Home() {
             ))}
           </article>
           
-          <div className="w-3/5">
+          <div className="w-3/5 rounded-second overflow-hidden">
             <img src={ServicePreview} alt="service preview image" loading="lazy"/>
           </div>
         </div>
