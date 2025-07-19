@@ -82,7 +82,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex flex-col items-center mb-30 bg-background">
+      <section className="w-full mb-30 flex flex-col items-center bg-background">
         <div className="w-6xl flex flex-row py-16 gap-32">
 
           <article className="w-2/5 flex flex-col justify-between">
