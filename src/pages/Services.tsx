@@ -1,6 +1,7 @@
 import Detective from "../assets/images/detective_pic.png";
 import Content from "../components/common/Content";
 import SvgFolder from "../components/ui/Folder";
+import Card from "../components/ui/Card"
 import infoService from "../data/infoService";
 import { FaShield } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
@@ -9,21 +10,21 @@ import { BiSolidBinoculars } from "react-icons/bi";
 export default function Service() {
   const specialized = [
     {
-      iconeSpe: <FaShield size={30} />,
-      titleSpe: "Corporate Security",
-      textSpe:
+      iconeCard: <FaShield size={30} />,
+      titleCard: "Corporate Security",
+      textCard:
         "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes.",
     },
     {
-      iconeSpe: <MdComputer size={30} />,
-      titleSpe: "Digital Forensics",
-      textSpe:
+      iconeCard: <MdComputer size={30} />,
+      titleCard: "Digital Forensics",
+      textCard:
         "Computer and mobile device investigations, data recovery, and cybercrime analysis.",
     },
     {
-      iconeSpe: <BiSolidBinoculars size={30} />,
-      titleSpe: "Insurance Claims",
-      textSpe:
+      iconeCard: <BiSolidBinoculars size={30} />,
+      titleCard: "Insurance Claims",
+      textCard:
         "Workers' compensation fraud, disability claims verification, and accident reconstruction.",
     },
   ];
@@ -73,15 +74,14 @@ export default function Service() {
             </p>
           </div>
           <div className="grid grid-cols-12 gap-8">
-            {specialized.map(({ iconeSpe, titleSpe, textSpe }, index) => (
-              <article
-                key={index}
-                className="h-32 col-span-4 flex flex-col items-center justify-between"
-              >
-                <div className="text-second">{iconeSpe}</div>
-                <h4 className="text-lg">{titleSpe}</h4>
-                <p className="text-sm text-center">{textSpe}</p>
-              </article>
+            {specialized.map(({ iconeCard, titleCard, textCard }, index) => (
+              <Card
+                key={index} 
+                iconeCard={iconeCard}
+                titleCard={titleCard}
+                textCard={textCard}
+                className="col-span-4"
+              />
             ))}
           </div>
         </div>

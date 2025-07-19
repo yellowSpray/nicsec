@@ -12,10 +12,10 @@
 
 ## TODO 🚧
 * service page - process section
-* about page
+* faq page
 * contact page 
 * map in the footer
 * language filter
-* hover effect + some animation + transition
+* hover effect + some svg animation + transition
 * not found page
 * SEO
