@@ -16,6 +16,7 @@
 * contact page 
 * map in the footer
 * language filter
+* responsive
 * hover effect + some svg animation + transition
 * not found page
 * SEO
