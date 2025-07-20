@@ -4,19 +4,15 @@ import About from "../pages/About";
 import Service from "../pages/Services";
 import NotFoundPage from "../pages/NotFound";
 import Faq from "../pages/Faq";
-import Contact from "../pages/Contact";
 
 export default function AppRouter() {
-    return (
-        
-            <Routes>
-                <Route index element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/service" element={<Service />} />
-                <Route path="/faq" element={<Faq />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-    
-    )
+  return (
+    <Routes>
+      <Route index element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/service" element={<Service />} />
+      <Route path="/faq" element={<Faq />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
+  );
 }

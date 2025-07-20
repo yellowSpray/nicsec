@@ -11,10 +11,8 @@
 * main content svg background  
 
 ## TODO 🚧
+* footer contact form
 * service page - process section
-* faq page
-* contact page 
-* map in the footer
 * language filter
 * responsive
 * hover effect + some svg animation + transition

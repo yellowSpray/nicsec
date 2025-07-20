@@ -40,7 +40,7 @@ export default function Faq() {
           { questionGeneral.map( ( {question, answer} , index) => (
             <Accordion
               key={index}
-              className="bg-main text-white mb-2"
+              className="bg-gray-200 mb-4"
               question={question}
               answer={answer}
             />
@@ -51,7 +51,7 @@ export default function Faq() {
           { questionService.map (({ question , answer }, index) => (
             <Accordion
               key={index}
-              className="bg-background mb-2"
+              className="bg-background mb-4"
               question={question}
               answer={answer}
             />

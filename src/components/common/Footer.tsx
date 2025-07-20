@@ -1,18 +1,18 @@
 import SvgFooter from "../ui/SvgFooter";
-import Button from "../ui/Button";
 import { IoCall, IoCalendarClear, IoCompass } from "react-icons/io5";
+import ContactForm from "../ui/ContactForm";
 
 export default function Footer() {
   return (
     <footer className="w-6xl relative flex flex-col items-center">
-      <div className="w-full h-100 absolute top-0 left-0 z-0">
+      <div className="w-full h-154 absolute top-0 left-0 z-0">
         <SvgFooter />
       </div>
 
-      <section className="w-full h-100 flex flex-row gap-14 p-16 z-10">
-        <div className="w-1/2 h-full flex flex-col items-start justify-between text-white">
-          <h3 className="text-3xl">Contact Me Today</h3>
-          <p className="text-sm">
+      <section className="w-full h-154 flex flex-row gap-14 px-16 pt-16 pb-12 z-10">
+        <div className="w-2/5 h-2/3 flex flex-col items-start text-white">
+          <h3 className="text-3xl mb-5">Contact Me Today</h3>
+          <p className="text-sm mb-5">
             With experience and precision, I offer professional investigative
             services tailored to meet your unique needs, with the utmost
             discretion.
@@ -31,10 +31,9 @@ export default function Footer() {
               Belgium, Brussels - Walloon Brabant - Namur
             </li>
           </ul>
-          <Button buttonTxt="Contact Me" />
         </div>
-        <div className="w-1/2 h-full bg-gray-600">
-          <p>future map.</p>
+        <div className="w-3/5 h-full">
+          <ContactForm />
         </div>
       </section>
 
