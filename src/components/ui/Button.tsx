@@ -1,14 +1,20 @@
-import { TiArrowRight } from "react-icons/ti";
+import { scrollToSection } from "../../features/scrollButton";
 
 interface ButtonProps {
-  buttonTxt: string;
+  buttonTxt: string,
+  iconeButton: React.ReactNode,
+  className: string,
 };
 
-export default function Button({ buttonTxt }: ButtonProps) {
+export default function Button({ buttonTxt, iconeButton, className }: ButtonProps) {
+
   return (
-    <button className="flex flex-row align-center gap-1 rounded-second bg-second py-2 px-5 text-white text-sm">
+    <button 
+      onClick={scrollToSection}
+      className={`flex flex-row content-center items-center gap-1 rounded-second bg-second py-2 px-5 text-white text-sm ${className || ''}`}
+    >
       {buttonTxt}
-      <TiArrowRight size={20} />
+      <span className="relative bottom-0.5">{iconeButton}</span>
     </button>
   );
 }

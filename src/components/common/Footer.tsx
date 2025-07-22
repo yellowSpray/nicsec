@@ -9,7 +9,7 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="w-6xl relative flex flex-col items-center">
+    <footer className="w-6xl relative flex flex-col items-center" id="footer">
       <div className="w-full h-154 absolute top-0 left-0 z-0">
         <SvgFooter />
       </div>

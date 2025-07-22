@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { highlightKeywords } from "../../features/highLight";
+import { TiArrowDown } from "react-icons/ti";
 import SvgContent from "../ui/SvgContent";
 import Button from "../ui/Button";
 
@@ -17,6 +19,7 @@ export default function Content({
   positionClassName
 }: ContentProps) {
 
+  const { t } = useTranslation();
   const [parsedTitle, setParsedTitle] = useState<React.ReactNode[]>([]);
   const keywords = ["Professional", "Professionnel", "Professionele", "Detective", "Détective", "Privédetective", "Services", "Deskundige", "About", "À propos", "Over", "Faq", "Contact"];
 
@@ -33,7 +36,11 @@ export default function Content({
             <h2 className="text-5xl">{parsedTitle}</h2>
             <p className="text-sm my-5">{text}</p>
           </aside>
-          <Button buttonTxt="Contact Me" />
+          <Button 
+            buttonTxt={t("button.content")}
+            iconeButton={<TiArrowDown size={20} />}
+            className=""
+          />
         </article>
       </div>
       <SvgContent />

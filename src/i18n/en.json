@@ -4,6 +4,9 @@
     "about": "About",
     "faq": "FAQ"
   },
+  "button": {
+    "content": "Contact Me"
+  },
   "footer": {
     "contactTitle": "Contact Me Today",
     "contactText": "With experience and precision, I offer professional investigative services tailored to meet your unique needs, with the utmost discretion.",
