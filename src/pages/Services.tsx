@@ -1,31 +1,32 @@
 import Detective from "../assets/images/detective_pic.png";
 import Content from "../components/common/Content";
 import SvgFolder from "../components/ui/Folder";
-import Card from "../components/ui/Card"
-import infoService from "../data/infoService";
+import Card from "../components/ui/Card";
 import { FaShield } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { BiSolidBinoculars } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
+import { getInfoService } from "../data/infoService";
 
 export default function Service() {
+  const { t } = useTranslation();
+  const infoServiceValues = getInfoService(t);
+
   const specialized = [
     {
       iconeCard: <FaShield size={30} />,
-      titleCard: "Corporate Security",
-      textCard:
-        "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes.",
+      titleCard: t("services.specialized.corporate.title"),
+      textCard: t("services.specialized.corporate.text"),
     },
     {
       iconeCard: <MdComputer size={30} />,
-      titleCard: "Digital Forensics",
-      textCard:
-        "Computer and mobile device investigations, data recovery, and cybercrime analysis.",
+      titleCard: t("services.specialized.digital.title"),
+      textCard: t("services.specialized.digital.text"),
     },
     {
       iconeCard: <BiSolidBinoculars size={30} />,
-      titleCard: "Insurance Claims",
-      textCard:
-        "Workers' compensation fraud, disability claims verification, and accident reconstruction.",
+      titleCard: t("services.specialized.insurance.title"),
+      textCard: t("services.specialized.insurance.text"),
     },
   ];
 
@@ -33,33 +34,35 @@ export default function Service() {
     <div className="w-full flex flex-col items-center">
       <Content
         backgroundImage={Detective}
-        title="Expert Private Investigation Services"
-        text="Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity."
+        title={t("services.mainTitle")}
+        text={t("services.mainText")}
         positionClassName="items-start text-start"
       />
 
       <section className="w-6xl my-30 flex flex-col items-center">
         <div className="w-full mb-10">
           <h3 className="text-3xl mb-5 text-center">
-            My Investigation <span className="text-second">Services</span>
+            {t("services.textServices.title.titleA")}
+            <span className="text-second">{t("services.textServices.title.titleB")}</span>
           </h3>
           <p className="text-sm text-center">
-            I provide professional investigative services tailored to your
-            needs. <br />
-            Every case is approached with confidentiality and personal
-            attention.
+            {t("services.textServices.text1")}
+            <br />
+            {t("services.textServices.text2")}
           </p>
         </div>
         <div className="w-full grid grid-cols-12 grid-rows-2 gap-8">
-          {infoService.map(({ icone, title, text, listService }, index) => (
-            <SvgFolder
-              key={index}
-              icone={icone}
-              title={title}
-              text={text}
-              listService={listService}
-            />
-          ))}
+          {infoServiceValues.map(
+            ({ icone, title, text, listService }, index) => (
+              <SvgFolder
+                key={index}
+                icone={icone}
+                title={title}
+                text={text}
+                listService={listService}
+              />
+            )
+          )}
         </div>
       </section>
 
@@ -67,16 +70,16 @@ export default function Service() {
         <div className="w-6xl">
           <div className="w-full mb-10">
             <h3 className="mb-5 text-3xl text-center">
-              <span className="text-second">Specialized</span> Investigations
+              <span className="text-second">{t("services.specialized.title.titleA")}</span> {t("services.specialized.title.titleB")}
             </h3>
             <p className="text-sm text-center">
-              Advanced investigative services for complex cases
+              {t("services.specialized.text")}
             </p>
           </div>
           <div className="grid grid-cols-12 gap-8">
             {specialized.map(({ iconeCard, titleCard, textCard }, index) => (
               <Card
-                key={index} 
+                key={index}
                 iconeCard={iconeCard}
                 titleCard={titleCard}
                 textCard={textCard}

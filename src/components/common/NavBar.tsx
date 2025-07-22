@@ -1,8 +1,13 @@
 import { NavLink } from "react-router-dom";
 import { FaSuitcaseRolling, FaIdCard } from "react-icons/fa6";
 import { FaQuestionCircle } from "react-icons/fa";
+import SwitchLng from "../ui/Switch";
+import { useTranslation } from "react-i18next";
 
 export default function NavBar() {
+
+  const { t } = useTranslation();
+
   return (
     <nav className="flex flex-row content-center items-center gap-4 p-1 text-sm font-medium">
       <NavLink
@@ -14,7 +19,7 @@ export default function NavBar() {
         }
       >
         <FaSuitcaseRolling size={18} />
-        Service
+        {t('navbar.service')}
       </NavLink>
 
       <NavLink
@@ -26,7 +31,7 @@ export default function NavBar() {
         }
       >
         <FaIdCard size={18} />
-        About
+        {t('navbar.about')}
       </NavLink>
 
       <NavLink
@@ -38,8 +43,10 @@ export default function NavBar() {
         }
       >
         <FaQuestionCircle size={18} />
-        Faq
+        {t('navbar.faq')}
       </NavLink>
+
+      <SwitchLng />
     </nav>
   );
 }

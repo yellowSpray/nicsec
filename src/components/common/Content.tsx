@@ -18,7 +18,7 @@ export default function Content({
 }: ContentProps) {
 
   const [parsedTitle, setParsedTitle] = useState<React.ReactNode[]>([]);
-  const keywords = ["Professional", "Detective", "Services", "About", "Faq", "Contact"];
+  const keywords = ["Professional", "Professionnel", "Professionele", "Detective", "Détective", "Privédetective", "Services", "Deskundige", "About", "À propos", "Over", "Faq", "Contact"];
 
   useEffect(() => {
     setParsedTitle(highlightKeywords(title, keywords));

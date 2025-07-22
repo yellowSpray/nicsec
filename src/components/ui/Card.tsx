@@ -13,7 +13,7 @@ export default function Card({
 }: CardProps) {
   return (
     <article
-      className={`flex flex-col items-center justify-between ${className}`}
+      className={`flex flex-col items-center text-center ${className}`}
     >
       <div className="text-second mb-2">{iconeCard}</div>
       <h4 className="text-lg mb-2">{titleCard}</h4>

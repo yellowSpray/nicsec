@@ -1,0 +1,364 @@
+{
+  "navbar": {
+    "service": "Services",
+    "about": "À propos",
+    "faq": "FAQ"
+  },
+  "footer": {
+    "contactTitle": "Contactez-moi aujourd'hui",
+    "contactText": "Avec expérience et précision, j'offre des services d'enquête professionnels adaptés à vos besoins uniques, avec la plus grande discrétion.",
+    "call": "Appelez-moi aujourd'hui : 049XXXXXXX",
+    "hours": "Lun - Dim : 06h00 - 22h00",
+    "location": "Belgique, Bruxelles - Brabant Wallon - Namur",
+    "copyright": "© 2025 Nicosec. Tous droits réservés."
+  },
+  "form": {
+    "title": "Obtenir une consultation gratuite",
+    "name": "Nom Prénom",
+    "namePlaceholder": "Votre nom complet.",
+    "email": "Email",
+    "emailPlaceholder": "votre@email.com",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+32XXXXXXX",
+    "subjectTitle": "Sélectionner le sujet",
+    "subjectDefault": "Sélectionner un cas",
+    "subject": {
+      "surveillance": "Surveillance",
+      "infidelity": "Enquête d'infidélité",
+      "background": "Vérification d'antécédents",
+      "missing": "Personne disparue",
+      "fraud": "Enquête de fraude"
+    },
+    "description": "Description",
+    "descriptionPlaceholder": "Décrivez votre cas",
+    "send": "Envoyer"
+  },
+  "errors": {
+    "nameTooShort": "Nom trop court !",
+    "emailInvalid": "Email non valide !",
+    "phoneInvalid": "Numéro de téléphone non valide",
+    "subjectRequired": "Veuillez sélectionner un sujet.",
+    "descriptionTooShort": "La description est insuffisante",
+    "descriptionRequired": "Ce champ est requis."
+  },
+
+  "home": {
+    "content": {
+      "title": "Détective Privé Professionnel & Amical.",
+      "text": "Fournir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, entreprises et professionnels du droit de prendre des décisions éclairées."
+    },
+    "servicesIntro": {
+      "title": "Quels <1>Services</1> j'offre",
+      "text": "Mon expérience offre des solutions fiables et discrètes qui permettent à mes clients de prendre des décisions éclairées et efficaces."
+    },
+    "services": {
+      "surveillance": {
+        "title": "Surveillance",
+        "text": "Obtenez des informations cruciales avec nos services de surveillance expert, menés avec une discrétion et un professionnalisme absolus."
+      },
+      "peopleTracing": {
+        "title": "Recherche de personnes",
+        "text": "Identifier la localisation et les biens d'un débiteur à l'appui d'une affaire de recouvrement de créances"
+      },
+      "insuranceFraud": {
+        "title": "Fraude à l'assurance",
+        "text": "Collecte professionnelle de preuves et de renseignements pour découvrir les réclamations d'assurance frauduleuses."
+      },
+      "privateInvestigations": {
+        "title": "Enquêtes privées",
+        "text": "Collecte professionnelle d'informations et de preuves pour les particuliers de manière discrète, éthique et légale."
+      }
+    },
+    "reasonsTitle": "Pourquoi <1>Choisir</1> Nicsec investigations ?",
+    "reasons": {
+      "licensed": {
+        "title": "Licencié & Assuré",
+        "text": "Enquêteur privé entièrement licencié avec une couverture d'assurance complète."
+      },
+      "confidential": {
+        "title": "100% Confidentiel",
+        "text": "Votre vie privée et les détails de votre affaire sont protégés avec le plus haut niveau de discrétion."
+      },
+      "availability": {
+        "title": "Disponibilité 24h/24 7j/7",
+        "text": "Disponible 24h/24 pour les cas urgents et les situations d'urgence."
+      }
+    },
+    "testimonialsTitle": "Témoignages <1>Clients</1>",
+    "testimonialsSubtitle": "Fait confiance par des centaines de clients satisfaits",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah M.",
+        "role": "Cliente Corporate",
+        "comment": "Nous l'avons engagé pour une enquête interne sensible. Son professionnalisme, sa discrétion et ses résultats rapides ont dépassé toutes nos attentes. Très fiable."
+      },
+      "james": {
+        "name": "James R.",
+        "role": "Client Personnel",
+        "comment": "Il m'a aidé à découvrir la vérité dans une affaire très personnelle. Attentif, empathique et incroyablement efficace. Je ne peux pas assez le remercier et le recommanderais sans hésitation."
+      },
+      "lisa": {
+        "name": "Lisa K.",
+        "role": "Avocate",
+        "comment": "Un partenaire de confiance pour les affaires juridiques sensibles. Son travail approfondi a renforcé plusieurs de mes affaires avec des preuves claires et admissibles. Un atout inestimable dans les procédures judiciaires."
+      }
+    }
+  },
+
+  "about": {
+    "title": "À propos de Nicsec Investigation.",
+
+    "intro": "Plus de 25 ans d'expérience à livrer la vérité avec intégrité, discrétion et professionnalisme inébranlable.",
+
+    "story": {
+      "title": "Mon Histoire",
+      "text1": "Fondée en 1999, Elite Investigations est née d'une mission simple : fournir aux particuliers et aux entreprises la vérité dont ils ont besoin pour prendre des décisions éclairées. Ce qui a commencé comme une opération à une personne s'est développé en une agence d'enquête complète de confiance par les avocats, les entreprises et les familles à travers la région.",
+      "text2": "Notre fondateur, un ancien officier de police avec plus de 15 ans d'expérience, a reconnu le besoin de services d'enquête professionnels, éthiques et discrets dans le secteur privé. Aujourd'hui, nous continuons à respecter ces mêmes valeurs tout en tirant parti de la technologie de pointe et des méthodologies éprouvées.",
+      "text3": "Nous croyons que tout le monde mérite l'accès à la vérité, et nous nous engageons à la découvrir avec les plus hauts standards de professionnalisme et de confidentialité."
+    },
+
+    "core": {
+      "mainTitle": "Mes Valeurs Fondamentales",
+      "textCore": "Les principes qui guident chaque enquête que nous entreprenons",
+      "integrity": {
+        "title": "Intégrité",
+        "text": "Nous menons toutes les enquêtes avec les plus hauts standards éthiques, garantissant l'honnêteté et la transparence dans chaque cas."
+      },
+      "discretion": {
+        "title": "Discrétion",
+        "text": "La confidentialité est primordiale. Nous protégeons la vie privée de nos clients et traitons les informations sensibles avec le plus grand soin."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "text": "Nous visons la perfection dans chaque enquête, utilisant des techniques avancées, des outils innovants et des méthodologies approfondies."
+      }
+    },
+
+    "credentials": {
+      "mainTitle": "Références & Certifications",
+      "textCore": "Qualifications professionnelles qui garantissent un service de qualité",
+      "licensed": {
+        "title": "Licencié par SPF",
+        "text": "Enquêteur privé licencié par l'État avec pleine autorité légale"
+      },
+      "asis": {
+        "title": "Certifié ASIS",
+        "text": "Certification professionnelle de l'American Society for Industrial Security"
+      },
+      "court": {
+        "title": "Qualifié au Tribunal",
+        "text": "Qualifié pour fournir un témoignage d'expert dans les procédures judiciaires"
+      },
+      "bonded": {
+        "title": "Cautionné & Assuré",
+        "text": "Entièrement cautionné et assuré pour la protection du client"
+      },
+      "cases": {
+        "title": "2500+",
+        "text": "Cas Complétés"
+      },
+      "success": {
+        "title": "95%",
+        "text": "Taux de Succès"
+      },
+      "years": {
+        "title": "25+",
+        "text": "Années d'Expérience"
+      },
+      "support": {
+        "title": "24/7",
+        "text": "Support Disponible"
+      }
+    }
+  },
+
+  "services": {
+    "mainTitle": "Services d'Enquête Privée Expert",
+    "mainText": "Solutions discrètes et axées sur les résultats adaptées à vos besoins spécifiques. Faites confiance à notre expertise pour découvrir la vérité avec professionnalisme et intégrité.",
+
+    "textServices": {
+      "title": {
+        "titleA": "Mes Services ",
+        "titleB": "d'Enquête"
+      },
+      "text1": "Je fournis des services d'enquête professionnels adaptés à vos besoins.",
+      "text2": "Chaque cas est abordé avec confidentialité et attention personnelle."
+    },
+
+    "surveillance": {
+      "title": "Services de Surveillance",
+      "text": "Surveillance discrète et efficace utilisant des méthodes éprouvées et des équipements modernes.",
+      "items": [
+        "Enquêtes d'infidélité",
+        "Détection de fraude à l'assurance",
+        "Surveillance de l'inconduite des employés",
+        "Documentation de garde d'enfants"
+      ]
+    },
+
+    "background": {
+      "title": "Vérifications d'Antécédents",
+      "text": "Vérifications d'antécédents détaillées pour les questions personnelles, commerciales ou juridiques.",
+      "items": [
+        "Screening d'emploi",
+        "Vérifications de casier judiciaire",
+        "Vérification d'identité",
+        "Vérifications d'antécédents de locataires"
+      ]
+    },
+
+    "fraud": {
+      "title": "Enquêtes de Fraude",
+      "text": "Enquêter sur la fraude avec précision, discrétion et perspicacité juridique.",
+      "items": [
+        "Fraude de réclamation d'assurance",
+        "Analyse de fraude corporative",
+        "Vérification de documents",
+        "Fraude interne d'employés"
+      ]
+    },
+
+    "legal": {
+      "title": "Services de Support Juridique",
+      "text": "Support d'enquête de confiance pour les avocats, clients et affaires juridiques.",
+      "items": [
+        "Localisation de témoins",
+        "Collecte de preuves",
+        "Support de litige",
+        "Documentation d'affaires judiciaires"
+      ]
+    },
+
+    "missing": {
+      "title": "Personnes Disparues",
+      "text": "Retrouver des individus disparus avec soin, discrétion et expérience.",
+      "items": [
+        "Adolescents fugitifs",
+        "Proches perdus",
+        "Localisation de débiteurs",
+        "Réunions d'adoption"
+      ]
+    },
+
+    "digital": {
+      "title": "Enquêtes Numériques",
+      "text": "Découvrir des preuves numériques et tracer le comportement en ligne avec précision.",
+      "items": [
+        "Suivi des médias sociaux",
+        "Traçage d'emails",
+        "Détection de fraude en ligne",
+        "Cas de harcèlement cyber"
+      ]
+    },
+
+    "identity": {
+      "title": "Vérification d'Identité",
+      "text": "Confirmer les identités discrètement en utilisant des outils fiables et des méthodes éprouvées.",
+      "items": [
+        "Vérification de rencontres en ligne",
+        "Enquêtes pré-maritales",
+        "Screening de partenaires commerciaux",
+        "Détection d'alias"
+      ]
+    },
+
+    "corporate": {
+      "title": "Enquêtes Corporatives",
+      "text": "Protégez votre entreprise avec des enquêtes internes et un contrôle des risques.",
+      "items": [
+        "Vol interne",
+        "Vérifications d'antécédents d'employés",
+        "Violations de politiques",
+        "Suivi de mauvaise utilisation d'actifs"
+      ]
+    },
+
+    "specialized": {
+      "title": {
+        "titleA": "Enquêtes",
+        "titleB": "Spécialisées"
+      },
+      "text": "Services d'enquête avancés pour les cas complexes",
+      "corporate": {
+        "title": "Sécurité Corporative",
+        "text": "Vol interne, espionnage corporatif et enquêtes sur le lieu de travail pour les entreprises de toutes tailles."
+      },
+      "digital": {
+        "title": "Criminalistique Numérique",
+        "text": "Enquêtes sur ordinateurs et appareils mobiles, récupération de données et analyse de cybercriminalité."
+      },
+      "insurance": {
+        "title": "Réclamations d'Assurance",
+        "text": "Fraude à l'indemnisation des travailleurs, vérification des réclamations d'invalidité et reconstruction d'accidents."
+      }
+    }
+  },
+
+  "faq": {
+    "title": "FAQ pour toutes les questions.",
+    "description": "Fournir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, entreprises et professionnels du droit de prendre des décisions éclairées.",
+    "intro": {
+      "title": "Comment puis-je vous <1>Aider</1> ?",
+      "text": "Je comprends qu'engager un détective privé peut soulever de nombreuses questions. Voici les réponses aux questions les plus courantes que nous recevons de nos clients.",
+      "note": "Vous ne voyez pas votre question ci-dessous ? Contactez-moi pour une consultation gratuite où nous pourrons discuter de vos besoins et préoccupations spécifiques."
+    },
+    "general": {
+      "title": "Questions Générales",
+      "questions": [
+        {
+          "question": "Qu'est-ce qu'un détective privé ?",
+          "answer": "Un détective privé est un professionnel licencié qui mène des enquêtes pour des particuliers, des avocats, des entreprises et des organisations. Nous rassemblons des faits, collectons des preuves et fournissons des rapports détaillés pour aider les clients à prendre des décisions éclairées sur des questions juridiques, personnelles ou commerciales."
+        },
+        {
+          "question": "Est-ce légal d'engager un détective privé ?",
+          "answer": "Oui, engager un détective privé licencié est légal. Les enquêteurs opèrent dans les limites de la loi et adhèrent à des directives éthiques strictes pour protéger la confidentialité et la vie privée des clients."
+        },
+        {
+          "question": "Quel type d'affaires les détectives privés traitent-ils ?",
+          "answer": "Les détectives privés travaillent sur un large éventail d'affaires, incluant les enquêtes d'infidélité, les vérifications d'antécédents, la détection de fraude, les personnes disparues, la surveillance, les réclamations d'assurance, et plus encore."
+        },
+        {
+          "question": "Combien coûte une enquête privée ?",
+          "answer": "Les coûts varient selon la complexité de l'affaire, le temps requis et le type de services nécessaires. Nous fournissons une estimation claire après une consultation initiale."
+        },
+        {
+          "question": "L'information collectée par un détective privé est-elle admissible au tribunal ?",
+          "answer": "Oui, les preuves collectées légalement par un détective privé licencié peuvent souvent être utilisées au tribunal. Nous nous assurons que toute information est obtenue légalement et documentée minutieusement."
+        },
+        {
+          "question": "Comment assurez-vous la confidentialité pendant une enquête ?",
+          "answer": "La confidentialité est une priorité absolue. Toutes les enquêtes sont menées discrètement, et l'information client n'est jamais partagée sans consentement."
+        }
+      ]
+    },
+    "process": {
+      "title": "Processus & Confidentialité",
+      "questions": [
+        {
+          "question": "Comment commence le processus d'enquête ?",
+          "answer": "Le processus commence par une consultation initiale où nous discutons de votre situation, vos objectifs et les informations disponibles. Basé sur cela, nous développons un plan d'action personnalisé et fournissons un aperçu clair des prochaines étapes et des coûts associés."
+        },
+        {
+          "question": "Dois-je fournir des documents ou informations ?",
+          "answer": "Oui, tous les détails pertinents ou documents que vous pouvez fournir — tels que noms, adresses, photos, ou incidents passés — nous aideront à mener une enquête plus efficace et ciblée."
+        },
+        {
+          "question": "À quelle fréquence recevrai-je des mises à jour pendant l'enquête ?",
+          "answer": "Nous maintenons une communication régulière et fournissons des mises à jour aux points clés pendant l'enquête. Vous êtes également libre de nous contacter à tout moment avec des questions ou préoccupations."
+        },
+        {
+          "question": "Mon identité restera-t-elle confidentielle ?",
+          "answer": "Absolument. La confidentialité du client est une priorité absolue. Nous ne révélons jamais votre identité ou votre implication dans l'enquête sans votre consentement explicite."
+        },
+        {
+          "question": "Le sujet de l'enquête est-il notifié ou contacté ?",
+          "answer": "Non. Nos enquêtes sont menées discrètement et sans la connaissance du sujet, sauf si requis ou autorisé par la loi."
+        },
+        {
+          "question": "Comment l'information que je partage avec vous est-elle protégée ?",
+          "answer": "Toute information que vous fournissez est stockée en sécurité et accessible seulement par le personnel autorisé. Nous suivons des protocoles stricts de protection des données et de vie privée."
+        }
+      ]
+    }
+  }
+}

@@ -3,26 +3,22 @@ import {
   RiAwardFill,
   RiFingerprintFill,
 } from "react-icons/ri";
+import type { TFunction } from "i18next";
 
-const coreValue = [
+export const getCoreValues = (t: TFunction) => [
   {
     iconeCard: <RiShieldCheckFill size={30} />,
-    titleCard: "Integrity",
-    textCard:
-      "We conduct all investigations with the highest ethical standards, ensuring honesty and transparency in every case.",
+    titleCard: t("about.core.integrity.title"),
+    textCard: t("about.core.integrity.text"),
   },
   {
     iconeCard: <RiFingerprintFill size={30} />,
-    titleCard: "Discretion",
-    textCard:
-      "Confidentiality is paramount. We protect our clients' privacy and handle sensitive information with utmost care.",
+    titleCard: t("about.core.discretion.title"),
+    textCard: t("about.core.discretion.text"),
   },
   {
     iconeCard: <RiAwardFill size={30} />,
-    titleCard: "Excellence",
-    textCard:
-      "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies.",
+    titleCard: t("about.core.excellence.title"),
+    textCard: t("about.core.excellence.text"),
   },
 ];
-
-export default coreValue
