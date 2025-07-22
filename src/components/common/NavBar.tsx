@@ -5,7 +5,6 @@ import SwitchLng from "../ui/Switch";
 import { useTranslation } from "react-i18next";
 
 export default function NavBar() {
-
   const { t } = useTranslation();
 
   return (
@@ -19,7 +18,7 @@ export default function NavBar() {
         }
       >
         <FaSuitcaseRolling size={18} />
-        {t('navbar.service')}
+        {t("navbar.service")}
       </NavLink>
 
       <NavLink
@@ -31,7 +30,7 @@ export default function NavBar() {
         }
       >
         <FaIdCard size={18} />
-        {t('navbar.about')}
+        {t("navbar.about")}
       </NavLink>
 
       <NavLink
@@ -43,9 +42,8 @@ export default function NavBar() {
         }
       >
         <FaQuestionCircle size={18} />
-        {t('navbar.faq')}
+        {t("navbar.faq")}
       </NavLink>
-
       <SwitchLng />
     </nav>
   );

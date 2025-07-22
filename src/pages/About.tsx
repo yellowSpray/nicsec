@@ -1,4 +1,4 @@
-import Detective from "../assets/images/detective_pic.png";
+import AboutBg from "../assets/images/about-background.png";
 import ProfilPic from "../assets/images/service-preview3.jpg";
 import Content from "../components/common/Content";
 import Card from "../components/ui/Card";
@@ -15,7 +15,7 @@ export default function About() {
   return (
     <div className="w-full flex flex-col items-center">
       <Content
-        backgroundImage={Detective}
+        backgroundImage={AboutBg}
         title={t("about.title")}
         text={t("about.intro")}
         positionClassName="items-start text-start"

@@ -1,4 +1,5 @@
-import Detective from "../assets/images/detective_pic.png";
+import ServiceBg from "../assets/images/service-background.png";
+import ServiceProcess from "../assets/images/service-background2.jpg";
 import Content from "../components/common/Content";
 import SvgFolder from "../components/ui/Folder";
 import Card from "../components/ui/Card";
@@ -34,7 +35,7 @@ export default function Service() {
   return (
     <div className="w-full flex flex-col items-center">
       <Content
-        backgroundImage={Detective}
+        backgroundImage={ServiceBg}
         title={t("services.mainTitle")}
         text={t("services.mainText")}
         positionClassName="items-start text-start"
@@ -103,7 +104,7 @@ export default function Service() {
             <Process />
           </div>
           <div className="h-full col-span-6 row-span-1">
-            <img src={Detective} alt="image of the process investigation" className="rounded-second"/>
+            <img src={ServiceProcess} alt="image of the process investigation" className="rounded-second"/>
           </div>
         </div>
       </section>

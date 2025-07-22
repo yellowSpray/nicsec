@@ -1,5 +1,5 @@
 import { useTranslation, Trans } from "react-i18next";
-import Detective from "../assets/images/detective_pic.png";
+import FaqBg from "../assets/images/faq-background.png";
 import Content from "../components/common/Content";
 import Accordion from "../components/ui/Accordion";
 import { getQuestionGeneral } from "../data/questions";
@@ -14,7 +14,7 @@ export default function Faq() {
   return (
     <div className="w-full flex flex-col items-center">
       <Content
-        backgroundImage={Detective}
+        backgroundImage={FaqBg}
         title={t("faq.title")}
         text={t("faq.description")}
         positionClassName="items-start text-start"

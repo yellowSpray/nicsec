@@ -13,10 +13,11 @@
 * language filter 
 
 ## TODO 🚧
+* lazy loading
+* fix service - process section
 * rewrite all the text and title
 * fix format text overview
 * create a new logo
-* review de nav bar with button
 * responsive
 * hover effect + some svg animation + transition
 * SEO
