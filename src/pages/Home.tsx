@@ -36,7 +36,7 @@ export default function Home() {
         positionClassName="items-center text-center"
       />
 
-      <section className="w-6xl my-30">
+      <section className="w-6xl mb-30">
         <div className="w-1/3 mb-10">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="home.servicesIntro.title">

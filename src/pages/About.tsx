@@ -21,7 +21,7 @@ export default function About() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl my-30 flex flex-row justify-center gap-8">
+      <section className="w-6xl mb-30 flex flex-row justify-center gap-8">
         <div className="w-1/2">
           <h3 className="text-3xl mb-5 text-start">
             {t("about.story.title").split(" ")[0]}{" "}

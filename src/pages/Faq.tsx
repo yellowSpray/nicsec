@@ -20,7 +20,7 @@ export default function Faq() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl my-30 flex flex-col items-center gap-8 text-center">
+      <section className="w-6xl mb-30 flex flex-col items-center gap-8 text-center">
         <div className="w-1/2">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="faq.intro.title">

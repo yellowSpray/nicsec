@@ -5,7 +5,12 @@
     "faq": "FAQ"
   },
   "button": {
-    "content": "Contact Me"
+    "content": "Contact Me",
+    "404": "Go Back"
+  },
+  "404": {
+    "mainTitle": "Error 404",
+    "mainText": "The page that you were looking for is lost !"
   },
   "footer": {
     "contactTitle": "Contact Me Today",

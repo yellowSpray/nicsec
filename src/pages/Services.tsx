@@ -39,7 +39,7 @@ export default function Service() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl my-30 flex flex-col items-center">
+      <section className="w-6xl mb-30 flex flex-col items-center">
         <div className="w-full mb-10">
           <h3 className="text-3xl mb-5 text-center">
             {t("services.textServices.title.titleA")}

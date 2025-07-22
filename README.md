@@ -13,10 +13,9 @@
 * language filter 
 
 ## TODO 🚧
-* fix button contact me
+* not found page
 * service page - process section
-* fix format text overview
 * responsive
 * hover effect + some svg animation + transition
-* not found page
+* fix format text overview
 * SEO
