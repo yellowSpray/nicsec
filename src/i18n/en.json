@@ -299,6 +299,30 @@
         "title": "Insurance Claims",
         "text": "Workers' compensation fraud, disability claims verification, and accident reconstruction."
       }
+    },
+
+    "process": {
+      "maintitle": {
+        "titleA" : "My Investigation ",
+        "titleB" : "Process"
+      },
+      "mainText" : "A systematic approach ensuring thorough and reliable results",
+      "initial": {
+        "title": "Initial Consultation",
+        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+      },
+      "strategy": {
+        "title": "Strategy Development",
+        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+      },
+      "evidence": {
+        "title": "Evidence Collection",
+        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+      },
+      "reporting": {
+        "title": "Reporting and Resolution",
+        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+      }
     }
   },
 

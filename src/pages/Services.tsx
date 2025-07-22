@@ -2,6 +2,7 @@ import Detective from "../assets/images/detective_pic.png";
 import Content from "../components/common/Content";
 import SvgFolder from "../components/ui/Folder";
 import Card from "../components/ui/Card";
+import Process from "../components/ui/Process";
 import { FaShield } from "react-icons/fa6";
 import { MdComputer } from "react-icons/md";
 import { BiSolidBinoculars } from "react-icons/bi";
@@ -86,6 +87,23 @@ export default function Service() {
                 className="col-span-4"
               />
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full mb-30 py-16 flex flex-col items-center">
+        <div className="w-6xl grid grid-cols-12 gap-8 h-full items-center">
+          <div className="col-span-6 row-span-1 h-full">
+            <h3 className="mb-5 text-3xl text-start">
+              <span className="text-second">{t("services.process.maintitle.titleA")}</span> {t("services.process.maintitle.titleB")}
+            </h3>
+            <p className="text-sm text-start mb-10">
+              {t("services.process.mainText")}
+            </p>
+            <Process />
+          </div>
+          <div className="h-full col-span-6 row-span-1">
+            <img src={Detective} alt="image of the process investigation" className="rounded-second"/>
           </div>
         </div>
       </section>

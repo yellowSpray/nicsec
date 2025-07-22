@@ -5,7 +5,8 @@
     "faq": "FAQ"
   },
   "button": {
-    "content": "Contact Mij"
+    "content": "Contact Me",
+    "404": "Terug Gaan"
   },
   "footer": {
     "contactTitle": "Contacteer me vandaag",

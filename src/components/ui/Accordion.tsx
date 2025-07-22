@@ -37,3 +37,5 @@ export default function Accordion({ question, answer, className }: QuestionProps
     </div>
   );
 }
+
+

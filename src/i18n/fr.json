@@ -5,7 +5,8 @@
     "faq": "FAQ"
   },
   "button": {
-    "content": "Contactez Moi"
+    "content": "Contact Me",
+    "404": "Revenir en arrière"
   },
   "footer": {
     "contactTitle": "Contactez-moi aujourd'hui",
