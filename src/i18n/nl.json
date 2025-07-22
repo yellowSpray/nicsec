@@ -66,7 +66,7 @@
       },
       "insuranceFraud": {
         "title": "Verzekeringsfraude",
-      "text": "Professioneel verzamelen van bewijs en inlichtingen om frauduleuze verzekeringsclaims te ontdekken."
+        "text": "Professioneel verzamelen van bewijs en inlichtingen om frauduleuze verzekeringsclaims te ontdekken."
       },
       "privateInvestigations": {
         "title": "Privéonderzoeken",
@@ -294,6 +294,30 @@
       "insurance": {
         "title": "Verzekeringsclaims",
         "text": "Arbeidsongevallen fraude, invaliditeitsclaims verificatie en ongeval reconstructie."
+      }
+    },
+
+    "process": {
+      "maintitle": {
+        "titleA": "Mon Processus",
+        "titleB": "d'Investigation"
+      },
+      "mainText": "Une approche méthodique garantissant des résultats complets et fiables.",
+      "initial": {
+        "title": "Consultation Initiale",
+        "text": "Un entretien confidentiel pour comprendre vos besoins et objectifs. Cette étape pose les bases d'une enquête claire et ciblée."
+      },
+      "strategy": {
+        "title": "Développement de la Stratégie",
+        "text": "Nous élaborons un plan d’enquête sur mesure selon les spécificités de votre dossier, garantissant une approche efficace et conforme à la loi."
+      },
+      "evidence": {
+        "title": "Collecte des Preuves",
+        "text": "Nos enquêteurs recueillent des preuves pertinentes et recevables grâce à des méthodes professionnelles et discrètes pour appuyer efficacement votre dossier."
+      },
+      "reporting": {
+        "title": "Rapport et Résolution",
+        "text": "Vous recevez un rapport détaillé et structuré résumant les résultats, avec documentation, analyses et recommandations."
       }
     }
   },

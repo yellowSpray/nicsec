@@ -95,7 +95,7 @@ export default function Service() {
         <div className="w-6xl grid grid-cols-12 gap-8 h-full items-center">
           <div className="col-span-6 row-span-1 h-full">
             <h3 className="mb-5 text-3xl text-start">
-              <span className="text-second">{t("services.process.maintitle.titleA")}</span> {t("services.process.maintitle.titleB")}
+              {t("services.process.maintitle.titleA")}<span className="text-second">{t("services.process.maintitle.titleB")}</span>
             </h3>
             <p className="text-sm text-start mb-10">
               {t("services.process.mainText")}

@@ -303,25 +303,25 @@
 
     "process": {
       "maintitle": {
-        "titleA" : "My Investigation ",
-        "titleB" : "Process"
+        "titleA": "My Investigation",
+        "titleB": "Process"
       },
-      "mainText" : "A systematic approach ensuring thorough and reliable results",
+      "mainText": "A systematic approach ensuring thorough and reliable results.",
       "initial": {
         "title": "Initial Consultation",
-        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+        "text": "Begin with a confidential consultation to understand your needs and goals. This step lays the foundation for a clear and focused investigation."
       },
       "strategy": {
         "title": "Strategy Development",
-        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+        "text": "We craft a tailored investigation plan based on your case specifics. This ensures an efficient and legally sound approach to uncovering the facts."
       },
       "evidence": {
         "title": "Evidence Collection",
-        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+        "text": "Our investigators gather relevant and admissible evidence using professional and discreet techniques to support your case effectively."
       },
       "reporting": {
         "title": "Reporting and Resolution",
-        "text": "Begin with a confidential consultation to discuss your requirements. We’ll review your case details, outline the investigative process, and answer any questions you may have to ensure clarity and alignment."
+        "text": "You receive a detailed and structured report summarizing findings, including documentation, analysis, and recommended next steps."
       }
     }
   },

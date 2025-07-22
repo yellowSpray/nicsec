@@ -13,7 +13,7 @@ export default function Process() {
 
   return (
     <div className="flex flex-row items-center relative">
-      <span className="bg-background w-3 h-full rounded-full absolute bottom-0 left-3.5 z-0"></span>
+      <span className="bg-background w-3 h-full rounded-full absolute top-0 left-3.5 z-0"></span>
 
       <div className="w-full flex flex-col items-center justify-between z-10 gap-8">
         {steps.map((stepkey, index) => {
