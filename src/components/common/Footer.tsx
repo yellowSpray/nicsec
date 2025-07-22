@@ -1,5 +1,6 @@
 import SvgFooter from "../ui/SvgFooter";
 import { IoCall, IoCalendarClear, IoCompass } from "react-icons/io5";
+import { FaInstagram, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import ContactForm from "../ui/ContactForm";
 import { useTranslation } from "react-i18next";
 
@@ -39,7 +40,14 @@ export default function Footer() {
         </div>
       </section>
 
-      <section className="w-full my-5 text-center">
+      <section className="w-full relative my-5 text-center">
+        <div className="absolute bottom-20">
+          <ul className="flex flex-row justify-center gap-8">
+            <li><FaYoutube size={30} /></li>
+            <li><FaXTwitter size={30} /></li>
+            <li><FaInstagram size={30} /></li>
+          </ul>
+        </div>
         <p className="text-xs">{t('footer.copyright')}</p>
       </section>
     </footer>

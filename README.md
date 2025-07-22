@@ -13,9 +13,8 @@
 * language filter 
 
 ## TODO 🚧
-* fix footer form + social icon
 * service page - process section
-* fix service overview
+* fix format text overview
 * responsive
 * hover effect + some svg animation + transition
 * not found page
