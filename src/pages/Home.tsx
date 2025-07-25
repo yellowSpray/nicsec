@@ -28,7 +28,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <main className="w-full bg-white flex flex-col items-center">
       <Content
         backgroundImage={Detective}
         title={t("home.content.title")}
@@ -141,6 +141,6 @@ export default function Home() {
           />
         </div>
       </section>
-    </div>
+    </main>
   );
 }

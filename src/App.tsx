@@ -7,9 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="w-full bg-white flex flex-col items-center">
-        <AppRouter />
-      </main>
+      <AppRouter />
       <Footer />
     </>
   );

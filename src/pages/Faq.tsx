@@ -12,7 +12,7 @@ export default function Faq() {
   const questionService = getQuestionService(t)
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <main className="w-full bg-white flex flex-col items-center">
       <Content
         backgroundImage={FaqBg}
         title={t("faq.title")}
@@ -59,6 +59,6 @@ export default function Faq() {
           ))}
         </div>
       </section>
-    </div>
+    </main>
   );
 }

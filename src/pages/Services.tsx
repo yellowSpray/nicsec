@@ -33,7 +33,7 @@ export default function Service() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <main className="w-full bg-white flex flex-col items-center">
       <Content
         backgroundImage={ServiceBg}
         title={t("services.mainTitle")}
@@ -108,6 +108,6 @@ export default function Service() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }

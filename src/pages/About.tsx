@@ -13,7 +13,7 @@ export default function About() {
   const credentialsValues = getCredentials(t)
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <main className="w-full bg-white flex flex-col items-center">
       <Content
         backgroundImage={AboutBg}
         title={t("about.title")}
@@ -114,6 +114,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
