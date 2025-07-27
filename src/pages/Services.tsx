@@ -41,7 +41,7 @@ export default function Service() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl mb-30 flex flex-col items-center">
+      <section className="w-6xl mb-25 flex flex-col items-center">
         <div className="w-full mb-10">
           <h3 className="text-3xl mb-5 text-center">
             {t("services.textServices.title.titleA")}
@@ -68,7 +68,7 @@ export default function Service() {
         </div>
       </section>
 
-      <section className="w-full mb-30 py-16 flex flex-col items-center bg-background">
+      <section className="w-full mb-25 py-16 flex flex-col items-center bg-background">
         <div className="w-6xl">
           <div className="w-full mb-10">
             <h3 className="mb-5 text-3xl text-center">
@@ -92,7 +92,7 @@ export default function Service() {
         </div>
       </section>
 
-      <section className="w-full mb-30 py-16 flex flex-col items-center">
+      <section className="w-full mb-25 flex flex-col items-center">
         <div className="w-6xl grid grid-cols-12 gap-8 h-full items-center">
           <div className="col-span-6 row-span-1 h-full">
             <h3 className="mb-5 text-3xl text-start">

@@ -21,7 +21,7 @@ export default function About() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl mb-30 flex flex-row justify-center gap-8">
+      <section className="w-6xl mb-25 flex flex-row justify-center gap-8">
         <div className="w-1/2">
           <h3 className="text-3xl mb-5 text-start">
             {t("about.story.title").split(" ")[0]}{" "}
@@ -38,7 +38,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="w-full mb-30 py-16 flex flex-col items-center bg-background">
+      <section className="w-full mb-25 py-16 flex flex-col items-center bg-background">
         <div className="w-6xl">
           <div className="w-full mb-10">
             <h3 className="mb-5 text-3xl text-center">
@@ -66,7 +66,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="w-6xl mb-30 flex flex-col items-center gap-8">
+      <section className="w-6xl mb-25 flex flex-col items-center gap-8">
         <div className="w-full mb-10">
           <h3 className="mb-5 text-3xl text-center">
             {t("about.credentials.mainTitle").split(" ")[0]}{" "} 
@@ -92,7 +92,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="w-full mb-30 py-16 flex flex-col items-center bg-background">
+      <section className="w-full mb-25 py-16 flex flex-col items-center bg-background">
         <div className="w-6xl">
           <div className="grid grid-cols-12 gap-8">
             <article className="col-span-3 flex flex-col items-center text-center">

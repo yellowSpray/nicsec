@@ -20,7 +20,7 @@ export default function Content({
   title,
   text,
   positionClassName,
-  is404
+  is404,
 }: ContentProps) {
   const { t } = useTranslation();
 
@@ -48,8 +48,9 @@ export default function Content({
   }, [title]);
 
   return (
-    <section className="w-6xl mb-30">
-      <div className="clipped-container relative w-full overflow-hidden flex flex-col items-center">
+    <section className="w-6xl mb-25">
+      <div className="clipped-container relative w-full h-140 overflow-hidden flex flex-col items-center">
+        <SvgContent />
         <img src={backgroundImage} alt="Private Detective Professional" />
         <article className={`clipped-content ${positionClassName}`}>
           <aside className="w-150">
@@ -74,7 +75,6 @@ export default function Content({
           </div>
         </article>
       </div>
-      <SvgContent />
     </section>
   );
 }

@@ -8,7 +8,7 @@ export default function NavBar() {
   const { t } = useTranslation();
 
   return (
-    <nav className="flex flex-row content-center items-center gap-4 p-1 text-sm font-medium">
+    <nav className="flex flex-row content-center items-center gap-1 p-1 text-sm font-medium">
       <NavLink
         to="/service"
         className={({ isActive }) =>

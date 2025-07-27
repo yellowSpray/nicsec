@@ -3,6 +3,7 @@ import ServicePreview from "../assets/images/service-preview.jpg";
 import Content from "../components/common/Content";
 import BgService from "../components/ui/SvgService";
 import Testimonial from "../components/ui/Testimonial";
+import ArticleService from "../components/ui/ArticleService";
 import { useTranslation, Trans } from "react-i18next";
 import { RiShieldCheckFill, RiLock2Fill, RiTimeFill } from "react-icons/ri";
 
@@ -36,7 +37,7 @@ export default function Home() {
         positionClassName="items-center text-center"
       />
 
-      <section className="w-6xl mb-30">
+      <section className="w-6xl mb-25">
         <div className="w-1/3 mb-10">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="home.servicesIntro.title">
@@ -50,39 +51,31 @@ export default function Home() {
             <BgService />
           </div>
           <div className="w-full h-full grid grid-cols-4 grid-rows-2 gap-8 relative z-20">
-            <article className="grid col-start-2 content-center px-4">
-              <h4 className="text-lg">
-                {t("home.services.surveillance.title")}
-              </h4>
-              <p className="text-xs">{t("home.services.surveillance.text")}</p>
-            </article>
-            <article className="grid col-span-1 col-start-4 content-center px-4">
-              <h4 className="text-lg">
-                {t("home.services.peopleTracing.title")}
-              </h4>
-              <p className="text-xs">{t("home.services.peopleTracing.text")}</p>
-            </article>
-            <article className="grid col-span-1 col-start-1 row-start-2 content-center">
-              <h4 className="text-lg">
-                {t("home.services.insuranceFraud.title")}
-              </h4>
-              <p className="text-xs">
-                {t("home.services.insuranceFraud.text")}
-              </p>
-            </article>
-            <article className="grid col-span-1 col-start-3 row-start-2 content-center px-4">
-              <h4 className="text-lg">
-                {t("home.services.privateInvestigations.title")}
-              </h4>
-              <p className="text-xs">
-                {t("home.services.privateInvestigations.text")}
-              </p>
-            </article>
+            <ArticleService
+              className="col-start-2"
+              title={t("home.services.surveillance.title")}
+              text={t("home.services.surveillance.text")}
+            />
+            <ArticleService
+            className="col-start-4"
+              title={t("home.services.peopleTracing.title")}
+              text={t("home.services.peopleTracing.text")}
+            />
+            <ArticleService
+            className="col-start-1 row-start-2"
+              title={t("home.services.insuranceFraud.title")}
+              text={t("home.services.insuranceFraud.text")}
+            />
+            <ArticleService
+            className="col-start-3 row-start-2"
+              title={t("home.services.privateInvestigations.title")}
+              text={t("home.services.privateInvestigations.text")}
+            />
           </div>
         </div>
       </section>
 
-      <section className="w-full mb-30 flex flex-col items-center bg-background">
+      <section className="w-full mb-25 flex flex-col items-center bg-background">
         <div className="w-6xl flex flex-row py-16 gap-32">
           <article className="w-2/5 flex flex-col justify-between">
             <h3 className="text-3xl">
@@ -114,7 +107,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-6xl mb-30 flex flex-col items-center">
+      <section className="w-6xl mb-25 flex flex-col items-center">
         <div className="mb-10">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="home.testimonialsTitle">
