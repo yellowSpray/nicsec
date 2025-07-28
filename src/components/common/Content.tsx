@@ -23,9 +23,7 @@ export default function Content({
   is404,
 }: ContentProps) {
   const { t } = useTranslation();
-
   const navigate = useNavigate();
-
   const [parsedTitle, setParsedTitle] = useState<React.ReactNode[]>([]);
   const keywords = [
     "Professional",
@@ -48,9 +46,9 @@ export default function Content({
   }, [title]);
 
   return (
-    <section className="w-6xl mb-25">
+    <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl mb-25">
       <div className="clipped-container relative w-full h-140 overflow-hidden flex flex-col items-center">
-        <SvgContent />
+         <SvgContent />
         <img src={backgroundImage} alt="Private Detective Professional" />
         <article className={`clipped-content ${positionClassName}`}>
           <aside className="w-150">
