@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+@import "tw-animate-css";
 
 *,
 *::before,
@@ -51,16 +52,6 @@ button {
   cursor: pointer;
 }
 
-@theme {
-  --radius-second: 0.7em;
-  --color-background: #F3F2F2;
-  --color-second: #C21F22;
-  --color-main: #394149;
-  --breakpoint-lg: 68.75rem;
-  --breakpoint-md: 60rem;
-  --breakpoint-smd: 51rem;
-}
-
 /* Home page main content */
 
 .clipped-container img {
@@ -83,5 +74,16 @@ button {
   flex-direction: column;
   justify-content: center;
   color: white;
+}
+
+@theme inline {
+  /* Perso */
+  --radius-second: 0.7em;
+  --color-background: #F3F2F2;
+  --color-second: #C21F22;
+  --color-main: #394149;
+  --breakpoint-lg: 68.75rem;
+  --breakpoint-md: 60rem;
+  --breakpoint-smd: 51rem;
 }
 

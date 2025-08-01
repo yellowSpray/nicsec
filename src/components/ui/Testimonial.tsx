@@ -8,7 +8,7 @@ type TestimonialsProps = {
 
 export default function Testimonial({name, comment, role}: TestimonialsProps) {
     return (
-        <article className="p-10 bg-background rounded-second col-span-4">
+        <article className="p-10 bg-background rounded-second md:col-span-4 col-span-1">
             <aside className="flex flex-row items-center gap-5 mb-3">
                 <div className="text-gray-300"><FaUserCircle size={40} /></div>
                 <ul className="flex flex-col text-left">

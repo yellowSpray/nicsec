@@ -1,7 +1,12 @@
 import { useTranslation, Trans } from "react-i18next";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../components/ui/accordion"
 import FaqBg from "../assets/images/faq-background.png";
 import Content from "../components/common/Content";
-import Accordion from "../components/ui/Accordion";
 import { getQuestionGeneral } from "../data/questions";
 import { getQuestionService } from "../data/questions";
 
@@ -33,32 +38,36 @@ export default function Faq() {
           </aside>
         </div>
       </section>
-
+      
       <section className="w-full mb-25 flex flex-col items-center">
+
         <div className="w-full py-16 flex flex-col items-center bg-background">
           <h4 className="text-lg mb-5">{t("faq.general.title")}</h4>
-          {questionGeneral.map(({ question, answer }, index) => (
-            <Accordion
-              key={index}
-              className="bg-gray-200 mb-4"
-              question={question}
-              answer={answer}
-            />
-          ))}
+          <Accordion type="single" className="w-6xl" collapsible>
+            {questionGeneral.map(({ question, answer }, index) => (
+              <AccordionItem value={`item-${index}`} key={index}>
+                <AccordionTrigger>{question}</AccordionTrigger>
+                <AccordionContent>{answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         </div>
 
         <div className="w-6xl pt-16 flex flex-col items-center">
           <h4 className="text-lg mb-5">{t("faq.process.title")}</h4>
+          <Accordion type="single" className="w-full" collapsible>
           {questionService.map(({ question, answer }, index) => (
-            <Accordion
-              key={index}
-              className="bg-background mb-4"
-              question={question}
-              answer={answer}
-            />
+            <AccordionItem value={`item-${index}`} key={index}>
+                <AccordionTrigger>{question}</AccordionTrigger>
+                <AccordionContent>{answer}</AccordionContent>
+              </AccordionItem>
           ))}
+          </Accordion>
         </div>
+
       </section>
+
+
     </main>
   );
 }

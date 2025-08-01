@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-export default function SwitchLng() {
+interface switchProps {
+  className?: string
+}
+
+export default function SwitchLng({ className }: switchProps) {
 
   const { i18n } = useTranslation();
   const [open, setOpen] = useState(false);
@@ -18,7 +22,7 @@ export default function SwitchLng() {
   };
 
   return (
-    <div className="relative inline-block text-left ml-2">
+    <div className={`relative inline-block text-left ${className}`}>
       <button
         onClick={() => setOpen(!open)}
         className="inline-flex justify-center w-full rounded-md border border-main bg-white px-4 py-2 text-sm font-medium text-main hover:bg-gray-50 focus:outline-none"

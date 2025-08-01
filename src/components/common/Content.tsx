@@ -51,7 +51,7 @@ export default function Content({
          <SvgContent />
         <img src={backgroundImage} alt="Private Detective Professional" />
         <article className={`clipped-content ${positionClassName}`}>
-          <aside className="w-150">
+          <aside className="md:w-150 w-100">
             <h2 className="text-5xl">{parsedTitle}</h2>
             <p className="text-sm my-5">{text}</p>
           </aside>
