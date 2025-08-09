@@ -14,7 +14,6 @@
 * language filter 
 
 ## TODO 🚧
-* lazy loading
 * fix service - process section
 * rewrite all the text and title
 * fix format text overview
