@@ -96,7 +96,7 @@ export default function Service() {
         <div className="w-6xl grid grid-cols-12 gap-8 h-full items-center">
           <div className="col-span-6 row-span-1 h-full">
             <h3 className="mb-5 text-3xl text-start">
-              {t("services.process.maintitle.titleA")}<span className="text-second">{t("services.process.maintitle.titleB")}</span>
+              {t("services.process.maintitle.titleA")} <span className="text-second">{t("services.process.maintitle.titleB")}</span>
             </h3>
             <p className="text-sm text-start mb-10">
               {t("services.process.mainText")}
@@ -104,7 +104,7 @@ export default function Service() {
             <Process />
           </div>
           <div className="h-full col-span-6 row-span-1">
-            <img src={ServiceProcess} alt="image of the process investigation" className="rounded-second"/>
+            <img src={ServiceProcess} loading="lazy" alt="image of the process investigation" className="rounded-second"/>
           </div>
         </div>
       </section>

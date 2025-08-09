@@ -34,7 +34,7 @@ export default function About() {
           <p className="text-sm">{t("about.story.text3")}</p>
         </div>
         <div className="w-1/2 rounded-second overflow-hidden">
-          <img src={ProfilPic} alt="Profile Picture of Detective" />
+          <img src={ProfilPic} loading="lazy" alt="Profile Picture of Detective" />
         </div>
       </section>
 
