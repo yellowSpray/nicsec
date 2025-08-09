@@ -7,7 +7,7 @@ import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 gsap.registerPlugin(MorphSVGPlugin);
 
 // loader
-import OverlayLoader from "../components/ui/SpinLoader";
+import OverlayLoader from "../components/ui/OverlayLoader";
 import { useLoadingStore } from "../hooks/loadingStore";
 
 // pages
@@ -45,16 +45,13 @@ export default function AppRouter() {
         transformOrigin: "center center",
         ease: "power2.inOut",
         onComplete: () => {
-          const parent = loaderRef.current?.parentElement;
-          if (parent) {
-            gsap.to(parent, {
-              opacity: 0,
-              duration: 0.6,
-              onComplete: () => {
-                parent.style.display = "none";
-              },
-            });
-          }
+          gsap.to(loaderRef.current.parentElement, {
+            opacity: 0,
+            duration: 0.6,
+            onComplete: () => {
+              loaderRef.current.parentElement.style.display = "none";
+            },
+          });
 
           // Apparition of content
           gsap.fromTo(
