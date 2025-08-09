@@ -50,24 +50,24 @@ export default function Home() {
           <div className="w-full h-full absolute top-0 left-0 z-0">
             <BgService />
           </div>
-          <div className="w-full xl:h-95 lg:h-85 md:h-110 h-255 grid grid-cols-12 grid-rows-4 items-start relative z-20">
+          <div className="w-full xl:h-95 lg:h-85 md:h-110 smd:h-255 h-190 grid grid-cols-12 grid-rows-4 items-start relative z-20">
             <ArticleService
-              className="md:col-start-4 col-start-7 md:px-6 pl-10 pt-0"
+              className="md:col-start-4 col-start-7 md:px-6 pl-10 pt-0 col-span-6"
               title={t("home.services.surveillance.title")}
               text={t("home.services.surveillance.text")}
             />
             <ArticleService
-              className="md:col-start-10 col-start-1 md:row-start-1 row-start-2 md:px-6 pl-0 md:pt-0 pt-14"
+              className="md:col-start-10 col-start-1 md:row-start-1 row-start-2 md:px-6 pl-0 md:pt-0 smd:pt-14 pt-12 col-span-5"
               title={t("home.services.peopleTracing.title")}
               text={t("home.services.peopleTracing.text")}
             />
             <ArticleService
-              className="md:col-start-1 col-start-7 md:row-start-3 row-start-3 md:pr-6 md:pl-0 pl-10 md:pt-8 pt-10"
+              className="md:col-start-1 col-start-7 md:row-start-3 row-start-3 md:pr-6 md:pl-0 pl-10 md:pt-8 pt-10 col-span-6"
               title={t("home.services.insuranceFraud.title")}
               text={t("home.services.insuranceFraud.text")}
             />
             <ArticleService
-              className="md:col-start-7 col-start-1 md:row-start-3 row-start-4 md:px-6 pl-0 md:pt-8 pt-14"
+              className="md:col-start-7 col-start-1 md:row-start-3 row-start-4 md:px-6 pl-0 md:pt-8 smd:pt-14 pt-12 col-span-5"
               title={t("home.services.privateInvestigations.title")}
               text={t("home.services.privateInvestigations.text")}
             />
@@ -76,19 +76,20 @@ export default function Home() {
       </section>
 
       <section className="w-full mb-25 flex flex-col items-center bg-background">
-        <div className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl flex sm:flex-col py-16">
-          <h3 className="text-3xl mb-5 md:text-left text-center">
-            <Trans i18nKey="home.reasonsTitle">
-              Why <span className="text-second">Choose</span> Nicsec
-              investigations ?
-            </Trans>
-          </h3>
-          <div className="w-full flex md:flex-row flex-col md:justify-between items-center">
-            <article className="md:w-2/6 w-full flex flex-col md:gap-2 gap-4 md:order-1 order-2 md:mt-0 mt-10">
+        <div className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl flex md:flex-row sm:flex-col py-16 gap-10">
+
+          <div className="md:w-2/6 sm:w-full flex flex-col md:items-start items-center">
+            <h3 className="text-3xl md:mb-5 mb-0 md:text-left text-center">
+              <Trans i18nKey="home.reasonsTitle">
+                Why <span className="text-second">Choose</span> Nicsec
+                investigations ?
+              </Trans>
+            </h3>
+            <article className="w-full flex flex-col md:gap-2 gap-4 justify-between md:order-1 order-2 md:mt-0 mt-10">
               {reasons.map(({ icon, title, description }, index) => (
                 <div key={index} className="mb-5 md:text-left text-center">
-                  <ul className="flex flex-row justify-center gap-4 md:mb-1 mb-2">
-                    <li className="relative bottom-0.5 text-second">{icon}</li>
+                  <ul className="flex flex-row md:justify-start justify-center gap-4 md:mb-1 mb-2">
+                    <li className="text-second">{icon}</li>
                     <li>
                       <h4 className="text-lg">{title}</h4>
                     </li>
@@ -97,15 +98,17 @@ export default function Home() {
                 </div>
               ))}
             </article>
-
-            <div className="md:w-3/6 w-1/2 rounded-second overflow-hidden md:order-2 order-1">
-              <img
-                src={ServicePreview}
-                alt="service preview image"
-                loading="lazy"
-              />
-            </div>
           </div>
+
+          <div className="md:w-4/6 sm:w-full">
+            <img
+              src={ServicePreview}
+              alt="service preview image"
+              loading="lazy"
+              className="rounded-second"
+            />
+          </div>
+          
         </div>
       </section>
 

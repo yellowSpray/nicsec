@@ -31,19 +31,21 @@ export default function ContactForm() {
 
   return (
     <form
-      className={"w-full h-full px-7 py-5 rounded-second bg-background"}
+      className={"w-full h-full flex flex-col justify-start rounded-second bg-background p-7"}
       onSubmit={handleSubmit(onSubmit)}
     >
-      <h4>{t("form.title")}</h4>
-      <div className="w-full h-full flex flex-col items-center justify-around">
-        <div className="w-full flex flex-row gap-2">
+      <h4 className="md:mb-5 smd:mb-2">{t("form.title")}</h4>
+
+      <div className="h-full flex flex-col justify-between">
+
+        <div className="w-full flex lg:flex-row md:flex-col smd:flex-row sm:flex-col gap-2">
           <fieldset className={"w-full flex flex-col justify-center"}>
             <label>{t("form.name")}</label>
             <input
               {...register("fullname")}
               type="text"
               placeholder={t("form.namePlaceholder")}
-              className="w-full border-gray-300 border-1 rounded-lg p-2"
+              className="w-full border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.fullname ? "true" : "false"}
             />
             {errors.fullname && (
@@ -59,7 +61,7 @@ export default function ContactForm() {
               {...register("email", { required: true })}
               type="text"
               placeholder={t("form.emailPlaceholder")}
-              className="border-gray-300 border-1 rounded-lg p-2"
+              className="border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.email ? "true" : "false"}
             />
             {errors.email && (
@@ -68,14 +70,14 @@ export default function ContactForm() {
           </fieldset>
         </div>
 
-        <div className="w-full flex flex-row gap-2">
+        <div className="w-full flex lg:flex-row md:flex-col smd:flex-row sm:flex-col gap-2">
           <fieldset className={"w-full flex flex-col justify-center"}>
             <label>{t("form.phone")}</label>
             <input
               {...register("phone", { required: true })}
               type="text"
               placeholder={t("form.phonePlaceholder")}
-              className="border-gray-300 border-1 rounded-lg p-2"
+              className="border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.phone ? "true" : "false"}
             />
             {errors.phone && (
@@ -109,7 +111,7 @@ export default function ContactForm() {
           </fieldset>
         </div>
 
-        <fieldset className="w-full flex flex-col justify-center">
+        <fieldset className="w-full flex flex-col">
           <label>{t("form.description")}</label>
           <textarea
             {...register("description", {
@@ -128,11 +130,13 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="w-full relative bottom-2 p-2 rounded-second bg-second text-white text-xs"
+          className="w-full py-2 rounded-second bg-second text-white text-xs"
         >
           {t("form.send")}
         </button>
+        
       </div>
+
     </form>
   );
 }
