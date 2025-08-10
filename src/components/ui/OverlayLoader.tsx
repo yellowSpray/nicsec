@@ -1,19 +1,15 @@
-export default function OverlayLoader({
-  loaderRef,
-}: {
-  loaderRef: React.RefObject<SVGSVGElement>;
-}) {
+import type { RefObject } from "react";
+import { Loader2 } from "lucide-react";
+
+interface OverlayLoaderProps {
+  overlayRef: RefObject<HTMLDivElement | null>;
+}
+
+export default function OverlayLoader({ overlayRef }: OverlayLoaderProps) {
+  
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
-      <svg
-        ref={loaderRef}
-        width="200"
-        height="200"
-        viewBox="0 0 200 200"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle cx="100" cy="100" r="50" fill="#0ea5e9" />
-      </svg>
+    <div ref={overlayRef} className="flex justify-center items-center h-dvh w-[90dvw] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white z-50">
+      <Loader2 className="h-10 w-10 animate-spin text-second" />
     </div>
   );
-}   
+}
