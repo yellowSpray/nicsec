@@ -37,7 +37,7 @@ export default function Home() {
         positionClassName="items-center text-center"
       />
 
-      <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl mb-25">
+      <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-80 mb-25">
         <div className="lg:w-1/3 w-1/2 mb-10">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="home.servicesIntro.title">
@@ -47,10 +47,10 @@ export default function Home() {
           <p className="text-sm">{t("home.servicesIntro.text")}</p>
         </div>
         <div className="content-wrapper w-full relative">
-          <div className="w-full h-full absolute top-0 left-0 z-0">
+          <div className="w-full h-full absolute max-sm:hidden top-0 left-0 z-0">
             <BgService />
           </div>
-          <div className="w-full xl:h-95 lg:h-85 md:h-110 smd:h-255 h-190 grid grid-cols-12 grid-rows-4 items-start relative z-20">
+          <div className="w-full xl:h-95 lg:h-85 md:h-110 smd:h-255 sm:h-190 h-full grid grid-cols-12 max-sm:grid-cols-1 grid-rows-4 items-start relative z-20">
             <ArticleService
               className="md:col-start-4 col-start-7 md:px-6 pl-10 pt-0 col-span-6"
               title={t("home.services.surveillance.title")}
@@ -76,7 +76,7 @@ export default function Home() {
       </section>
 
       <section className="w-full mb-25 flex flex-col items-center bg-background">
-        <div className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl flex md:flex-row sm:flex-col py-16 gap-10">
+        <div className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-90 flex md:flex-row sm:flex-col py-16 gap-10">
 
           <div className="md:w-2/6 sm:w-full flex flex-col md:items-start items-center">
             <h3 className="text-3xl md:mb-5 mb-0 md:text-left text-center">
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl mb-25 flex flex-col items-center">
+      <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-90 mb-25 flex flex-col items-center">
         <div className="mb-10">
           <h3 className="text-3xl mb-5">
             <Trans i18nKey="home.testimonialsTitle">

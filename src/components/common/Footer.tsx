@@ -9,12 +9,12 @@ export default function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl w-xl relative flex flex-col items-center" id="footer">
+    <footer className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-90 relative flex flex-col items-center" id="footer">
       <div className="w-full xl:h-154 lg:h-138 md:h-200 smd:h-170 h-240 absolute top-0 left-0 z-0">
         <SvgFooter />
       </div>
 
-      <section className="w-full xl:h-154 lg:h-138 md:h-200 smd:h-170 h-240 flex md:flex-row flex-col md:gap-14 smd:gap-0 gap-22 px-16 xl:py-16 py-10 z-10">
+      <section className="w-full xl:h-154 lg:h-138 md:h-200 smd:h-170 h-240 flex md:flex-row flex-col md:gap-14 smd:gap-0 gap-22 px-16 xl:py-16 py-10 z-10 hidden">
         <div className="md:w-2/5 w-full smd:h-2/3 h-1/3 flex md:flex-col smd:flex-row sm:flex-col md:items-start smd:items-center smd:gap-10 md:gap-0 text-white">
           <article className="md:w-full smd:w-2/3">
             <h3 className="text-3xl mb-5">{t('footer.contactTitle')}</h3>

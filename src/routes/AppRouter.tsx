@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import type { RefObject } from "react";
 
 // pages
 import Home from "../pages/Home";
@@ -7,9 +8,13 @@ import Service from "../pages/Services";
 import NotFoundPage from "../pages/NotFound";
 import Faq from "../pages/Faq";
 
-export default function AppRouter() {
+interface ContentProps {
+  ContentProps: RefObject<HTMLDivElement | null>;
+}
+
+export default function AppRouter({ ContentProps }: ContentProps) {
   return (
-    <>
+    <div ref={ContentProps} className="w-full">
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -17,6 +22,6 @@ export default function AppRouter() {
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-    </>
+    </div>
   );
 }

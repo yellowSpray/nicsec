@@ -37,7 +37,7 @@ function App() {
       tl.to(
         overlayRef.current, {
         opacity: 0,
-        duration: 0.5,
+        duration: 0.1,
         ease: "power2.out",
         onComplete: () => {
           if (overlayRef.current) {
@@ -46,19 +46,19 @@ function App() {
         },
       });
 
-      // Fade-in of header
-      tl.fromTo(
-        headerRef.current,
-        { y: -30, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.6, ease: "power3.out" },
-        ">"
-      );
-
       // Fade-in of content
       tl.fromTo(
         contentRef.current,
         { opacity: 0, y: 30 },
-        { opacity: 1, y: 0, duration: 0.7, ease: "power3.out" },
+        { opacity: 1, y: 0, duration: 1.5, ease: "power3.out" },
+        ">"
+      );
+
+      // Fade-in of header
+      tl.fromTo(
+        headerRef.current,
+        { y: -30, opacity: 0 },
+        { y: 0, opacity: 1, duration: 1.5, ease: "power3.out" },
         "<"
       );
     }
@@ -68,15 +68,10 @@ function App() {
   return (
     <>
       {isLoading && (
-        <OverlayLoader overlayRef={overlayRef} />
+        <OverlayLoader OverlayProps={overlayRef} />
       )}
-
-      <Header HeaderRef={headerRef} />
-      
-      <div ref={contentRef} style={{ opacity: 0 }}>
-        <AppRouter />
-      </div>
-
+      <Header HeaderProps={headerRef} />
+      <AppRouter ContentProps={contentRef} />
       <Footer />
     </>
   );
