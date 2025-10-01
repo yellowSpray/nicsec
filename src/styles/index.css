@@ -2,14 +2,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
-  width: 100%;
   -webkit-font-smoothing: antialiased;
   font-family: "Overpass", sans-serif;
   color: #394149;
@@ -23,21 +16,62 @@ body {
   align-items: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Overpass", sans-serif;
-  font-weight: bold;
+@theme {
+  --radius-second: 0.7em;
+  --color-background: #F3F2F2;
+  --color-second: #C21F22;
+  --color-main: #394149;
+  --breakpoint-lg: 68.75rem;
+  --breakpoint-md: 60rem;
+  --breakpoint-smd: 51rem;
 }
 
-button {
-  cursor: pointer;
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold
+  
+  }
+
+  h3 {
+    @apply text-3xl
+  }
+
+  h4 {
+    @apply text-base
+  }
+
+  p {
+    @apply text-sm
+  }
+
+  button {
+    @apply cursor-pointer flex flex-row justify-center items-center gap-1 rounded-second py-2 px-5
+  }
+  
+  .btn-primary {
+    @apply text-white text-sm font-medium bg-second hover:bg-red-800 transition duration-200 ease-in-out
+  }
+  
+  .btn-secondary {
+    @apply text-white text-sm border-2 border-white hover:bg-white hover:text-black transition duration-200 ease-in-out
+  }
+
+  .btn-outline {
+    @apply text-xs font-bold uppercase hover:bg-background transition duration-200 ease-in-out
+  }
+
+  .btn-navbar {
+    @apply rounded-second py-2 lg:px-4 px-3 flex flex-row items-center gap-2 hover:bg-background transition duration-200 ease-in-out
+  }
 }
 
-/* Home page main content */
+
+/* Home page main content svg clip-path */
 
 .clipped-container img {
   width: 100%;
@@ -61,20 +95,9 @@ button {
   color: white;
 }
 
-@theme {
-  --radius-second: 0.7em;
-  --color-background: #F3F2F2;
-  --color-second: #C21F22;
-  --color-main: #394149;
-  --breakpoint-lg: 68.75rem;
-  --breakpoint-md: 60rem;
-  --breakpoint-smd: 51rem;
-}
 
-.btn-primary {
-  @apply flex flex-row content-center items-center gap-1 rounded-second py-2 px-5 text-white text-sm bg-second hover:bg-red-800 transition duration-200 ease-in-out;
-}
-
-.btn-secondary {
-  @apply flex flex-row content-center items-center gap-1 rounded-second py-2 px-5 text-white text-sm border-2 border-white hover:bg-white hover:text-black transition duration-200 ease-in-out
+@layer utilities {
+  .border-card {
+    @apply border-background border-1 rounded-second
+  }
 }

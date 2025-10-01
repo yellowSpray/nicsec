@@ -31,16 +31,16 @@ export default function ContactForm() {
 
   return (
     <form
-      className={"w-full h-full flex flex-col justify-start rounded-second bg-background p-7"}
+      className={"w-full h-full flex flex-col justify-start rounded-second space-y-8 bg-background p-7"}
       onSubmit={handleSubmit(onSubmit)}
     >
       <h4 className="md:mb-5 smd:mb-2">{t("form.title")}</h4>
 
-      <div className="h-full flex flex-col justify-between">
+      <div className="h-full flex flex-col justify-between space-y-8">
 
-        <div className="w-full flex lg:flex-row md:flex-col smd:flex-row sm:flex-col gap-2">
+        <div className="w-full flex lg:flex-row flex-col gap-2">
           <fieldset className={"w-full flex flex-col justify-center"}>
-            <label>{t("form.name")}</label>
+            <label className="hidden">{t("form.name")}</label>
             <input
               {...register("fullname")}
               type="text"
@@ -56,7 +56,7 @@ export default function ContactForm() {
           </fieldset>
 
           <fieldset className={"w-full flex flex-col justify-center"}>
-            <label>{t("form.email")}</label>
+            <label className="hidden">{t("form.email")}</label>
             <input
               {...register("email", { required: true })}
               type="text"
@@ -70,9 +70,9 @@ export default function ContactForm() {
           </fieldset>
         </div>
 
-        <div className="w-full flex lg:flex-row md:flex-col smd:flex-row sm:flex-col gap-2">
+        <div className="w-full flex lg:flex-row flex-col gap-2">
           <fieldset className={"w-full flex flex-col justify-center"}>
-            <label>{t("form.phone")}</label>
+            <label className="hidden">{t("form.phone")}</label>
             <input
               {...register("phone", { required: true })}
               type="text"
@@ -86,7 +86,7 @@ export default function ContactForm() {
           </fieldset>
 
           <fieldset className="w-full flex flex-col justify-center">
-            <label htmlFor="subject">{t("form.subjectTitle")}</label>
+            <label className="hidden" htmlFor="subject">{t("form.subjectTitle")}</label>
             <select
               {...register("subject", { required: "Please select a subject." })}
               className="border border-gray-300 rounded-lg p-2"
@@ -112,7 +112,7 @@ export default function ContactForm() {
         </div>
 
         <fieldset className="w-full flex flex-col">
-          <label>{t("form.description")}</label>
+          <label className="hidden">{t("form.description")}</label>
           <textarea
             {...register("description", {
               required: "This field is required.",
@@ -130,7 +130,7 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="w-full py-2 rounded-second bg-second text-white text-xs"
+          className="btn-primary"
         >
           {t("form.send")}
         </button>

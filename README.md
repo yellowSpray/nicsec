@@ -4,7 +4,6 @@
 * React
 * Typescript
 * Tailwindcss
-* framer
 * i18n
 * shadcn/ui
 
@@ -14,10 +13,8 @@
 * language filter 
 
 ## TODO 🚧
-* fix service - process section
+* service - features section - fix border
+* about - stats section - add border to separate numbers
+* form - add toaster to confirm message
 * rewrite all the text and title
-* fix format text overview
-* create a new logo
-* responsive ( fix close menu when click on button )
-* hover effect + some svg animation + transition
 * SEO

@@ -57,7 +57,7 @@
     },
     "servicesIntro": {
       "title": "What <1>Service</1> I Offer",
-      "text": "My experience delivers reliable, discreet solutions that enable my clients to make informed, effective decisions."
+      "text": "My experience delivers reliable <1>discreet solutions that enable my clients to make informed</1>, effective decisions."
     },
     "services": {
       "surveillance": {
@@ -77,7 +77,10 @@
         "text": "Professional gathering of information and evidence for individuals in a discreet, ethical and lawful manner."
       }
     },
-    "reasonsTitle": "Why <1>Choose</1> Nicsec investigations ?",
+    "reasonsIntro": {
+      "title": "Why <1>Choose</1> Nicsec investigations ?",
+      "text": "Text to fill <1>or not</1>, i don't know yet !"
+    },
     "reasons": {
       "licensed": {
         "title": "Licensed & Insured",
@@ -92,8 +95,10 @@
         "text": "Available around the clock for urgent cases and emergency situations."
       }
     },
-    "testimonialsTitle": "Client <1>Testimonials</1>",
-    "testimonialsSubtitle": "Trusted by hundreds of satisfied clients",
+    "testimonialsIntro": {
+        "title": "Client <1>Testimonials</1>",
+        "text": "Trusted by <1>hundreds of satisfied</1> clients."
+    },
     "testimonials": {
       "sarah": {
         "name": "Sarah M.",
@@ -113,84 +118,13 @@
     }
   },
 
-  "about": {
-    "title": "About Nicsec Investigation.",
-
-    "intro": "25+ years of experience delivering truth with integrity, discretion, and unwavering professionalism.",
-
-    "story": {
-      "title": "My Story",
-      "text1": "Founded in 1999, Elite Investigations was born from a simple mission: to provide individuals and businesses with the truth they need to make informed decisions. What started as a one-person operation has grown into a full-service investigative agency trusted by attorneys, corporations, and families across the region.",
-      "text2": "Our founder, a former law enforcement officer with over 15 years of experience, recognized the need for professional, ethical, and discreet investigative services in the private sector. Today, we continue to uphold those same values while leveraging cutting-edge technology and proven methodologies.",
-      "text3": "We believe that everyone deserves access to the truth, and we're committed to uncovering it with the highest standards of professionalism and confidentiality."
-    },
-
-    "core": {
-      "mainTitle": "My Core Value",
-      "textCore": "The principles that guide every investigation we undertake",
-      "integrity": {
-        "title": "Integrity",
-        "text": "We conduct all investigations with the highest ethical standards, ensuring honesty and transparency in every case."
-      },
-      "discretion": {
-        "title": "Discretion",
-        "text": "Confidentiality is paramount. We protect our clients' privacy and handle sensitive information with utmost care."
-      },
-      "excellence": {
-        "title": "Excellence",
-        "text": "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies."
-      }
-    },
-
-    "credentials": {
-      "mainTitle": "Credentials & Certifications",
-      "textCore": "Professional qualifications that ensure quality service",
-      "licensed": {
-        "title": "Licensed by SPF",
-        "text": "State licensed private investigator with full legal authority"
-      },
-      "asis": {
-        "title": "ASIS Certified",
-        "text": "American Society for Industrial Security professional certification"
-      },
-      "court": {
-        "title": "Court Qualified",
-        "text": "Qualified to provide expert testimony in legal proceedings"
-      },
-      "bonded": {
-        "title": "Bonded & Insured",
-        "text": "Fully bonded and insured for client protection"
-      },
-      "cases": {
-        "title": "2500+",
-        "text": "Cases Completed"
-      },
-      "success": {
-        "title": "95%",
-        "text": "Success Rate"
-      },
-      "years": {
-        "title": "25+",
-        "text": "Years Experience"
-      },
-      "support": {
-        "title": "24/7",
-        "text": "Available Support"
-      }
-    }
-  },
-
   "services": {
     "mainTitle": "Expert Private Investigation Services",
     "mainText": "Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity.",
 
-    "textServices": {
-      "title": {
-        "titleA": "My Investigation ",
-        "titleB": "Services"
-      },
-      "text1": "I provide professional investigative services tailored to your needs.",
-      "text2": "Every case is approached with confidentiality and personal attention."
+    "serviceIntro": {
+      "title": "My Investigation <1>Services</1>",
+      "text": "I provide professional investigative services <1>tailored to your needs</1>. Every case is approached with <1>confidentiality and personal attention</1>."
     },
 
     "surveillance": {
@@ -282,11 +216,8 @@
     },
 
     "specialized": {
-      "title": {
-        "titleA": "Specialized",
-        "titleB": "Investigations"
-      },
-      "text": "Advanced investigative services for complex cases",
+      "title": "Specialized <1>Investigations</1>",
+      "text": "Advanced investigative services <1>for complex cases</1>.",
       "corporate": {
         "title": "Corporate Security",
         "text": "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes."
@@ -302,11 +233,8 @@
     },
 
     "process": {
-      "maintitle": {
-        "titleA": "My Investigation",
-        "titleB": "Process"
-      },
-      "mainText": "A systematic approach ensuring thorough and reliable results.",
+      "title": "My Investigation <1>Process</1>",
+      "text": "A systematic approach <1>ensuring thorough and reliable</1> results.",
       "initial": {
         "title": "Initial Consultation",
         "text": "Begin with a confidential consultation to understand your needs and goals. This step lays the foundation for a clear and focused investigation."
@@ -322,6 +250,77 @@
       "reporting": {
         "title": "Reporting and Resolution",
         "text": "You receive a detailed and structured report summarizing findings, including documentation, analysis, and recommended next steps."
+      }
+    }
+  },
+
+  "about": {
+    "title": "About Nicsec Investigation.",
+    "intro": "25+ years of experience delivering truth with integrity, discretion, and unwavering professionalism.",
+    
+    "story": {
+      "title": "My <1>Story</1>",
+      "text1": "Founded in 1999, Elite Investigations was born from a simple mission: to provide individuals and businesses with the truth they need to make informed decisions. What started as a one-person operation has grown into a full-service investigative agency trusted by attorneys, corporations, and families across the region.",
+      "text2": "Our founder, a former law enforcement officer with over 15 years of experience, recognized the need for professional, ethical, and discreet investigative services in the private sector. Today, we continue to uphold those same values while leveraging cutting-edge technology and proven methodologies.",
+      "text3": "We believe that everyone deserves access to the truth, and we're committed to uncovering it with the highest standards of professionalism and confidentiality."
+    },
+
+    "core": {
+      "title": "My <1>Core</1> Value",
+      "text": "The principles <1>that guide every investigation</1> we undertake.",
+      "integrity": {
+        "title": "Integrity",
+        "text": "We conduct all investigations with the highest ethical standards, ensuring honesty and transparency in every case."
+      },
+      "discretion": {
+        "title": "Discretion",
+        "text": "Confidentiality is paramount. We protect our clients' privacy and handle sensitive information with utmost care."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "text": "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies."
+      }
+    },
+
+    "credentials": {
+      "title": "Credentials <1>&</1> Certifications",
+      "text": "Professional <1>qualifications that ensure quality</1> service.",
+      "licensed": {
+        "title": "Licensed by SPF",
+        "text": "State licensed private investigator with full legal authority"
+      },
+      "asis": {
+        "title": "ASIS Certified",
+        "text": "American Society for Industrial Security professional certification"
+      },
+      "court": {
+        "title": "Court Qualified",
+        "text": "Qualified to provide expert testimony in legal proceedings"
+      },
+      "bonded": {
+        "title": "Bonded & Insured",
+        "text": "Fully bonded and insured for client protection"
+      }
+    },
+
+    "stats": {
+      "title": "Nicsec In <1>Numbers</1>",
+      "text": "Text to fill <1>or not</1>.",
+      "cases": {
+        "title": "2500+",
+        "text": "Cases Completed"
+      },
+      "success": {
+        "title": "95%",
+        "text": "Success Rate"
+      },
+      "years": {
+        "title": "25+",
+        "text": "Years Experience"
+      },
+      "support": {
+        "title": "24/7",
+        "text": "Available Support"
       }
     }
   },

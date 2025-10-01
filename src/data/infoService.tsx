@@ -12,7 +12,7 @@ import type { TFunction } from "i18next";
 
 export const getInfoService = (t: TFunction) => [
   {
-    icone: <RiSpyFill size={30} />,
+    icone: <RiSpyFill />,
     title: t("services.surveillance.title"),
     text: t("services.surveillance.text"),
     listService: [
@@ -23,7 +23,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiUserSearchFill size={30} />,
+    icone: <RiUserSearchFill />,
     title: t("services.background.title"),
     text: t("services.background.text"),
     listService: [
@@ -34,7 +34,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiFileSearchFill size={30} />,
+    icone: <RiFileSearchFill />,
     title: t("services.fraud.title"),
     text: t("services.fraud.text"),
     listService: [
@@ -45,7 +45,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiShieldUserFill size={30} />,
+    icone: <RiShieldUserFill />,
     title: t("services.legal.title"),
     text: t("services.legal.text"),
     listService: [
@@ -56,7 +56,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiMapPinUserFill size={30} />,
+    icone: <RiMapPinUserFill />,
     title: t("services.missing.title"),
     text: t("services.missing.text"),
     listService: [
@@ -67,7 +67,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiLockFill size={30} />,
+    icone: <RiLockFill />,
     title: t("services.digital.title"),
     text: t("services.digital.text"),
     listService: [
@@ -78,7 +78,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiAccountPinBoxFill size={30} />,
+    icone: <RiAccountPinBoxFill />,
     title: t("services.identity.title"),
     text: t("services.identity.text"),
     listService: [
@@ -89,7 +89,7 @@ export const getInfoService = (t: TFunction) => [
     ],
   },
   {
-    icone: <RiTeamFill size={30} />,
+    icone: <RiTeamFill />,
     title: t("services.corporate.title"),
     text: t("services.corporate.text"),
     listService: [

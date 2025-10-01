@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useMediaQuery } from "../../hooks/use-media-query";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { Drawer, DrawerContent, DrawerTrigger, DrawerHeader, DrawerTitle, DrawerDescription } from "../ui/drawer";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { FaSuitcaseRolling, FaIdCard } from "react-icons/fa6";
@@ -16,36 +16,36 @@ export default function NavBar() {
       <NavLink
         to="/service"
         className={({ isActive }) =>
-          `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+          `btn-navbar ${
             isActive ? "text-second" : ""
           }`
         }
       >
-        <FaSuitcaseRolling size={18} />
+        <FaSuitcaseRolling className="size-4 relative bottom-0.5"/>
         {t("navbar.service")}
       </NavLink>
 
       <NavLink
         to="/about"
         className={({ isActive }) =>
-          `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+          `btn-navbar ${
             isActive ? "text-second" : ""
           }`
         }
       >
-        <FaIdCard size={18} />
+        <FaIdCard className="size-4 relative bottom-0.5"/>
         {t("navbar.about")}
       </NavLink>
 
       <NavLink
         to="/faq"
         className={({ isActive }) =>
-          `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+          `btn-navbar ${
             isActive ? "text-second" : ""
           }`
         }
       >
-        <FaQuestionCircle size={18} />
+        <FaQuestionCircle className="size-4 relative bottom-0.5"/>
         {t("navbar.faq")}
       </NavLink>
       <SwitchLng className="ml-2" />
@@ -64,36 +64,36 @@ export default function NavBar() {
           <NavLink
             to="/service"
             className={({ isActive }) =>
-              `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+              `btn-navbar ${
                 isActive ? "text-second" : ""
               }`
             }
           >
-            <FaSuitcaseRolling size={18} />
+            <FaSuitcaseRolling className="size-4 relative bottom-0.5"/>
             {t("navbar.service")}
           </NavLink>
 
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+              `btn-navbar ${
                 isActive ? "text-second" : ""
               }`
             }
           >
-            <FaIdCard size={18} />
+            <FaIdCard className="size-4 relative bottom-0.5"/>
             {t("navbar.about")}
           </NavLink>
 
           <NavLink
             to="/faq"
             className={({ isActive }) =>
-              `py-2 lg:px-4 px-3 flex flex-row items-center gap-2 ${
+              `btn-navbar ${
                 isActive ? "text-second" : ""
               }`
             }
           >
-            <FaQuestionCircle size={18} />
+            <FaQuestionCircle className="size-4 relative bottom-0.5"/>
             {t("navbar.faq")}
           </NavLink>
           <SwitchLng />

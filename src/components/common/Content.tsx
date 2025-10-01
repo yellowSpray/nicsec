@@ -46,32 +46,34 @@ export default function Content({
   }, [title]);
 
   return (
-    <section className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-80 mb-25 z-0">
-      <div className="clipped-container relative w-full h-140 overflow-hidden flex flex-col items-center">
-         <SvgContent />
-        <img src={backgroundImage} alt="Private Detective Professional" />
-        <article className={`clipped-content ${positionClassName}`}>
-          <aside className="md:w-150 sm:w-100 w-70">
-            <h2 className="text-5xl">{parsedTitle}</h2>
-            <p className="text-sm my-5">{text}</p>
-          </aside>
-          <div className="flex flex-row items-center gap-5">
-            {is404 && (
+    <section className="w-full mb-16 md:mb-32 px-8">
+      <div className="mx-auto max-w-6xl space-y-8 z-0">
+        <div className="clipped-container relative w-full h-140 overflow-hidden flex flex-col items-center">
+          <SvgContent />
+          <img src={backgroundImage} alt="Private Detective Professional" />
+          <article className={`clipped-content space-y-8 ${positionClassName}`}>
+            <aside className="md:w-150 sm:w-100 w-70 space-y-8">
+              <h2 className="text-5xl">{parsedTitle}</h2>
+              <p className="text-sm">{text}</p>
+            </aside>
+            <div className="flex flex-row items-center gap-5">
+              {is404 && (
+                <Button
+                  buttonTxt={t("button.404")}
+                  iconeButton={<TiArrowBack size={20} />}
+                  className="btn-secondary"
+                  onClick={() => navigate(-1)}
+                />
+              )}
               <Button
-                buttonTxt={t("button.404")}
-                iconeButton={<TiArrowBack size={20} />}
-                className="btn-secondary"
-                onClick={() => navigate(-1)}
+                buttonTxt={t("button.content")}
+                iconeButton={<TiArrowDown size={20} />}
+                className="btn-primary"
+                onClick={() => scrollToSection()}
               />
-            )}
-            <Button
-              buttonTxt={t("button.content")}
-              iconeButton={<TiArrowDown size={20} />}
-              className="btn-primary"
-              onClick={() => scrollToSection()}
-            />
-          </div>
-        </article>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   );

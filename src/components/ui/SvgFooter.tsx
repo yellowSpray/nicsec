@@ -8,18 +8,10 @@ export default function BgFooter() {
     <svg
       width="100%"
       height="100%"
-      viewBox={
-        isDesktopLarge
-          ? "0 0 1120 600"
-          : isDesktop
-          ? "0 0 895 800"
-          : "0 0 680 1115"
-      }
+      viewBox={ isDesktopLarge ? "0 0 1120 600" : isDesktop ? "0 0 895 800" : "0 0 680 1115" }
       preserveAspectRatio="xMidYMid meet"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
     >
-      {isDesktopLarge ? (
+      { isDesktopLarge ? (
         <path
           d="M1100 0C1111.05 0 1120 8.95431 1120 20V580C1120 591.046 1111.05 600 1100 600H84C72.9543 600 64 591.046 64 580V429C64 417.954 55.0457 409 44 409H20C8.95431 409 0 400.046 0 389V20C9.2773e-06 8.95431 8.95431 0 20 0H1100Z"
           fill="#394149"

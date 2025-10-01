@@ -14,17 +14,18 @@ export default function Header({ HeaderProps }: HeaderProps) {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   
   return (
-    <header ref={HeaderProps} className="xl:w-6xl lg:w-5xl md:w-4xl smd:w-3xl sm:w-xl w-80 relative top-11 flex flex-row justify-between items-center z-10">
-      <NavLink to="/" end>
-        <img
-          src={`${isDesktop ? logo : symbol}`}
-          alt="logo of nicsec"
-          className={`${isDesktop ? "w-30" : "w-7"}`}
-        />
-      </NavLink>
+    <header ref={HeaderProps} className="w-full px-8 relative top-11 z-10">
+      <div className="mx-auto max-w-6xl flex flex-row justify-between items-center">
+        <NavLink to="/" end>
+          <img
+            src={`${isDesktop ? logo : symbol}`}
+            alt="logo of nicsec"
+            className={`${isDesktop ? "w-30" : "w-7"}`}
+          />
+        </NavLink>
 
-      <NavBar />
-
+        <NavBar />
+      </div>
     </header>
   );
 }

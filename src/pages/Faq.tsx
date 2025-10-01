@@ -18,6 +18,7 @@ export default function Faq() {
 
   return (
     <main className="w-full bg-white flex flex-col items-center">
+
       <Content
         backgroundImage={FaqBg}
         title={t("faq.title")}
@@ -25,44 +26,54 @@ export default function Faq() {
         positionClassName="items-start text-start"
       />
 
-      <section className="w-6xl mb-25 flex flex-col items-center gap-8 text-center">
-        <div className="w-1/2">
-          <h3 className="text-3xl mb-5">
+      <section className="max-w-6xl mx-8 mb-16 md:mb-32 space-y-8 text-center flex flex-col items-center">
+
+        <div className="w-full space-y-8">
+          <h3>
             <Trans i18nKey="faq.intro.title">
               How Can I <span className="text-second">Help</span> You?
             </Trans>
           </h3>
-          <p className="text-sm mb-5">{t("faq.intro.text")}</p>
-          <aside>
-            <p className="text-sm">{t("faq.intro.note")}</p>
-          </aside>
+          <p>{t("faq.intro.text")}</p>
+          <p>{t("faq.intro.note")}</p>
         </div>
+
       </section>
       
-      <section className="w-full mb-25 flex flex-col items-center">
+      <section className="w-full py-16 md:py-32 mb-16 md:mb-32 bg-background flex flex-col items-center">
 
-        <div className="w-full py-16 flex flex-col items-center bg-background">
-          <h4 className="text-lg mb-5">{t("faq.general.title")}</h4>
-          <Accordion type="single" className="w-6xl" collapsible>
+        <div className="w-full max-w-6xl mx-auto px-8 space-y-8">
+
+          <h4 className="text-center">{t("faq.general.title")}</h4>
+
+          <Accordion type="single" className="w-full" collapsible>
             {questionGeneral.map(({ question, answer }, index) => (
               <AccordionItem value={`item-${index}`} key={index}>
-                <AccordionTrigger>{question}</AccordionTrigger>
+                <AccordionTrigger className="px-0">{question}</AccordionTrigger>
                 <AccordionContent>{answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
+
         </div>
 
-        <div className="w-6xl pt-16 flex flex-col items-center">
-          <h4 className="text-lg mb-5">{t("faq.process.title")}</h4>
+      </section>
+
+      <section className="w-full mb-16 md:mb-32 flex flex-col items-center">  
+
+        <div className="w-full max-w-6xl mx-auto px-8 space-y-8">
+
+          <h4 className="text-center">{t("faq.process.title")}</h4>
+
           <Accordion type="single" className="w-full" collapsible>
           {questionService.map(({ question, answer }, index) => (
             <AccordionItem value={`item-${index}`} key={index}>
-                <AccordionTrigger>{question}</AccordionTrigger>
-                <AccordionContent>{answer}</AccordionContent>
-              </AccordionItem>
+              <AccordionTrigger className="px-0">{question}</AccordionTrigger>
+              <AccordionContent>{answer}</AccordionContent>
+            </AccordionItem>
           ))}
           </Accordion>
+
         </div>
 
       </section>
