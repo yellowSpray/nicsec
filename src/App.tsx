@@ -8,6 +8,7 @@ import OverlayLoader from "./components/ui/OverlayLoader.tsx";
 
 import { useLoadingStore } from "./hooks/loadingStore";
 import gsap from "gsap";
+import { Toaster } from "sonner";
 
 function App() {
   // Zustand store for loading state
@@ -70,6 +71,7 @@ function App() {
       {isLoading && (
         <OverlayLoader OverlayProps={overlayRef} />
       )}
+      <Toaster richColors expand={true} position="top-center"/>
       <Header HeaderProps={headerRef} />
       <AppRouter ContentProps={contentRef} />
       <Footer />

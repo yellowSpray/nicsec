@@ -13,8 +13,8 @@
 * language filter 
 
 ## TODO 🚧
-* about - stats section - add border to separate numbers
-* form - add toaster to confirm message
-* add a back to top button
-* rewrite all the text and title
+* home - services preview - button link to services page
+* service - process - icon is doing a 180 when its open
+* form - clean the message when its sent
+* clean the mess in folder app
 * SEO

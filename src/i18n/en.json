@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "service": "Service",
+    "service": "Services",
     "about": "About",
     "faq": "FAQ"
   },
@@ -39,6 +39,7 @@
     },
     "description": "Description",
     "descriptionPlaceholder": "Describe your case",
+    "confirm": "Your message has been sent !",
     "send": "Send"
   },
   "errors": {

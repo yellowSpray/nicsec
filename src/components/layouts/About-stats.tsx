@@ -42,16 +42,25 @@ export default function AboutStats () {
                   </p>
               </div>
 
-              <div className="w-full grid md:grid-cols-12 sm:grid-cols-4 grid-cols-1 gap-8">
+              <div className="w-full *:text-center grid sm:max-w-full sm:grid-cols-2 md:grid-cols-4 border-main border-1 rounded-second">
 
                   {getStats.map(({ titleCard, textCard }, index) => (
-                      <Card key={index} className="w-full md:col-span-3 sm:col-span-2 *:text-center shadow-none">
-                          <CardHeader className="space-y-4">
-                              <h3>{titleCard}</h3>
-                          </CardHeader>
-                          <CardContent>
-                              <p>{textCard}</p>
-                          </CardContent>
+                      <Card 
+                        key={index} 
+                        className={`
+                                group shadow-none border-main
+                                ${index % 2 === 0 ? 'sm:border-r-1' : 'sm:border-r-0'} 
+                                ${index < 3 ? 'md:border-r-1' : 'md:border-r-0'}
+                                ${index >= 1 ? 'border-t-1' : ''} 
+                                ${index >= 2 ? 'sm:border-t-1' : index >= 1 ? 'sm:border-t-0' : ''}
+                                ${index >= 0 ? 'md:border-t-0' : ''}
+                        `}>
+                        <CardHeader className="space-y-4">
+                            <h3>{titleCard}</h3>
+                        </CardHeader>
+                        <CardContent>
+                            <p>{textCard}</p>
+                        </CardContent>
                       </Card>
                   ))}
 

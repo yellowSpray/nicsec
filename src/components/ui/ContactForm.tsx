@@ -2,6 +2,7 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslation } from "react-i18next";
+import { toast } from "sonner";
 
 export default function ContactForm() {
   const { t } = useTranslation();
@@ -27,7 +28,10 @@ export default function ContactForm() {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (data: FormData) => console.log(data);
+  const onSubmit = (data: FormData) => {
+    console.log(data)
+    toast.success(t("form.confirm"))
+  };
 
   return (
     <form

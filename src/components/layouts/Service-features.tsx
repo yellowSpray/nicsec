@@ -13,12 +13,12 @@ export default function AllFeatures () {
 
                 <div className="text-center space-y-8">
                     <h3>
-                        <Trans i18nKey="services.servicesIntro.title">
+                        <Trans i18nKey="services.serviceIntro.title">
                             My Investigation <span className="text-second">Services</span>
                         </Trans>
                     </h3>
                     <p>
-                        <Trans i18nKey="services.servicesIntro.title">
+                        <Trans i18nKey="services.serviceIntro.text">
                             I provide professional investigative services <span className='font-bold'>tailored to your needs</span>. Every case is approached with <span className='font-bold'>confidentiality and personal attention</span>.
                         </Trans>
                     </p>

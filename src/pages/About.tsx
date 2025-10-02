@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import AboutStory from "@/components/layouts/About-story";
 import AboutValue from "@/components/layouts/About-value"
 import AboutCred from "@/components/layouts/About-credentials";
-import AboutStats from "@/components/layouts/About-stats";
+// import AboutStats from "@/components/layouts/About-stats";
 
 export default function About() {
 
@@ -26,7 +26,7 @@ export default function About() {
 
       <AboutCred />
 
-      <AboutStats />
+      {/* <AboutStats /> */}
     </main>
   );
 }
