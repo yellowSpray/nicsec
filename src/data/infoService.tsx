@@ -99,4 +99,15 @@ export const getInfoService = (t: TFunction) => [
       t("services.corporate.items.3"),
     ],
   },
+  {
+    icone: <RiTeamFill />,
+    title: t("services.corporate.title"),
+    text: t("services.corporate.text"),
+    listService: [
+      t("services.corporate.items.0"),
+      t("services.corporate.items.1"),
+      t("services.corporate.items.2"),
+      t("services.corporate.items.3"),
+    ],
+  },
 ];

@@ -29,33 +29,33 @@ export default function AboutStats () {
 
             <div className="w-full max-w-6xl space-y-8 mx-8">
 
-                <div className="w-full space-y-8 text-center">
-                    <h3>
-                      <Trans i18nKey="about.stats.title">
-                        Nicsec In<span className="text-second">Numbers</span>
-                      </Trans>
-                    </h3>
-                    <p>
-                      <Trans i18nKey="about.stats.text">
-                        Text to fill <span className="font-bold">or not</span>.
-                      </Trans>
-                    </p>
-                </div>
+              <div className="w-full space-y-8 text-center">
+                  <h3>
+                    <Trans i18nKey="about.stats.title">
+                      Nicsec In<span className="text-second">Numbers</span>
+                    </Trans>
+                  </h3>
+                  <p>
+                    <Trans i18nKey="about.stats.text">
+                      Text to fill <span className="font-bold">or not</span>.
+                    </Trans>
+                  </p>
+              </div>
 
-                <div className="w-full grid md:grid-cols-12 sm:grid-cols-4 grid-cols-1 gap-8">
+              <div className="w-full grid md:grid-cols-12 sm:grid-cols-4 grid-cols-1 gap-8">
 
-                    {getStats.map(({ titleCard, textCard }, index) => (
-                        <Card key={index} className="w-full md:col-span-3 sm:col-span-2 *:text-center shadow-none">
-                            <CardHeader className="space-y-4">
-                                <h3>{titleCard}</h3>
-                            </CardHeader>
-                            <CardContent>
-                                <p>{textCard}</p>
-                            </CardContent>
-                        </Card>
-                    ))}
+                  {getStats.map(({ titleCard, textCard }, index) => (
+                      <Card key={index} className="w-full md:col-span-3 sm:col-span-2 *:text-center shadow-none">
+                          <CardHeader className="space-y-4">
+                              <h3>{titleCard}</h3>
+                          </CardHeader>
+                          <CardContent>
+                              <p>{textCard}</p>
+                          </CardContent>
+                      </Card>
+                  ))}
 
-                </div>
+              </div>
 
             </div>
 

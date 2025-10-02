@@ -30,21 +30,19 @@ export default function AllFeatures () {
                             key={index}
                             className=
                             {`
-                                group shadow-none border-background p-4
-                                ${index % 2 === 0 ? 'sm:border-r-1' : 'sm:border-r-0'} 
-                                ${index !== 3 && index !== infoServiceValues.length - 1 ? 'md:border-r-1' : 'md:border-r-0'}
-                                ${index >= 1 ? 'border-t-1' : ''} 
-                                ${index >= 2 ? 'sm:border-t-1' : index >= 1 ? 'sm:border-t-0' : ''}
-                                ${index >= 0 ? 'md:border-t-0' : ''}
-                                ${index <= 3 ? 'border-b-1 sm:border-b-0 md:border-b-0' : ''}
+                                group shadow-none border-background p-4 first:border-t-0 border-t-1
+                                ${index % 2 === 0 ? 'sm:border-r-1' : 'sm:border-r-0'}
+                                ${index === 0 || index === 1 ? 'sm:border-t-0' : 'sm:border-t-1'}
+                                ${index === 2 || index === 5 || index === 8 ? 'md:border-r-0' : 'md:border-r-1'}
+                                ${index === 0 || index === 1 || index === 2 ? 'md:border-t-0' : 'md:border-t-1'}
                             `}
                         > 
                             <CardHeader className="flex items-center gap-2 pt-4">
-                                <div className='flex flex-col items-center justify-center relative bottom-0.5'>{icone}</div>
+                                <div className='flex flex-col items-center justify-center relative bottom-0.5 text-second'>{icone}</div>
                                 <h4 className="w-full">{title}</h4>
                             </CardHeader>
                             <CardContent>
-                                <p className="mb-5 h-15">{text}</p>
+                                <p className="mb-5">{text}</p>
                                 <ul>
                                     {listService.map((item, id) => (
                                         <li key={id} className="text-sm text-left flex flex-row items-center gap-2 py-1">

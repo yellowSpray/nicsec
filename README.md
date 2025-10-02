@@ -13,8 +13,8 @@
 * language filter 
 
 ## TODO 🚧
-* service - features section - fix border
 * about - stats section - add border to separate numbers
 * form - add toaster to confirm message
+* add a back to top button
 * rewrite all the text and title
 * SEO
