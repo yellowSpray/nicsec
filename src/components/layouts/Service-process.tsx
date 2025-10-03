@@ -15,28 +15,28 @@ export default function StepProcess() {
     const defaultProcess = [
         {
             id: 1,
-            icons: <ChartBarIncreasingIcon size={20} />,
+            icons: <ChartBarIncreasingIcon className='text-second size-4'/>,
             title: t("services.process.initial.title"),
             image: imageDetective,
             description: t("services.process.initial.text"),
         },
         {
             id: 2,
-            icons: <Database size={20} />,
+            icons: <Database className='text-second size-4' />,
             title: t("services.process.strategy.title"),
             image: imageService,
             description: t("services.process.strategy.text"),
         },
         {
             id: 3,
-            icons: <Fingerprint size={20} />,
+            icons: <Fingerprint className='text-second size-4' />,
             title: t("services.process.evidence.title"),
             image: imageTest,
             description: t("services.process.strategy.text"),
         },
         {
             id: 4,
-            icons: <IdCard size={20} />,
+            icons: <IdCard className='text-second size-4' />,
             title: t("services.process.reporting.title"),
             image: imageDetective,
             description: t("services.process.strategy.text"),
@@ -70,17 +70,17 @@ export default function StepProcess() {
 
                     {defaultProcess.map((tab) => (
                         <AccordionItem key={tab.id} value={`item-${tab.id}`}>
-                            <AccordionTrigger 
-                                onClick={() => {
-                                    setActiveImage(tab.image)
-                                    setActiveTabId(tab.id)
-                                }}
-                                className="cursor-pointer py-5 !no-underline transition flex flex-row"
-                            >
-                                {tab.icons}
-                                <h4 className={`${tab.id === activeTabId ? "text-foreground" : "text-muted-foreground"}`}>
-                                    {tab.title}
-                                </h4>
+                                <AccordionTrigger 
+                                    onClick={() => {
+                                        setActiveImage(tab.image)
+                                        setActiveTabId(tab.id)
+                                    }}
+                                    className="cursor-pointer py-5 !no-underline transition flex flex-row"
+                                >
+                                    <span className="shrink-0">{tab.icons}</span>
+                                    <h4 className={`${tab.id === activeTabId ? "text-foreground" : "text-muted-foreground"}`}>
+                                        {tab.title}
+                                    </h4>
                                 </AccordionTrigger>
                                 <AccordionContent>
                                     <p className="mt-3 text-muted-foreground">

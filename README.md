@@ -13,7 +13,6 @@
 * language filter 
 
 ## TODO 🚧
-* service - process - icon is doing a 180 when its open
 * form - clean the message when its sent
 * clean the mess in folder app
 * SEO
