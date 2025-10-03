@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { highlightKeywords } from "../../features/highLight";
 import { TiArrowDown, TiArrowBack } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
-import SvgContent from "../ui/SvgContent";
-import Button from "../ui/Button";
+import SvgContent from "../ui/svgContent";
+import Button from "../ui/button";
 import { scrollToSection } from "../../features/scrollButton";
 
 interface ContentProps {

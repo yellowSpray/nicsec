@@ -14,5 +14,4 @@
 
 ## TODO 🚧
 * form - clean the message when its sent
-* clean the mess in folder app
 * SEO

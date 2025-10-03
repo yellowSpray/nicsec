@@ -1,6 +1,6 @@
-import Detective404 from "../assets/images/detective404.jpg"
+import Detective404 from "@/assets/images/detective404.jpg"
 import { useTranslation } from "react-i18next";
-import Content from "../components/common/Content";
+import Content from "@/components/common/Content";
 
 export default function NotFoundPage(){
 

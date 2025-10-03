@@ -4,11 +4,11 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "../components/ui/accordion"
-import FaqBg from "../assets/images/faq-background.png";
-import Content from "../components/common/Content";
-import { getQuestionGeneral } from "../data/questions";
-import { getQuestionService } from "../data/questions";
+} from "@/components/ui/accordion"
+import FaqBg from "@/assets/images/faq-background.png";
+import Content from "@/components/common/Content";
+import { getQuestionGeneral } from "@/data/questions";
+import { getQuestionService } from "@/data/questions";
 
 export default function Faq() {
 

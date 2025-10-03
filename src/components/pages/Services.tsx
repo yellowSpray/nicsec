@@ -1,8 +1,8 @@
 // static
-import ServiceBg from "../assets/images/service-background.png";
+import ServiceBg from "@/assets/images/service-background.png";
 
 // components 
-import Content from "../components/common/Content";
+import Content from "@/components/common/Content";
 import Features from "@/components/layouts/Service-features"
 import Specialized from "@/components/layouts/Service-special";
 import StepProcess from "@/components/layouts/Service-process";

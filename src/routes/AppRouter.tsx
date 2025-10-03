@@ -2,11 +2,11 @@ import { Route, Routes } from "react-router-dom";
 import type { RefObject } from "react";
 
 // pages
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Service from "../pages/Services";
-import NotFoundPage from "../pages/NotFound";
-import Faq from "../pages/Faq";
+import Home from "../components/pages/Home";
+import About from "../components/pages/About";
+import Service from "../components/pages/Services";
+import NotFoundPage from "../components/pages/NotFound";
+import Faq from "../components/pages/Faq";
 
 interface ContentProps {
   ContentProps: RefObject<HTMLDivElement | null>;

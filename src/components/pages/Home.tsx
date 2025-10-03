@@ -1,10 +1,10 @@
 // static
-import Detective from "../assets/images/detective_pic.png";
+import Detective from "@/assets/images/detective_pic.png";
 
 // components
-import Content from "../components/common/Content";
-import Features from "../components/layouts/Home-services";
-import Preview from "../components/layouts/Home-previews";
+import Content from "@/components/common/Content";
+import Features from "@/components/layouts/Home-services";
+import Preview from "@/components/layouts/Home-previews";
 import TestimonialsAll from "@/components/layouts/Home-testimonials";
 
 // library

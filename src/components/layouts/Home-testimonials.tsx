@@ -1,5 +1,5 @@
 import { useTranslation, Trans } from "react-i18next";
-import Testimonial from "@/components/ui/Testimonial";
+import Testimonial from "@/components/ui/testimonial";
 
 export default function TestimonialsAll() {
   const { t } = useTranslation();

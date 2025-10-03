@@ -1,6 +1,6 @@
 import { IoCall, IoCalendarClear, IoCompass } from "react-icons/io5";
 import { FaInstagram, FaXTwitter, FaYoutube, FaLinkedinIn } from "react-icons/fa6";
-import ContactForm from "../ui/ContactForm";
+import ContactForm from "./ContactForm";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {

@@ -1,5 +1,5 @@
-import AboutBg from "../assets/images/about-background.png";
-import Content from "../components/common/Content";
+import AboutBg from "@/assets/images/about-background.png";
+import Content from "@/components/common/Content";
 import { useTranslation } from "react-i18next";
 import AboutStory from "@/components/layouts/About-story";
 import AboutValue from "@/components/layouts/About-value"

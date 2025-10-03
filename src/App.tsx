@@ -4,7 +4,7 @@ import "./styles/App.css";
 import Footer from "./components/common/Footer.tsx";
 import Header from "./components/common/Header.tsx";
 import AppRouter from "./routes/AppRouter.tsx";
-import OverlayLoader from "./components/ui/OverlayLoader.tsx";
+import OverlayLoader from "./components/ui/overlayLoader.tsx";
 
 import { useLoadingStore } from "./hooks/loadingStore";
 import gsap from "gsap";

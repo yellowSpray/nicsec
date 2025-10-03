@@ -80,7 +80,7 @@
     },
     "reasonsIntro": {
       "title": "Pourquoi <1>choisir</1> Nicsec investigations ?",
-      "text": "Texte à remplir <1>ou non</1>, je ne sais pas encore !"
+      "text": "Expertise fiable fournissant des solutions d’enquête <1>confidentielles, précises et professionnelles</1>."
     },
     "reasons": {
       "licensed": {
@@ -94,6 +94,10 @@
       "availability": {
         "title": "Disponibilité 24h/24 et 7j/7",
         "text": "Disponible 24 heures sur 24 pour les cas urgents et les situations d'urgence."
+      },
+      "proven": {
+        "title": "Expertise reconnue",
+        "text": "Large expérience en enquêtes garantissant des résultats précis et fiables."
       }
     },
     "testimonialsIntro": {

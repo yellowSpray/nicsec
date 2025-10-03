@@ -1,7 +1,7 @@
 {
   "navbar": {
     "service": "Diensten",
-    "about": "Over ons",
+    "about": "Over mij",
     "faq": "FAQ"
   },
   "button": {
@@ -80,7 +80,7 @@
     },
     "reasonsIntro": {
       "title": "Waarom <1>kiezen voor</1> Nicsec investigations?",
-      "text": "Tekst om in te vullen <1>of niet</1>, ik weet het nog niet!"
+      "text": "Betrouwbare expertise die <1>vertrouwelijke, nauwkeurige en professionele</1> onderzoeksoplossingen levert."
     },
     "reasons": {
       "licensed": {
@@ -94,6 +94,10 @@
       "availability": {
         "title": "24/7 beschikbaarheid",
         "text": "24 uur per dag beschikbaar voor urgente zaken en noodsituaties."
+      },
+      "proven": {
+        "title": "Bewezen expertise",
+        "text": "Uitgebreide onderzoekservaring die nauwkeurige resultaten en betrouwbare uitkomsten garandeert."
       }
     },
     "testimonialsIntro": {

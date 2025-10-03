@@ -5,7 +5,7 @@ import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { FaSuitcaseRolling, FaIdCard } from "react-icons/fa6";
 import { FaQuestionCircle } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import SwitchLng from "../ui/Switch";
+import SwitchLng from "../ui/switch";
 
 export default function NavBar() {
   const { t } = useTranslation();
