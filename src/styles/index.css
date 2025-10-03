@@ -62,7 +62,7 @@ body {
   }
 
   .btn-outline {
-    @apply text-xs font-bold uppercase hover:bg-background transition duration-200 ease-in-out
+    @apply text-xs py-2 px-5 rounded-second font-bold uppercase hover:bg-background border-1 border-background transition duration-200 ease-in-out
   }
 
   .btn-navbar {

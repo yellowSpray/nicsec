@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import { Card, CardContent, CardFooter, CardHeader } from '../ui/card'
-import { Zap } from 'lucide-react'
+import { Eye, Search, UserSearch, ShieldAlert } from 'lucide-react'
 import { useTranslation, Trans } from "react-i18next";
 
 
@@ -9,22 +10,22 @@ export default function Features() {
 
     const previewServices = [
         {
-            icon: <Zap className='size-8 text-second'/>,
+            icon: <Eye className='size-8 text-second'/>,
             title: t("home.services.surveillance.title"),
             description : t("home.services.surveillance.text")
         },
         {
-            icon: <Zap className='size-8 text-second'/>,
+            icon: <Search className='size-8 text-second'/>,
             title: t("home.services.peopleTracing.title"),
             description : t("home.services.peopleTracing.text")
         },
         {
-            icon: <Zap className='size-8 text-second'/>,
+            icon: <UserSearch className='size-8 text-second'/>,
             title: t("home.services.privateInvestigations.title"),
             description : t("home.services.privateInvestigations.text")
         },
         {
-            icon: <Zap className='size-8 text-second'/>,
+            icon: <ShieldAlert className='size-8 text-second'/>,
             title: t("home.services.insuranceFraud.title"),
             description : t("home.services.insuranceFraud.text")
         }
@@ -66,7 +67,7 @@ export default function Features() {
                                 <p>{description}</p>
                             </CardContent>
                             <CardFooter className='mt-auto justify-center'>
-                                <button className='btn-outline'>Read More</button>
+                                <Link to="/service" className='btn-outline'>Read more</Link>
                             </CardFooter>
                         </Card>
                     ))}
