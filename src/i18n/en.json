@@ -80,7 +80,7 @@
     },
     "reasonsIntro": {
       "title": "Why <1>Choose</1> Nicsec investigations ?",
-      "text": "Text to fill <1>or not</1>, i don't know yet !"
+      "text": "Trusted expertise delivering <1>confidential, accurate, and professional</1> investigative solutions."
     },
     "reasons": {
       "licensed": {
@@ -94,6 +94,10 @@
       "availability": {
         "title": "24/7 Availability",
         "text": "Available around the clock for urgent cases and emergency situations."
+      },
+      "proven": {
+        "title": "Proven Expertise",
+        "text": "Extensive investigative experience ensuring accurate results and dependable outcomes."
       }
     },
     "testimonialsIntro": {

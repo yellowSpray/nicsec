@@ -1,4 +1,4 @@
-import { RiShieldCheckFill, RiLock2Fill, RiTimeFill } from "react-icons/ri";
+import { RiShieldCheckFill, RiLock2Fill, RiTimeFill, RiAwardFill } from "react-icons/ri";
 import ServicePreview from "@/assets/images/service-preview.jpg";
 import { Trans, useTranslation } from "react-i18next";
 
@@ -23,9 +23,9 @@ export default function ContentPreview() {
             description: t("home.reasons.availability.text"),
         },
         {
-            icon: <RiTimeFill className="size-4 text-second relative bottom-0.5" />,
-            title: t("home.reasons.availability.title"),
-            description: t("home.reasons.availability.text"),
+            icon: <RiAwardFill className="size-4 text-second relative bottom-0.5" />,
+            title: t("home.reasons.proven.title"),
+            description: t("home.reasons.proven.text"),
         }
     ];
 
@@ -40,7 +40,7 @@ export default function ContentPreview() {
                     </h3>
                     <p>
                         <Trans i18nKey="home.reasonsIntro.text">
-                            Text to fill <span className="font-bold">or not,</span> , i don't know yet !
+                            Trusted expertise delivering <span className="font-bold">confidential, accurate, and professional</span> investigative solutions.
                         </Trans>
                     </p>
                 </div>
