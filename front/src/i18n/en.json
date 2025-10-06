@@ -1,0 +1,400 @@
+{
+  "navbar": {
+    "service": "Services",
+    "about": "About",
+    "faq": "FAQ"
+  },
+  "button": {
+    "content": "Contact Me",
+    "404": "Go Back"
+  },
+  "404": {
+    "mainTitle": "Error 404",
+    "mainText": "The page that you were looking for is lost !"
+  },
+  "footer": {
+    "contactTitle": "Contact Me Today",
+    "contactText": "With experience and precision, I offer professional investigative services tailored to meet your unique needs, with the utmost discretion.",
+    "call": "Call me today : 049XXXXXXX",
+    "hours": "Mon - Sun: 06:00 AM - 10:00 PM",
+    "location": "Belgium, Brussels - Walloon Brabant - Namur",
+    "copyright": "© 2025 Nicosec. All rights reserved."
+  },
+  "form": {
+    "title": "Get Free Consultation",
+    "name": "Name Firstname",
+    "namePlaceholder": "Your full name.",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+32XXXXXXX",
+    "subjectTitle": "Select Subject",
+    "subjectDefault": "Select a case",
+    "subject": {
+      "surveillance": "Surveillance",
+      "infidelity": "Infidelity Investigation",
+      "background": "Background Check",
+      "missing": "Missing Person",
+      "fraud": "Fraud Investigation"
+    },
+    "description": "Description",
+    "descriptionPlaceholder": "Describe your case",
+    "confirm": "Your message has been sent !",
+    "send": "Send"
+  },
+  "errors": {
+    "nameTooShort": "Name too short!",
+    "emailInvalid": "Email not valid!",
+    "phoneInvalid": "Phone number not valid",
+    "subjectRequired": "Please select a subject.",
+    "descriptionTooShort": "Description is not enough",
+    "descriptionRequired": "This field is required."
+  },
+
+  "home": {
+    "content": {
+      "title": "Professional & Friendly Private Detective.",
+      "text": "Providing discreet, thorough, and results-driven investigative services that empower individuals, businesses, and legal professionals, to make informed decisions."
+    },
+    "servicesIntro": {
+      "title": "What <1>Service</1> I Offer",
+      "text": "My experience delivers reliable <1>discreet solutions that enable my clients to make informed</1>, effective decisions."
+    },
+    "services": {
+      "surveillance": {
+        "title": "Surveillance",
+        "text": "Gain critical insights with our expert surveillance services, which are carried out with absolute discretion and professionalism."
+      },
+      "peopleTracing": {
+        "title": "People Tracing",
+        "text": "Identify the location and assets of a debtor in support of a debt recovery case"
+      },
+      "insuranceFraud": {
+        "title": "Insurance Fraud",
+        "text": "Professional gathering of evidence and intelligence to uncover fraudulent insurance claims."
+      },
+      "privateInvestigations": {
+        "title": "Private Investigations",
+        "text": "Professional gathering of information and evidence for individuals in a discreet, ethical and lawful manner."
+      }
+    },
+    "reasonsIntro": {
+      "title": "Why <1>Choose</1> Nicsec investigations ?",
+      "text": "Trusted expertise delivering <1>confidential, accurate, and professional</1> investigative solutions."
+    },
+    "reasons": {
+      "licensed": {
+        "title": "Licensed & Insured",
+        "text": "Fully Licensed private investigator with comprehensive insurance coverage."
+      },
+      "confidential": {
+        "title": "100% Confidential",
+        "text": "Your privacy and case details are protected with the highest level of discretion."
+      },
+      "availability": {
+        "title": "24/7 Availability",
+        "text": "Available around the clock for urgent cases and emergency situations."
+      },
+      "proven": {
+        "title": "Proven Expertise",
+        "text": "Extensive investigative experience ensuring accurate results and dependable outcomes."
+      }
+    },
+    "testimonialsIntro": {
+        "title": "Client <1>Testimonials</1>",
+        "text": "Trusted by <1>hundreds of satisfied</1> clients."
+    },
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah M.",
+        "role": "Corporate Client",
+        "comment": "We hired him for a sensitive internal investigation. His professionalism, discretion, and swift results exceeded all our expectations. Highly reliable."
+      },
+      "james": {
+        "name": "James R.",
+        "role": "Personal Client",
+        "comment": "He helped me uncover the truth in a very personal matter. Attentive, empathetic, and incredibly efficient. I can’t thank him enough and would recommend him without hesitation."
+      },
+      "lisa": {
+        "name": "Lisa K.",
+        "role": "Attorney",
+        "comment": "A trusted partner for sensitive legal cases. His thorough work has strengthened several of my cases with clear, admissible evidence. An invaluable asset in legal proceedings."
+      }
+    }
+  },
+
+  "services": {
+    "mainTitle": "Expert Private Investigation Services",
+    "mainText": "Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity.",
+
+    "serviceIntro": {
+      "title": "My Investigation <1>Services</1>",
+      "text": "I provide professional investigative services <1>tailored to your needs</1>. Every case is approached with <1>confidentiality and personal attention</1>."
+    },
+
+    "surveillance": {
+      "title": "Surveillance Services",
+      "text": "Discrete, effective surveillance using proven methods and modern equipment.",
+      "items": [
+        "Infidelity investigations",
+        "Insurance fraud detection",
+        "Employee misconduct monitoring",
+        "Child custody documentation"
+      ]
+    },
+
+    "background": {
+      "title": "Background Checks",
+      "text": "Detailed background checks for personal, business, or legal matters.",
+      "items": [
+        "Employment screening",
+        "Criminal record checks",
+        "Identity verification",
+        "Tenant background checks"
+      ]
+    },
+
+    "fraud": {
+      "title": "Fraud Investigations",
+      "text": "Investigating fraud with accuracy, discretion, and legal insight.",
+      "items": [
+        "Insurance claim fraud",
+        "Corporate fraud analysis",
+        "Document verification",
+        "Internal employee fraud"
+      ]
+    },
+
+    "legal": {
+      "title": "Legal Support Services",
+      "text": "Trusted investigation support for attorneys, clients, and legal cases.",
+      "items": [
+        "Witness location",
+        "Evidence gathering",
+        "Litigation support",
+        "Court case documentation"
+      ]
+    },
+
+    "missing": {
+      "title": "Missing Persons",
+      "text": "Finding missing individuals with care, discretion, and experience.",
+      "items": [
+        "Runaway teens",
+        "Lost relatives",
+        "Debtor location",
+        "Adoption reunions"
+      ]
+    },
+
+    "digital": {
+      "title": "Digital Investigations",
+      "text": "Uncover digital evidence and trace online behavior with precision.",
+      "items": [
+        "Social media tracking",
+        "Email tracing",
+        "Online fraud detection",
+        "Cyber harassment cases"
+      ]
+    },
+
+    "identity": {
+      "title": "Identity Verification",
+      "text": "Confirm identities discreetly using trusted tools and proven methods.",
+      "items": [
+        "Online dating verification",
+        "Pre-marital investigations",
+        "Business partner screening",
+        "Alias detection"
+      ]
+    },
+
+    "corporate": {
+      "title": "Corporate Investigations",
+      "text": "Protect your business with internal investigations and risk control.",
+      "items": [
+        "Internal theft",
+        "Employee background checks",
+        "Policy violations",
+        "Asset misuse tracking"
+      ]
+    },
+
+    "specialized": {
+      "title": "Specialized <1>Investigations</1>",
+      "text": "Advanced investigative services <1>for complex cases</1>.",
+      "corporate": {
+        "title": "Corporate Security",
+        "text": "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes."
+      },
+      "digital": {
+        "title": "Digital Forensics",
+        "text": "Computer and mobile device investigations, data recovery, and cybercrime analysis."
+      },
+      "insurance": {
+        "title": "Insurance Claims",
+        "text": "Workers' compensation fraud, disability claims verification, and accident reconstruction."
+      }
+    },
+
+    "process": {
+      "title": "My Investigation <1>Process</1>",
+      "text": "A systematic approach <1>ensuring thorough and reliable</1> results.",
+      "initial": {
+        "title": "Initial Consultation",
+        "text": "Begin with a confidential consultation to understand your needs and goals. This step lays the foundation for a clear and focused investigation."
+      },
+      "strategy": {
+        "title": "Strategy Development",
+        "text": "We craft a tailored investigation plan based on your case specifics. This ensures an efficient and legally sound approach to uncovering the facts."
+      },
+      "evidence": {
+        "title": "Evidence Collection",
+        "text": "Our investigators gather relevant and admissible evidence using professional and discreet techniques to support your case effectively."
+      },
+      "reporting": {
+        "title": "Reporting and Resolution",
+        "text": "You receive a detailed and structured report summarizing findings, including documentation, analysis, and recommended next steps."
+      }
+    }
+  },
+
+  "about": {
+    "title": "About Nicsec Investigation.",
+    "intro": "25+ years of experience delivering truth with integrity, discretion, and unwavering professionalism.",
+    
+    "story": {
+      "title": "My <1>Story</1>",
+      "text1": "Founded in 1999, Elite Investigations was born from a simple mission: to provide individuals and businesses with the truth they need to make informed decisions. What started as a one-person operation has grown into a full-service investigative agency trusted by attorneys, corporations, and families across the region.",
+      "text2": "Our founder, a former law enforcement officer with over 15 years of experience, recognized the need for professional, ethical, and discreet investigative services in the private sector. Today, we continue to uphold those same values while leveraging cutting-edge technology and proven methodologies.",
+      "text3": "We believe that everyone deserves access to the truth, and we're committed to uncovering it with the highest standards of professionalism and confidentiality."
+    },
+
+    "core": {
+      "title": "My <1>Core</1> Value",
+      "text": "The principles <1>that guide every investigation</1> we undertake.",
+      "integrity": {
+        "title": "Integrity",
+        "text": "We conduct all investigations with the highest ethical standards, ensuring honesty and transparency in every case."
+      },
+      "discretion": {
+        "title": "Discretion",
+        "text": "Confidentiality is paramount. We protect our clients' privacy and handle sensitive information with utmost care."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "text": "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies."
+      }
+    },
+
+    "credentials": {
+      "title": "Credentials <1>&</1> Certifications",
+      "text": "Professional <1>qualifications that ensure quality</1> service.",
+      "licensed": {
+        "title": "Licensed by SPF",
+        "text": "State licensed private investigator with full legal authority"
+      },
+      "asis": {
+        "title": "ASIS Certified",
+        "text": "American Society for Industrial Security professional certification"
+      },
+      "court": {
+        "title": "Court Qualified",
+        "text": "Qualified to provide expert testimony in legal proceedings"
+      },
+      "bonded": {
+        "title": "Bonded & Insured",
+        "text": "Fully bonded and insured for client protection"
+      }
+    },
+
+    "stats": {
+      "title": "Nicsec In <1>Numbers</1>",
+      "text": "Text to fill <1>or not</1>.",
+      "cases": {
+        "title": "2500+",
+        "text": "Cases Completed"
+      },
+      "success": {
+        "title": "95%",
+        "text": "Success Rate"
+      },
+      "years": {
+        "title": "25+",
+        "text": "Years Experience"
+      },
+      "support": {
+        "title": "24/7",
+        "text": "Available Support"
+      }
+    }
+  },
+
+  "faq": {
+    "title": "Faq for all the question.",
+    "description": "Providing discreet, thorough, and results-driven investigative services that empower individuals, businesses, and legal professionals, to make informed decisions.",
+    "intro": {
+      "title": "How Can I <1>Help</1> You?",
+      "text": "I understand that hiring a private investigator can raise many questions. Below are answers to the most common inquiries we receive from our clients.",
+      "note": "Don't see your question answered below? Contact me for a free consultation where we can discuss your specific needs and concerns."
+    },
+    "general": {
+      "title": "General Questions",
+      "questions": [
+        {
+          "question": "What is a private investigator?",
+          "answer": "A private investigator is a licensed professional who conducts investigations for individuals, attorneys, businesses, and organizations. We gather facts, collect evidence, and provide detailed reports to help clients make informed decisions about legal, personal, or business matters."
+        },
+        {
+          "question": "Is hiring a private investigator legal?",
+          "answer": "Yes, hiring a licensed private investigator is legal. Investigators operate within the boundaries of the law and adhere to strict ethical guidelines to protect clients' confidentiality and privacy."
+        },
+        {
+          "question": "What kind of cases do private investigators handle?",
+          "answer": "Private investigators work on a wide range of cases, including infidelity investigations, background checks, fraud detection, missing persons, surveillance, insurance claims, and more."
+        },
+        {
+          "question": "How much does a private investigation cost?",
+          "answer": "Costs vary depending on the complexity of the case, the time required, and the type of services needed. We provide a clear estimate after an initial consultation."
+        },
+        {
+          "question": "Is the information collected by a PI admissible in court?",
+          "answer": "Yes, evidence collected legally by a licensed private investigator can often be used in court. We ensure all information is obtained lawfully and documented thoroughly."
+        },
+        {
+          "question": "How do you ensure confidentiality during an investigation?",
+          "answer": "Confidentiality is a top priority. All investigations are conducted discreetly, and client information is never shared without consent."
+        }
+      ]
+    },
+    "process": {
+      "title": "Process & Confidentiality",
+      "questions": [
+        {
+          "question": "How does the investigation process begin?",
+          "answer": "The process starts with an initial consultation where we discuss your situation, goals, and available information. Based on this, we develop a tailored plan of action and provide a clear overview of the next steps and associated costs."
+        },
+        {
+          "question": "Do I need to provide any documents or information?",
+          "answer": "Yes, any relevant details or documents you can provide — such as names, addresses, photos, or past incidents — will help us conduct a more efficient and focused investigation."
+        },
+        {
+          "question": "How often will I receive updates during the investigation?",
+          "answer": "We maintain regular communication and provide updates at key points during the investigation. You're also welcome to contact us at any time with questions or concerns."
+        },
+        {
+          "question": "Will my identity remain confidential?",
+          "answer": "Absolutely. Client confidentiality is a top priority. We never disclose your identity or involvement in the investigation without your explicit consent."
+        },
+        {
+          "question": "Is the subject of the investigation notified or contacted?",
+          "answer": "No. Our investigations are conducted discreetly and without the knowledge of the subject, unless required or authorized by law."
+        },
+        {
+          "question": "How is the information I share with you protected?",
+          "answer": "All information you provide is securely stored and only accessible by authorized personnel. We follow strict data protection and privacy protocols."
+        }
+      ]
+    }
+  }
+}

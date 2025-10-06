@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Overpass", sans-serif;
+  color: #394149;
+  font-optical-sizing: auto;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@theme {
+  --radius-second: 0.7em;
+  --color-background: #F3F2F2;
+  --color-second: #C21F22;
+  --color-main: #394149;
+  --breakpoint-lg: 68.75rem;
+  --breakpoint-md: 60rem;
+  --breakpoint-smd: 51rem;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold
+  
+  }
+
+  h3 {
+    @apply text-3xl
+  }
+
+  h4 {
+    @apply text-base
+  }
+
+  p {
+    @apply text-sm
+  }
+
+  button {
+    @apply cursor-pointer flex flex-row justify-center items-center gap-1 rounded-second py-2 px-5
+  }
+  
+  .btn-primary {
+    @apply text-white text-sm font-medium bg-second hover:bg-red-800 transition duration-200 ease-in-out
+  }
+  
+  .btn-secondary {
+    @apply text-white text-sm border-2 border-white hover:bg-white hover:text-black transition duration-200 ease-in-out
+  }
+
+  .btn-outline {
+    @apply text-xs py-2 px-5 rounded-second font-bold uppercase hover:bg-background border-1 border-background transition duration-200 ease-in-out
+  }
+
+  .btn-navbar {
+    @apply rounded-second py-2 lg:px-4 px-3 flex flex-row items-center gap-2 hover:bg-background transition duration-200 ease-in-out
+  }
+}
+
+
+/* Home page main content svg clip-path */
+
+.clipped-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: url(#main-content-svg);
+  display: block;
+  filter: grayscale(1);
+}
+
+.clipped-content {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+
+@layer utilities {
+  .border-card {
+    @apply border-background border-1 rounded-second
+  }
+}

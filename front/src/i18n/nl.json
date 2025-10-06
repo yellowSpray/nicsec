@@ -1,0 +1,400 @@
+{
+  "navbar": {
+    "service": "Diensten",
+    "about": "Over mij",
+    "faq": "FAQ"
+  },
+  "button": {
+    "content": "Contacteer mij",
+    "404": "Ga terug"
+  },
+  "404": {
+    "mainTitle": "Fout 404",
+    "mainText": "De pagina die u zocht is verdwenen!"
+  },
+  "footer": {
+    "contactTitle": "Contacteer mij vandaag",
+    "contactText": "Met ervaring en precisie bied ik professionele opsporingsdiensten op maat, met de grootste discretie.",
+    "call": "Bel mij vandaag: 049XXXXXXX",
+    "hours": "Ma - Zo: 06:00 - 22:00",
+    "location": "België, Brussel - Waals-Brabant - Namen",
+    "copyright": "© 2025 Nicosec. Alle rechten voorbehouden."
+  },
+  "form": {
+    "title": "Gratis consultatie aanvragen",
+    "name": "Naam Voornaam",
+    "namePlaceholder": "Uw volledige naam.",
+    "email": "E-mail",
+    "emailPlaceholder": "uw@email.com",
+    "phone": "Telefoon",
+    "phonePlaceholder": "+32XXXXXXX",
+    "subjectTitle": "Selecteer onderwerp",
+    "subjectDefault": "Selecteer een zaak",
+    "subject": {
+      "surveillance": "Observatie",
+      "infidelity": "Ontrouwonderzoek",
+      "background": "Antecedentenonderzoek",
+      "missing": "Vermiste persoon",
+      "fraud": "Fraudeonderzoek"
+    },
+    "description": "Beschrijving",
+    "descriptionPlaceholder": "Beschrijf uw zaak",
+    "confirm": "Uw bericht is verzonden!",
+    "send": "Verzenden"
+  },
+  "errors": {
+    "nameTooShort": "Naam te kort!",
+    "emailInvalid": "E-mail niet geldig!",
+    "phoneInvalid": "Telefoonnummer niet geldig",
+    "subjectRequired": "Selecteer een onderwerp.",
+    "descriptionTooShort": "Beschrijving is onvoldoende",
+    "descriptionRequired": "Dit veld is verplicht."
+  },
+
+  "home": {
+    "content": {
+      "title": "Professionele en vriendelijke privédetective.",
+      "text": "Het leveren van discrete, grondige en resultaatgerichte opsporingsdiensten die particulieren, bedrijven en juridische professionals in staat stellen weloverwogen beslissingen te nemen."
+    },
+    "servicesIntro": {
+      "title": "Welke <1>diensten</1> ik aanbied",
+      "text": "Mijn ervaring levert betrouwbare <1>discrete oplossingen die mijn klanten in staat stellen weloverwogen</1> en effectieve beslissingen te nemen."
+    },
+    "services": {
+      "surveillance": {
+        "title": "Observatie",
+        "text": "Verkrijg cruciale inzichten met onze deskundige observatiediensten, uitgevoerd met absolute discretie en professionaliteit."
+      },
+      "peopleTracing": {
+        "title": "Personen opsporen",
+        "text": "De locatie en activa van een schuldenaar identificeren ter ondersteuning van een schuldenvorderingszaak"
+      },
+      "insuranceFraud": {
+        "title": "Verzekeringsfraude",
+        "text": "Professionele verzameling van bewijs en informatie om frauduleuze verzekeringsclaims aan het licht te brengen."
+      },
+      "privateInvestigations": {
+        "title": "Privéonderzoeken",
+        "text": "Professionele verzameling van informatie en bewijs voor particulieren op een discrete, ethische en wettige manier."
+      }
+    },
+    "reasonsIntro": {
+      "title": "Waarom <1>kiezen voor</1> Nicsec investigations?",
+      "text": "Betrouwbare expertise die <1>vertrouwelijke, nauwkeurige en professionele</1> onderzoeksoplossingen levert."
+    },
+    "reasons": {
+      "licensed": {
+        "title": "Gelicentieerd en verzekerd",
+        "text": "Volledig gelicentieerde privédetective met uitgebreide verzekeringsdekking."
+      },
+      "confidential": {
+        "title": "100% vertrouwelijk",
+        "text": "Uw privacy en zaakdetails worden beschermd met het hoogste niveau van discretie."
+      },
+      "availability": {
+        "title": "24/7 beschikbaarheid",
+        "text": "24 uur per dag beschikbaar voor urgente zaken en noodsituaties."
+      },
+      "proven": {
+        "title": "Bewezen expertise",
+        "text": "Uitgebreide onderzoekservaring die nauwkeurige resultaten en betrouwbare uitkomsten garandeert."
+      }
+    },
+    "testimonialsIntro": {
+        "title": "Klant <1>getuigenissen</1>",
+        "text": "Vertrouwd door <1>honderden tevreden</1> klanten."
+    },
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah M.",
+        "role": "Zakelijke klant",
+        "comment": "We hebben hem ingehuurd voor een gevoelig intern onderzoek. Zijn professionaliteit, discretie en snelle resultaten overtroffen al onze verwachtingen. Zeer betrouwbaar."
+      },
+      "james": {
+        "name": "James R.",
+        "role": "Particuliere klant",
+        "comment": "Hij hielp me de waarheid te ontdekken in een zeer persoonlijke kwestie. Attent, empathisch en ongelooflijk efficiënt. Ik kan hem niet genoeg bedanken en zou hem zonder aarzelen aanbevelen."
+      },
+      "lisa": {
+        "name": "Lisa K.",
+        "role": "Advocaat",
+        "comment": "Een vertrouwde partner voor gevoelige juridische zaken. Zijn grondig werk heeft verschillende van mijn zaken versterkt met duidelijk, toelaatbaar bewijs. Een onschatbare aanwinst in juridische procedures."
+      }
+    }
+  },
+
+  "services": {
+    "mainTitle": "Deskundige privédetective diensten",
+    "mainText": "Discrete en resultaatgerichte oplossingen afgestemd op uw specifieke behoeften. Vertrouw op onze expertise om de waarheid te onthullen met professionaliteit en integriteit.",
+
+    "serviceIntro": {
+      "title": "Mijn <1>onderzoeks</1>diensten",
+      "text": "Ik bied professionele opsporingsdiensten <1>afgestemd op uw behoeften</1>. Elke zaak wordt benaderd met <1>vertrouwelijkheid en persoonlijke aandacht</1>."
+    },
+
+    "surveillance": {
+      "title": "Observatiediensten",
+      "text": "Discrete, effectieve observatie met bewezen methoden en moderne apparatuur.",
+      "items": [
+        "Ontrouwonderzoeken",
+        "Detectie van verzekeringsfraude",
+        "Monitoring van wangedrag van werknemers",
+        "Documentatie voor voogdijzaken"
+      ]
+    },
+
+    "background": {
+      "title": "Antecedentenonderzoeken",
+      "text": "Gedetailleerde antecedentencontroles voor persoonlijke, zakelijke of juridische aangelegenheden.",
+      "items": [
+        "Screening van werknemers",
+        "Strafbladcontroles",
+        "Identiteitsverificatie",
+        "Huurder antecedentencontroles"
+      ]
+    },
+
+    "fraud": {
+      "title": "Fraudeonderzoeken",
+      "text": "Onderzoek naar fraude met nauwkeurigheid, discretie en juridisch inzicht.",
+      "items": [
+        "Verzekeringsclaim fraude",
+        "Bedrijfsfraude analyse",
+        "Documentverificatie",
+        "Interne werknemersfraude"
+      ]
+    },
+
+    "legal": {
+      "title": "Juridische ondersteuningsdiensten",
+      "text": "Betrouwbare onderzoeksondersteuning voor advocaten, klanten en juridische zaken.",
+      "items": [
+        "Getuigen lokaliseren",
+        "Bewijsverzameling",
+        "Procesondersteuning",
+        "Documentatie van rechtszaken"
+      ]
+    },
+
+    "missing": {
+      "title": "Vermiste personen",
+      "text": "Het vinden van vermiste personen met zorg, discretie en ervaring.",
+      "items": [
+        "Weggelopen tieners",
+        "Verloren familieleden",
+        "Schuldenaar lokalisatie",
+        "Adoptiereünies"
+      ]
+    },
+
+    "digital": {
+      "title": "Digitale onderzoeken",
+      "text": "Digitaal bewijs ontdekken en online gedrag traceren met precisie.",
+      "items": [
+        "Social media tracking",
+        "E-mail tracking",
+        "Online fraudedetectie",
+        "Cyberpest zaken"
+      ]
+    },
+
+    "identity": {
+      "title": "Identiteitsverificatie",
+      "text": "Identiteiten discreet bevestigen met behulp van betrouwbare tools en bewezen methoden.",
+      "items": [
+        "Online dating verificatie",
+        "Pre-huwelijks onderzoeken",
+        "Zakelijke partner screening",
+        "Alias detectie"
+      ]
+    },
+
+    "corporate": {
+      "title": "Bedrijfsonderzoeken",
+      "text": "Bescherm uw bedrijf met interne onderzoeken en risicobeheersing.",
+      "items": [
+        "Interne diefstal",
+        "Antecedentenonderzoek werknemers",
+        "Beleidsschendingen",
+        "Tracking van misbruik van bedrijfsmiddelen"
+      ]
+    },
+
+    "specialized": {
+      "title": "Gespecialiseerde <1>onderzoeken</1>",
+      "text": "Geavanceerde opsporingsdiensten <1>voor complexe zaken</1>.",
+      "corporate": {
+        "title": "Bedrijfsbeveiliging",
+        "text": "Interne diefstal, bedrijfsspionage en werkplekonderzoeken voor bedrijven van elke omvang."
+      },
+      "digital": {
+        "title": "Digitale forensiek",
+        "text": "Computer- en mobiele apparaat onderzoeken, gegevensherstel en cybercriminaliteitsanalyse."
+      },
+      "insurance": {
+        "title": "Verzekeringsclaims",
+        "text": "Arbeidsongeschiktheidsfraude, verificatie van invaliditeitsclaims en reconstructie van ongevallen."
+      }
+    },
+
+    "process": {
+      "title": "Mijn <1>onderzoeks</1>proces",
+      "text": "Een systematische aanpak <1>die grondige en betrouwbare</1> resultaten garandeert.",
+      "initial": {
+        "title": "Initiële consultatie",
+        "text": "Begin met een vertrouwelijk consult om uw behoeften en doelen te begrijpen. Deze stap legt de basis voor een duidelijk en gericht onderzoek."
+      },
+      "strategy": {
+        "title": "Strategie ontwikkeling",
+        "text": "We maken een onderzoeksplan op maat op basis van de specificaties van uw zaak. Dit zorgt voor een efficiënte en juridisch solide aanpak om de feiten te ontdekken."
+      },
+      "evidence": {
+        "title": "Bewijsverzameling",
+        "text": "Onze onderzoekers verzamelen relevant en toelaatbaar bewijs met behulp van professionele en discrete technieken om uw zaak effectief te ondersteunen."
+      },
+      "reporting": {
+        "title": "Rapportage en oplossing",
+        "text": "U ontvangt een gedetailleerd en gestructureerd rapport met een samenvatting van de bevindingen, inclusief documentatie, analyse en aanbevolen vervolgstappen."
+      }
+    }
+  },
+
+  "about": {
+    "title": "Over Nicsec Investigation.",
+    "intro": "Meer dan 25 jaar ervaring in het leveren van waarheid met integriteit, discretie en onwrikbaar professionalisme.",
+    
+    "story": {
+      "title": "Mijn <1>verhaal</1>",
+      "text1": "Opgericht in 1999, Elite Investigations is ontstaan uit een eenvoudige missie: particulieren en bedrijven voorzien van de waarheid die ze nodig hebben om weloverwogen beslissingen te nemen. Wat begon als een eenmanszaak is uitgegroeid tot een full-service opsporingsbureau dat vertrouwd wordt door advocaten, bedrijven en gezinnen in de hele regio.",
+      "text2": "Onze oprichter, een voormalig wetshandhavingsambtenaar met meer dan 15 jaar ervaring, erkende de behoefte aan professionele, ethische en discrete opsporingsdiensten in de particuliere sector. Vandaag blijven we dezelfde waarden handhaven terwijl we gebruikmaken van geavanceerde technologie en bewezen methodologieën.",
+      "text3": "We geloven dat iedereen recht heeft op toegang tot de waarheid, en we zijn toegewijd om deze te ontdekken met de hoogste normen van professionaliteit en vertrouwelijkheid."
+    },
+
+    "core": {
+      "title": "Mijn <1>kern</1>waarden",
+      "text": "De principes <1>die elk onderzoek leiden</1> dat we ondernemen.",
+      "integrity": {
+        "title": "Integriteit",
+        "text": "We voeren alle onderzoeken uit volgens de hoogste ethische normen, waarbij we eerlijkheid en transparantie garanderen in elke zaak."
+      },
+      "discretion": {
+        "title": "Discretie",
+        "text": "Vertrouwelijkheid is van het grootste belang. We beschermen de privacy van onze klanten en behandelen gevoelige informatie met de grootste zorg."
+      },
+      "excellence": {
+        "title": "Excellentie",
+        "text": "We streven naar perfectie in elk onderzoek, met behulp van geavanceerde technieken, innovatieve tools en grondige methodologieën."
+      }
+    },
+
+    "credentials": {
+      "title": "Accreditaties <1>en</1> certificeringen",
+      "text": "Professionele <1>kwalificaties die kwaliteitsservice</1> garanderen.",
+      "licensed": {
+        "title": "Gelicentieerd door FOD",
+        "text": "Door de staat gelicentieerde privédetective met volledige wettelijke bevoegdheid"
+      },
+      "asis": {
+        "title": "ASIS gecertificeerd",
+        "text": "American Society for Industrial Security professionele certificering"
+      },
+      "court": {
+        "title": "Rechtbank gekwalificeerd",
+        "text": "Gekwalificeerd om deskundige getuigenis te leveren in juridische procedures"
+      },
+      "bonded": {
+        "title": "Geborgd en verzekerd",
+        "text": "Volledig geborgd en verzekerd voor klantbescherming"
+      }
+    },
+
+    "stats": {
+      "title": "Nicsec in <1>cijfers</1>",
+      "text": "Tekst om in te vullen <1>of niet</1>.",
+      "cases": {
+        "title": "2500+",
+        "text": "Afgeronde zaken"
+      },
+      "success": {
+        "title": "95%",
+        "text": "Succespercentage"
+      },
+      "years": {
+        "title": "25+",
+        "text": "Jaren ervaring"
+      },
+      "support": {
+        "title": "24/7",
+        "text": "Beschikbare ondersteuning"
+      }
+    }
+  },
+
+  "faq": {
+    "title": "FAQ voor al uw vragen.",
+    "description": "Het leveren van discrete, grondige en resultaatgerichte opsporingsdiensten die particulieren, bedrijven en juridische professionals in staat stellen weloverwogen beslissingen te nemen.",
+    "intro": {
+      "title": "Hoe kan ik <1>u helpen</1>?",
+      "text": "Ik begrijp dat het inhuren van een privédetective veel vragen kan oproepen. Hieronder vindt u antwoorden op de meest gestelde vragen die we van onze klanten ontvangen.",
+      "note": "Ziet u uw vraag hieronder niet beantwoord? Neem contact met me op voor een gratis consultatie waarin we uw specifieke behoeften en zorgen kunnen bespreken."
+    },
+    "general": {
+      "title": "Algemene vragen",
+      "questions": [
+        {
+          "question": "Wat is een privédetective?",
+          "answer": "Een privédetective is een gelicentieerde professional die onderzoeken uitvoert voor particulieren, advocaten, bedrijven en organisaties. We verzamelen feiten, verzamelen bewijs en leveren gedetailleerde rapporten om klanten te helpen weloverwogen beslissingen te nemen over juridische, persoonlijke of zakelijke aangelegenheden."
+        },
+        {
+          "question": "Is het inhuren van een privédetective legaal?",
+          "answer": "Ja, het inhuren van een gelicentieerde privédetective is legaal. Onderzoekers opereren binnen de grenzen van de wet en houden zich aan strikte ethische richtlijnen om de vertrouwelijkheid en privacy van klanten te beschermen."
+        },
+        {
+          "question": "Welk soort zaken behandelen privédetectives?",
+          "answer": "Privédetectives werken aan een breed scala aan zaken, waaronder ontrouwonderzoeken, antecedentencontroles, fraudedetectie, vermiste personen, observatie, verzekeringsclaims en meer."
+        },
+        {
+          "question": "Hoeveel kost een privéonderzoek?",
+          "answer": "De kosten variëren afhankelijk van de complexiteit van de zaak, de benodigde tijd en het type diensten dat nodig is. We geven een duidelijke schatting na een initieel consult."
+        },
+        {
+          "question": "Is het door een privédetective verzamelde bewijs toelaatbaar in de rechtbank?",
+          "answer": "Ja, bewijs dat legaal is verzameld door een gelicentieerde privédetective kan vaak worden gebruikt in de rechtbank. We zorgen ervoor dat alle informatie rechtmatig wordt verkregen en grondig wordt gedocumenteerd."
+        },
+        {
+          "question": "Hoe waarborgt u vertrouwelijkheid tijdens een onderzoek?",
+          "answer": "Vertrouwelijkheid is een topprioriteit. Alle onderzoeken worden discreet uitgevoerd en klantinformatie wordt nooit gedeeld zonder toestemming."
+        }
+      ]
+    },
+    "process": {
+      "title": "Proces en vertrouwelijkheid",
+      "questions": [
+        {
+          "question": "Hoe begint het onderzoeksproces?",
+          "answer": "Het proces begint met een initiële consultatie waarin we uw situatie, doelen en beschikbare informatie bespreken. Op basis hiervan ontwikkelen we een actieplan op maat en geven we een duidelijk overzicht van de volgende stappen en bijbehorende kosten."
+        },
+        {
+          "question": "Moet ik documenten of informatie verstrekken?",
+          "answer": "Ja, alle relevante details of documenten die u kunt verstrekken — zoals namen, adressen, foto's of eerdere incidenten — zullen ons helpen een efficiënter en gerichter onderzoek uit te voeren."
+        },
+        {
+          "question": "Hoe vaak ontvang ik updates tijdens het onderzoek?",
+          "answer": "We onderhouden regelmatige communicatie en geven updates op belangrijke momenten tijdens het onderzoek. U bent ook altijd welkom om contact met ons op te nemen met vragen of zorgen."
+        },
+        {
+          "question": "Blijft mijn identiteit vertrouwelijk?",
+          "answer": "Absoluut. Klantvertrouwelijkheid is een topprioriteit. We maken uw identiteit of betrokkenheid bij het onderzoek nooit bekend zonder uw expliciete toestemming."
+        },
+        {
+          "question": "Wordt het onderwerp van het onderzoek op de hoogte gesteld of gecontacteerd?",
+          "answer": "Nee. Onze onderzoeken worden discreet uitgevoerd en zonder medeweten van het onderwerp, tenzij vereist of toegestaan door de wet."
+        },
+        {
+          "question": "Hoe wordt de informatie die ik met u deel beschermd?",
+          "answer": "Alle informatie die u verstrekt wordt veilig opgeslagen en is alleen toegankelijk voor geautoriseerd personeel. We volgen strikte protocollen voor gegevensbescherming en privacy."
+        }
+      ]
+    }
+  }
+}
