@@ -13,5 +13,4 @@
 * language filter 
 
 ## TODO 🚧
-* form - clean the message when its sent
 * SEO
