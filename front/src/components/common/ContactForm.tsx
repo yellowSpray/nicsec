@@ -28,9 +28,21 @@ export default function ContactForm() {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (data: FormData) => {
-    console.log(data)
-    toast.success(t("form.confirm"))
+  const onSubmit = async (data: FormData) => {
+    try {
+      const res = await fetch("api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json"},
+        body: JSON.stringify(data)
+      })
+      
+      if(res.ok) {
+        toast.success(t("form.confirm"))
+      }
+    } catch (error) {
+      console.error(error)
+      toast.error("Error network");
+    }
   };
 
   return (
