@@ -24,20 +24,21 @@ export default function ContactForm() {
     register,
     formState: { errors },
     handleSubmit,
+    reset,
   } = useForm<FormData>({
     resolver: zodResolver(schema),
   });
 
   const onSubmit = async (data: FormData) => {
     try {
-      const res = await fetch("api/send-email", {
+      const res = await fetch("/api/send-email", {
         method: "POST",
         headers: { "Content-Type": "application/json"},
         body: JSON.stringify(data)
       })
-      
       if(res.ok) {
         toast.success(t("form.confirm"))
+        reset()
       }
     } catch (error) {
       console.error(error)

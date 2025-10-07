@@ -5,7 +5,8 @@ import { useTranslation, Trans } from "react-i18next";
 // import { gsap } from 'gsap'
 import imageDetective from '@/assets/images/detective_pic.png'
 import imageService from '@/assets/images/service-preview.jpg'
-import imageTest from '@/assets/images/service-preview3.jpg'
+import imagePreviewA from '@/assets/images/service-preview2.jpg'
+import imagePreviewB from '@/assets/images/service-preview3.jpg'
  
 
 export default function StepProcess() {
@@ -31,14 +32,14 @@ export default function StepProcess() {
             id: 3,
             icons: <Fingerprint className='text-second size-4' />,
             title: t("services.process.evidence.title"),
-            image: imageTest,
+            image: imagePreviewA,
             description: t("services.process.strategy.text"),
         },
         {
             id: 4,
             icons: <IdCard className='text-second size-4' />,
             title: t("services.process.reporting.title"),
-            image: imageDetective,
+            image: imagePreviewB,
             description: t("services.process.strategy.text"),
         },
     ] 
