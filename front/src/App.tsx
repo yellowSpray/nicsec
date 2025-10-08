@@ -10,6 +10,15 @@ import { useLoadingStore } from "./hooks/loadingStore";
 import gsap from "gsap";
 import { Toaster } from "sonner";
 
+import AboutBg from "@/assets/images/about-background.png";
+import FaqBg from "@/assets/images/faq-background.png";
+import ServiceBg from "@/assets/images/service-background.png";
+import Detective from "@/assets/images/detective_pic.png";
+import Detective404 from "@/assets/images/detective404.jpg";
+import ServicePreview1 from "@/assets/images/service-preview.jpg";
+import ServicePreview2 from "@/assets/images/service-preview2.jpg";
+import ServicePreview3 from "@/assets/images/service-preview3.jpg";
+
 function App() {
   // Zustand store for loading state
   // This will be used to manage the loading state across the application
@@ -44,14 +53,14 @@ function App() {
         })
         // preload images 
         const preloadSrc = [
-          "./assets/about-background.png",
-          "./assets/faq-background.png",
-          "./assets/service-background.png",
-          "./assets/detective_pic.png",
-          "./assets/detective404.jpg",
-          "./assets/service-preview.jpg",
-          "./assets/service-preview2.jpg",
-          "./assets/service-preview3.jpg"
+          AboutBg,
+          FaqBg,
+          ServiceBg,
+          Detective,
+          Detective404,
+          ServicePreview1,
+          ServicePreview2,
+          ServicePreview3
         ]
         
         const preloadExtra = preloadSrc.map((src) => {
