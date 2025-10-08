@@ -41,7 +41,6 @@ body {
     @apply text-3xl
   }
 
-
   h4 {
     @apply text-base
   }
@@ -94,6 +93,13 @@ body {
   flex-direction: column;
   justify-content: center;
   color: white;
+}
+
+@media (max-width: 425px) {
+  .clipped-content {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 
