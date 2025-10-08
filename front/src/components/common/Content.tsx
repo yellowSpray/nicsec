@@ -53,7 +53,7 @@ export default function Content({
           <img src={backgroundImage} alt="Private Detective Professional" />
           <article className={`clipped-content space-y-8 ${positionClassName}`}>
             <aside className="md:w-150 sm:w-100 w-70 space-y-8">
-              <h2 className="text-5xl">{parsedTitle}</h2>
+              <h2 className="text-4xl sm:text-5xl">{parsedTitle}</h2>
               <p className="text-sm">{text}</p>
             </aside>
             <div className="flex flex-row items-center gap-5">

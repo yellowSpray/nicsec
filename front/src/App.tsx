@@ -22,12 +22,69 @@ function App() {
   const contentRef = useRef<HTMLDivElement>(null);
   const overlayRef = useRef<HTMLDivElement>(null);
 
-  // Set loading state to true when the component mounts
   useEffect(() => {
-    const handleLoad = () => setIsLoading(false);
-    window.addEventListener("load", handleLoad);
-    // Cleanup the event listener on component unmount
-    return () => window.removeEventListener("load", handleLoad);
+
+    let isCancelled = false
+
+    const timeout = setTimeout(() => {
+      if (!isCancelled) {
+        console.warn("way to long to load ...")
+        setIsLoading(false)
+      }
+    }, 8000)
+
+    async function preLoadApp() {
+      try {
+        // wait to load
+        const imagesPromises = Array.from(document.images).map((img) => {
+          if (img.complete) return Promise.resolve()
+          return new Promise((resolve) => {
+            img.onload = img.onerror = resolve
+          })
+        })
+        // preload images 
+        const preloadSrc = [
+          "./assets/about-background.png",
+          "./assets/faq-background.png",
+          "./assets/service-background.png",
+          "./assets/detective_pic.png",
+          "./assets/detective404.jpg",
+          "./assets/service-preview.jpg",
+          "./assets/service-preview2.jpg",
+          "./assets/service-preview3.jpg"
+        ]
+        
+        const preloadExtra = preloadSrc.map((src) => {
+          return new Promise((resolve) => {
+            const img = new Image()
+            img.src = src
+            img.onload = img.onerror = resolve
+          })
+        })
+        // wait for all
+        await Promise.all([...imagesPromises, ...preloadExtra])
+        // small transition
+        await new Promise((r) => setTimeout(r, 500))
+
+        if (!isCancelled) {
+          setIsLoading(false)
+        }
+
+      } catch (error) {
+        console.error(error)
+        setIsLoading(false)
+      } finally {
+        clearTimeout(timeout)
+      }
+    }
+
+    preLoadApp()
+
+    return () => {
+      isCancelled = true
+      clearTimeout(timeout)
+    }
+
   }, [setIsLoading]);
 
   useEffect(() => {

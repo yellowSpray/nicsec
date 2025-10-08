@@ -9,8 +9,8 @@ export default function Footer() {
 
   return (
     <footer className="w-full flex flex-col items-center" id="footer">
-        <section className="max-w-6xl p-10 mx-8 bg-main rounded-second grid grid-cols-12 gap-8 max-md:grid-cols-4">
-          <div className="flex flex-col text-white space-y-8 col-span-5 max-md:col-span-4">
+        <section className="max-w-6xl p-10 mx-8 bg-main rounded-second grid grid-cols-12 gap-8 max-md:grid-cols-4 max-sm:grid-cols-1">
+          <div className="flex flex-col text-white space-y-8 col-span-5 max-md:col-span-4 max-sm:col-span-1">
             <article className="space-y-8">
               <h3 className="text-3xl">{t('footer.contactTitle')}</h3>
               <p>{t('footer.contactText')}</p>
@@ -30,7 +30,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="h-full col-span-7 max-md:col-span-4">
+          <div className="h-full col-span-7 max-md:col-span-4 max-sm:col-span-1">
             <ContactForm />
           </div>
         </section>

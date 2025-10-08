@@ -78,7 +78,7 @@ export default function ContactForm() {
               {...register("email", { required: true })}
               type="text"
               placeholder={t("form.emailPlaceholder")}
-              className="border border-gray-300 rounded-lg p-2"
+              className="w-full border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.email ? "true" : "false"}
             />
             {errors.email && (
@@ -94,7 +94,7 @@ export default function ContactForm() {
               {...register("phone", { required: true })}
               type="text"
               placeholder={t("form.phonePlaceholder")}
-              className="border border-gray-300 rounded-lg p-2"
+              className="w-full border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.phone ? "true" : "false"}
             />
             {errors.phone && (
@@ -106,16 +106,12 @@ export default function ContactForm() {
             <label className="hidden" htmlFor="subject">{t("form.subjectTitle")}</label>
             <select
               {...register("subject", { required: "Please select a subject." })}
-              className="border border-gray-300 rounded-lg p-2"
+              className="w-full border border-gray-300 rounded-lg p-2"
               aria-invalid={errors.subject ? "true" : "false"}
               defaultValue=""
             >
-              <option value="" disabled>
-                {t("form.subjectDefault")}
-              </option>
-              <option value="surveillance">
-                {t("form.subject.surveillance")}
-              </option>
+              <option value="" disabled>{t("form.subjectDefault")}</option>
+              <option value="surveillance">{t("form.subject.surveillance")}</option>
               <option value="infidelity">{t("form.subject.infidelity")}</option>
               <option value="background">{t("form.subject.background")}</option>
               <option value="missing">{t("form.subject.missing")}</option>
@@ -135,7 +131,7 @@ export default function ContactForm() {
               required: "This field is required.",
             })}
             placeholder={t("form.descriptionPlaceholder")}
-            className="border border-gray-300 rounded-lg p-2 resize-none min-h-[100px]"
+            className="w-full border border-gray-300 rounded-lg p-2 resize-none min-h-[100px]"
             aria-invalid={errors.description ? "true" : "false"}
           />
           {errors.description && (
