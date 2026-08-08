@@ -396,5 +396,10 @@
         }
       ]
     }
+  },
+  "easterEgg": {
+    "jump": "springen",
+    "smash": "verpletteren",
+    "quit": "herbouwen"
   }
 }

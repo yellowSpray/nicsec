@@ -396,5 +396,10 @@
         }
       ]
     }
+  },
+  "easterEgg": {
+    "jump": "jump",
+    "smash": "smash",
+    "quit": "rebuild"
   }
 }

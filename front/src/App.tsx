@@ -5,6 +5,7 @@ import Footer from "./components/common/Footer.tsx";
 import Header from "./components/common/Header.tsx";
 import AppRouter from "./routes/AppRouter.tsx";
 import OverlayLoader from "./components/ui/overlayLoader.tsx";
+import DemolitionEgg from "./features/demolition/DemolitionEgg.tsx";
 
 import { useLoadingStore } from "./hooks/loadingStore";
 import gsap from "gsap";
@@ -141,6 +142,7 @@ function App() {
       <Header HeaderProps={headerRef} />
       <AppRouter ContentProps={contentRef} />
       <Footer />
+      <DemolitionEgg />
     </>
   );
 }
