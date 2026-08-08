@@ -19,7 +19,7 @@ export default function Header({ HeaderProps }: HeaderProps) {
         <NavLink to="/" end>
           <img
             src={`${isDesktop ? logo : symbol}`}
-            alt="logo of nicsec"
+            alt="logo of vestige"
             className={`${isDesktop ? "w-30" : "w-7"}`}
           />
         </NavLink>
