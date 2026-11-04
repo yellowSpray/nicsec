@@ -118,26 +118,10 @@
         "text": "Limiting access to information and protecting case files."
       }
     },
-    "testimonialsIntro": {
-      "title": "Client <1>Testimonials</1>",
-      "text": "Trusted by <1>hundreds of satisfied</1> clients."
-    },
-    "testimonials": {
-      "sarah": {
-        "name": "Sarah M.",
-        "role": "Corporate Client",
-        "comment": "We hired him for a sensitive internal investigation. His professionalism, discretion, and swift results exceeded all our expectations. Highly reliable."
-      },
-      "james": {
-        "name": "James R.",
-        "role": "Personal Client",
-        "comment": "He helped me uncover the truth in a very personal matter. Attentive, empathetic, and incredibly efficient. I can’t thank him enough and would recommend him without hesitation."
-      },
-      "lisa": {
-        "name": "Lisa K.",
-        "role": "Attorney",
-        "comment": "A trusted partner for sensitive legal cases. His thorough work has strengthened several of my cases with clear, admissible evidence. An invaluable asset in legal proceedings."
-      }
+    "cta": {
+      "title": "Facing an uncertain situation and wondering whether an <1>investigation</1> is possible?",
+      "text": "Briefly describe the context. A first conversation helps <1>assess your request before any commitment</1>.",
+      "button": "Talk about your situation"
     }
   },
   "services": {

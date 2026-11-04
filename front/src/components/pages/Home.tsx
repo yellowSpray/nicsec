@@ -5,7 +5,7 @@ import Detective from "@/assets/images/detective_pic.png";
 import Content from "@/components/common/Content";
 import Features from "@/components/layouts/Home-services";
 import Preview from "@/components/layouts/Home-previews";
-import TestimonialsAll from "@/components/layouts/Home-testimonials";
+import CallToAction from "@/components/layouts/Home-cta";
 
 // library
 import { useTranslation } from "react-i18next";
@@ -44,7 +44,7 @@ export default function Home() {
 
       <Preview />
 
-      <TestimonialsAll />
+      <CallToAction />
       
     </main>
   );

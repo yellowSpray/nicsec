@@ -118,26 +118,10 @@
         "text": "Limiter l'accès aux informations et protéger les dossiers."
       }
     },
-    "testimonialsIntro": {
-      "title": "Témoignages <1>clients</1>",
-      "text": "Approuvé par <1>des centaines de clients</1> satisfaits."
-    },
-    "testimonials": {
-      "sarah": {
-        "name": "Sarah M.",
-        "role": "Cliente d'entreprise",
-        "comment": "Nous l'avons engagé pour une enquête interne sensible. Son professionnalisme, sa discrétion et ses résultats rapides ont dépassé toutes nos attentes. Très fiable."
-      },
-      "james": {
-        "name": "James R.",
-        "role": "Client particulier",
-        "comment": "Il m'a aidé à découvrir la vérité dans une affaire très personnelle. Attentif, empathique et incroyablement efficace. Je ne le remercierai jamais assez et je le recommande sans hésitation."
-      },
-      "lisa": {
-        "name": "Lisa K.",
-        "role": "Avocate",
-        "comment": "Un partenaire de confiance pour les affaires juridiques sensibles. Son travail approfondi a renforcé plusieurs de mes dossiers avec des preuves claires et recevables. Un atout inestimable dans les procédures judiciaires."
-      }
+    "cta": {
+      "title": "Vous êtes confronté à une situation incertaine et souhaitez savoir si une <1>investigation</1> est possible ?",
+      "text": "Exposez brièvement le contexte. Un premier échange permet de <1>qualifier la demande avant tout engagement</1>.",
+      "button": "Parler de votre situation"
     }
   },
   "services": {

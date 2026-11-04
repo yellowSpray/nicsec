@@ -118,26 +118,10 @@
         "text": "De toegang tot informatie beperken en de dossiers beschermen."
       }
     },
-    "testimonialsIntro": {
-      "title": "Klant <1>getuigenissen</1>",
-      "text": "Vertrouwd door <1>honderden tevreden</1> klanten."
-    },
-    "testimonials": {
-      "sarah": {
-        "name": "Sarah M.",
-        "role": "Zakelijke klant",
-        "comment": "We hebben hem ingehuurd voor een gevoelig intern onderzoek. Zijn professionaliteit, discretie en snelle resultaten overtroffen al onze verwachtingen. Zeer betrouwbaar."
-      },
-      "james": {
-        "name": "James R.",
-        "role": "Particuliere klant",
-        "comment": "Hij hielp me de waarheid te ontdekken in een zeer persoonlijke kwestie. Attent, empathisch en ongelooflijk efficiënt. Ik kan hem niet genoeg bedanken en zou hem zonder aarzelen aanbevelen."
-      },
-      "lisa": {
-        "name": "Lisa K.",
-        "role": "Advocaat",
-        "comment": "Een vertrouwde partner voor gevoelige juridische zaken. Zijn grondig werk heeft verschillende van mijn zaken versterkt met duidelijk, toelaatbaar bewijs. Een onschatbare aanwinst in juridische procedures."
-      }
+    "cta": {
+      "title": "Wordt u geconfronteerd met een onzekere situatie en wilt u weten of een <1>onderzoek</1> mogelijk is?",
+      "text": "Schets kort de context. Een eerste gesprek maakt het mogelijk <1>uw vraag te beoordelen vóór enig engagement</1>.",
+      "button": "Bespreek uw situatie"
     }
   },
   "services": {
