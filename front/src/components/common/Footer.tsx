@@ -2,6 +2,8 @@ import { IoLocationSharp } from "react-icons/io5";
 import ContactForm from "./ContactForm";
 import Paragraphs from "../ui/paragraphs";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { scrollToSection } from "@/features/scrollButton";
 import { LEGAL_INFO } from "@/data/legalInfo";
 
 export default function Footer() {
@@ -48,6 +50,18 @@ export default function Footer() {
           )}
           <p>{t("footer.boip")}</p>
           <p>© {year} VESTIGE. {t("footer.rights")}</p>
+          <nav aria-label={t("legal.linksLabel")} className="pt-2 flex flex-wrap justify-center gap-x-4 gap-y-1">
+            <Link to="/mentions-legales" className="underline-offset-2 hover:underline">{t("legal.links.notice")}</Link>
+            <Link to="/vie-privee" className="underline-offset-2 hover:underline">{t("legal.links.privacy")}</Link>
+            <Link to="/cookies" className="underline-offset-2 hover:underline">{t("legal.links.cookies")}</Link>
+            <a
+              href="#footer"
+              className="underline-offset-2 hover:underline"
+              onClick={(event) => { event.preventDefault(); scrollToSection(); }}
+            >
+              {t("legal.links.contact")}
+            </a>
+          </nav>
         </section>
     </footer>
   );

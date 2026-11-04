@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { toast } from "sonner";
 
 // "Vous nous contactez comme" (content document, section 9.2)
@@ -182,7 +182,15 @@ export default function ContactForm() {
       <fieldset className="w-full flex flex-col gap-1">
         <label htmlFor="contact-consent" className="flex flex-row items-start gap-2 text-sm cursor-pointer">
           <input {...register("consent")} {...a11y("consent")} type="checkbox" className="mt-1 shrink-0 accent-second" />
-          <span>{t("form.consent")}</span>
+          <span>
+            <Trans
+              i18nKey="form.consent"
+              components={{
+                // New tab, so the form content is not lost
+                l: <a href="/vie-privee" target="_blank" rel="noopener" className="underline underline-offset-2 hover:text-second" />,
+              }}
+            />
+          </span>
         </label>
         {fieldError("consent")}
       </fieldset>

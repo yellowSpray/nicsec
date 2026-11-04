@@ -51,7 +51,7 @@
     "description": "Korte beschrijving van de situatie",
     "descriptionPlaceholder": "Korte beschrijving van de situatie",
     "warning": "Stuur in dit stadium geen gevoelige gegevens of vertrouwelijke documenten over derden door. Een gepast kanaal kan worden afgesproken als het onderzoek van uw aanvraag dat vereist.",
-    "consent": "Ik ga ermee akkoord dat mijn gegevens worden verwerkt overeenkomstig het privacybeleid, om op mijn aanvraag te antwoorden.",
+    "consent": "Ik ga ermee akkoord dat mijn gegevens worden verwerkt overeenkomstig het <l>privacybeleid</l>, om op mijn aanvraag te antwoorden.",
     "send": "Mijn aanvraag verzenden",
     "sending": "Bezig met verzenden...",
     "notice": "Het verzenden van dit formulier houdt geen aanvaarding van een opdracht in en doet geen contractuele relatie ontstaan.",
@@ -438,5 +438,130 @@
     "jump": "springen",
     "smash": "verpletteren",
     "quit": "herbouwen"
+  },
+  "legal": {
+    "linksLabel": "Juridische informatie",
+    "links": {
+      "notice": "Juridische vermeldingen",
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "contact": "Contact"
+    },
+    "pendingAuthorization": "[Vergunningsnummer en vermelding van de FOD Binnenlandse Zaken: in te voegen na toekenning]",
+    "notice": {
+      "seo": {
+        "title": "VESTIGE | Juridische vermeldingen",
+        "description": "Juridische vermeldingen van de website van VESTIGE: identiteit van de uitbater, contactgegevens, hosting en intellectuele eigendom."
+      },
+      "title": "Juridische vermeldingen",
+      "sections": [
+        {
+          "title": "Uitbater van de website",
+          "text": "VESTIGE\n{{legalName}}\nKBO: {{bce}} - btw: {{vat}}\n{{address}}"
+        },
+        {
+          "title": "Contactgegevens",
+          "text": "E-mail: {{email}}\nTelefoon: {{phone}}"
+        },
+        {
+          "title": "Vergunning",
+          "text": "{{authorization}}"
+        },
+        {
+          "title": "Hosting",
+          "text": "[Hostingprovider / technische dienstverlener: naam, adres en contactgegevens aan te vullen]"
+        },
+        {
+          "title": "Verantwoordelijke uitgever",
+          "text": "[Aan te vullen indien relevant]"
+        },
+        {
+          "title": "Intellectuele eigendom",
+          "text": "Merk VESTIGE gedeponeerd bij het BBIE onder nr. 1555059 - klassen 35 en 45.\nDe teksten, de structuur en de grafische elementen van deze website mogen niet worden overgenomen zonder voorafgaande toestemming."
+        },
+        {
+          "title": "Privacy en cookies",
+          "text": "De verwerking van persoonsgegevens wordt beschreven in het privacybeleid en het gebruik van cookies op de pagina Cookies, beide onderaan elke pagina beschikbaar."
+        }
+      ]
+    },
+    "privacy": {
+      "seo": {
+        "title": "VESTIGE | Privacybeleid",
+        "description": "Hoe VESTIGE de persoonsgegevens verwerkt die via de website worden doorgestuurd: doeleinden, gegevens, bewaring en rechten van betrokkenen."
+      },
+      "title": "Privacybeleid",
+      "sections": [
+        {
+          "title": "Verwerkingsverantwoordelijke",
+          "text": "VESTIGE - {{legalName}}\nKBO: {{bce}}\n{{address}}"
+        },
+        {
+          "title": "Contact",
+          "text": "Voor elke vraag over uw gegevens: {{email}}"
+        },
+        {
+          "title": "Functionaris voor gegevensbescherming",
+          "text": "[Externe DPO: identiteit pas te vermelden na effectieve contractsluiting]"
+        },
+        {
+          "title": "Doeleinden",
+          "text": "De gegevens die via het contactformulier of bij een contactname worden doorgestuurd, worden gebruikt om de aanvraag te onderzoeken, erop te antwoorden en te bepalen of een opdracht kan worden overwogen.\n[Eventuele andere doeleinden: aan te vullen]"
+        },
+        {
+          "title": "Rechtsgronden",
+          "text": "[Aan te vullen]"
+        },
+        {
+          "title": "Categorieën van gegevens",
+          "text": "Via het contactformulier: naam en voornaam, e-mailadres, telefoonnummer, bedrijf of organisatie en functie (optioneel), hoedanigheid van de aanvrager, onderwerp en beschrijving van de aanvraag.\nGelieve in dit stadium geen gevoelige gegevens of vertrouwelijke documenten over derden door te sturen."
+        },
+        {
+          "title": "Ontvangers",
+          "text": "[Aan te vullen]"
+        },
+        {
+          "title": "Bewaartermijnen",
+          "text": "[Aan te vullen]"
+        },
+        {
+          "title": "Uw rechten",
+          "text": "U hebt het recht op inzage, rectificatie en wissing van uw gegevens, op beperking van en bezwaar tegen de verwerking, het recht op overdraagbaarheid en, wanneer de verwerking op uw toestemming berust, het recht om die op elk moment in te trekken.\nOm deze rechten uit te oefenen: {{email}}"
+        },
+        {
+          "title": "Klacht",
+          "text": "U kunt een klacht indienen bij de Gegevensbeschermingsautoriteit (GBA): www.dataprotectionauthority.be"
+        },
+        {
+          "title": "Beveiliging en verwerkers",
+          "text": "[Beveiligingsmaatregelen en verwerkers: aan te vullen, bijvoorbeeld de hosting van de website en de e-maildienst die de aanvragen ontvangt]"
+        },
+        {
+          "title": "Doorgiften buiten de Europese Economische Ruimte",
+          "text": "[Aan te vullen indien van toepassing]"
+        }
+      ]
+    },
+    "cookies": {
+      "seo": {
+        "title": "VESTIGE | Cookies",
+        "description": "Gebruik van cookies en lokale opslag op de website van VESTIGE."
+      },
+      "title": "Cookies",
+      "sections": [
+        {
+          "title": "Onze aanpak",
+          "text": "Deze website gebruikt enkel wat nodig is om te werken. Er worden geen analytische, advertentie- of socialemediacookies geplaatst."
+        },
+        {
+          "title": "Lokale opslag",
+          "text": "De taal die u kiest, wordt opgeslagen in de lokale opslag van uw browser (localStorage), zodat de website bij uw volgende bezoek in die taal wordt getoond. Deze informatie blijft op uw toestel.\nU kunt ze op elk moment verwijderen via de instellingen van uw browser."
+        },
+        {
+          "title": "Niet-essentiële tools",
+          "text": "Mocht er een analytische of advertentietool, of inhoud van derden die niet-essentiële cookies plaatst, worden toegevoegd, dan wordt vóór de activering een toestemmingsmechanisme ingesteld."
+        }
+      ]
+    }
   }
 }

@@ -51,7 +51,7 @@
     "description": "Brief description of the situation",
     "descriptionPlaceholder": "Brief description of the situation",
     "warning": "At this stage, do not send sensitive data or confidential documents about third parties. A suitable channel can be agreed if reviewing your request requires them.",
-    "consent": "I agree that my data will be processed in accordance with the privacy policy in order to answer my request.",
+    "consent": "I agree that my data will be processed in accordance with the <l>privacy policy</l> in order to answer my request.",
     "send": "Send my request",
     "sending": "Sending...",
     "notice": "Sending this form constitutes neither the acceptance of an assignment nor the creation of a contractual relationship.",
@@ -438,5 +438,130 @@
     "jump": "jump",
     "smash": "smash",
     "quit": "rebuild"
+  },
+  "legal": {
+    "linksLabel": "Legal information",
+    "links": {
+      "notice": "Legal notice",
+      "privacy": "Privacy",
+      "cookies": "Cookies",
+      "contact": "Contact"
+    },
+    "pendingAuthorization": "[FPS Home Affairs licence number and mention: to be added once granted]",
+    "notice": {
+      "seo": {
+        "title": "VESTIGE | Legal notice",
+        "description": "Legal notice of the VESTIGE website: identity of the operator, contact details, hosting and intellectual property."
+      },
+      "title": "Legal notice",
+      "sections": [
+        {
+          "title": "Website operator",
+          "text": "VESTIGE\n{{legalName}}\nCBE: {{bce}} - VAT: {{vat}}\n{{address}}"
+        },
+        {
+          "title": "Contact details",
+          "text": "Email: {{email}}\nPhone: {{phone}}"
+        },
+        {
+          "title": "Licence",
+          "text": "{{authorization}}"
+        },
+        {
+          "title": "Hosting",
+          "text": "[Host / technical provider: name, address and contact details to be completed]"
+        },
+        {
+          "title": "Publication manager",
+          "text": "[To be completed if relevant]"
+        },
+        {
+          "title": "Intellectual property",
+          "text": "VESTIGE trademark filed with the BOIP under no. 1555059 - classes 35 and 45.\nThe texts, structure and graphic elements of this website may not be reproduced without prior permission."
+        },
+        {
+          "title": "Privacy and cookies",
+          "text": "The processing of personal data is described in the privacy policy, and the use of cookies on the Cookies page, both available at the bottom of every page."
+        }
+      ]
+    },
+    "privacy": {
+      "seo": {
+        "title": "VESTIGE | Privacy policy",
+        "description": "How VESTIGE processes personal data sent through the website: purposes, data, retention and individual rights."
+      },
+      "title": "Privacy policy",
+      "sections": [
+        {
+          "title": "Data controller",
+          "text": "VESTIGE - {{legalName}}\nCBE: {{bce}}\n{{address}}"
+        },
+        {
+          "title": "Contact",
+          "text": "For any question about your data: {{email}}"
+        },
+        {
+          "title": "Data protection officer",
+          "text": "[External DPO: identity to be stated only once a contract is actually in place]"
+        },
+        {
+          "title": "Purposes",
+          "text": "Data sent through the contact form or when getting in touch is used to review the request, answer it and determine whether an assignment can be considered.\n[Other possible purposes: to be completed]"
+        },
+        {
+          "title": "Legal bases",
+          "text": "[To be completed]"
+        },
+        {
+          "title": "Categories of data",
+          "text": "Through the contact form: full name, email address, phone number, company or organisation and position (optional), capacity of the requester, subject and description of the request.\nPlease do not send sensitive data or confidential documents about third parties at this stage."
+        },
+        {
+          "title": "Recipients",
+          "text": "[To be completed]"
+        },
+        {
+          "title": "Retention periods",
+          "text": "[To be completed]"
+        },
+        {
+          "title": "Your rights",
+          "text": "You have the right to access, rectify and erase your data, to restrict and object to its processing, the right to data portability and, where processing is based on your consent, the right to withdraw it at any time.\nTo exercise these rights: {{email}}"
+        },
+        {
+          "title": "Complaints",
+          "text": "You can lodge a complaint with the Belgian Data Protection Authority (APD/GBA): www.dataprotectionauthority.be"
+        },
+        {
+          "title": "Security and processors",
+          "text": "[Security measures and processors: to be completed, for example website hosting and the email service used to receive requests]"
+        },
+        {
+          "title": "Transfers outside the European Economic Area",
+          "text": "[To be completed where applicable]"
+        }
+      ]
+    },
+    "cookies": {
+      "seo": {
+        "title": "VESTIGE | Cookies",
+        "description": "Use of cookies and local storage on the VESTIGE website."
+      },
+      "title": "Cookies",
+      "sections": [
+        {
+          "title": "Our approach",
+          "text": "This website only uses what is necessary for it to work. No analytics, advertising or social media cookies are set."
+        },
+        {
+          "title": "Local storage",
+          "text": "The language you choose is stored in your browser's local storage (localStorage), so the website is shown in that language on your next visit. This information stays on your device.\nYou can delete it at any time from your browser settings."
+        },
+        {
+          "title": "Non-essential tools",
+          "text": "If an analytics or advertising tool, or third-party content setting non-essential cookies, were added, a consent mechanism would be put in place before activating it."
+        }
+      ]
+    }
   }
 }

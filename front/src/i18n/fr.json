@@ -51,7 +51,7 @@
     "description": "Description brève de la situation",
     "descriptionPlaceholder": "Description brève de la situation",
     "warning": "Ne transmettez pas, à ce stade, de données sensibles ni de documents confidentiels concernant des tiers. Un canal adapté pourra être convenu si l'examen de votre demande nécessite leur communication.",
-    "consent": "J'accepte que mes données soient traitées conformément à la politique de confidentialité, afin de répondre à ma demande.",
+    "consent": "J'accepte que mes données soient traitées conformément à la <l>politique de confidentialité</l>, afin de répondre à ma demande.",
     "send": "Envoyer ma demande",
     "sending": "Envoi en cours...",
     "notice": "L'envoi de ce formulaire ne constitue ni l'acceptation d'une mission ni la création d'une relation contractuelle.",
@@ -438,5 +438,130 @@
     "jump": "sauter",
     "smash": "écraser",
     "quit": "reconstruire"
+  },
+  "legal": {
+    "linksLabel": "Informations légales",
+    "links": {
+      "notice": "Mentions légales",
+      "privacy": "Vie privée",
+      "cookies": "Cookies",
+      "contact": "Contact"
+    },
+    "pendingAuthorization": "[Numéro et mention de l'autorisation du SPF Intérieur : à insérer après délivrance]",
+    "notice": {
+      "seo": {
+        "title": "VESTIGE | Mentions légales",
+        "description": "Mentions légales du site VESTIGE : identité de l'exploitant, coordonnées, hébergement et propriété intellectuelle."
+      },
+      "title": "Mentions légales",
+      "sections": [
+        {
+          "title": "Exploitant du site",
+          "text": "VESTIGE\n{{legalName}}\nBCE : {{bce}} - TVA : {{vat}}\n{{address}}"
+        },
+        {
+          "title": "Coordonnées",
+          "text": "E-mail : {{email}}\nTéléphone : {{phone}}"
+        },
+        {
+          "title": "Autorisation",
+          "text": "{{authorization}}"
+        },
+        {
+          "title": "Hébergement",
+          "text": "[Hébergeur / prestataire technique : nom, adresse et coordonnées à compléter]"
+        },
+        {
+          "title": "Responsable de la publication",
+          "text": "[À compléter si pertinent]"
+        },
+        {
+          "title": "Propriété intellectuelle",
+          "text": "Marque VESTIGE déposée au BOIP sous le n° 1555059 - classes 35 et 45.\nLes textes, la structure et les éléments graphiques de ce site ne peuvent être reproduits sans autorisation préalable."
+        },
+        {
+          "title": "Vie privée et cookies",
+          "text": "Le traitement des données personnelles est décrit dans la politique de confidentialité, et l'utilisation des cookies dans la page Cookies, accessibles en bas de chaque page."
+        }
+      ]
+    },
+    "privacy": {
+      "seo": {
+        "title": "VESTIGE | Politique de confidentialité",
+        "description": "Comment VESTIGE traite les données personnelles transmises via le site : finalités, données, conservation et droits des personnes."
+      },
+      "title": "Politique de confidentialité",
+      "sections": [
+        {
+          "title": "Responsable du traitement",
+          "text": "VESTIGE - {{legalName}}\nBCE : {{bce}}\n{{address}}"
+        },
+        {
+          "title": "Contact",
+          "text": "Pour toute question relative à vos données : {{email}}"
+        },
+        {
+          "title": "Délégué à la protection des données",
+          "text": "[DPO externe : identité à indiquer uniquement après contractualisation effective]"
+        },
+        {
+          "title": "Finalités",
+          "text": "Les données transmises via le formulaire de contact ou lors d'une prise de contact sont utilisées pour examiner la demande, y répondre et déterminer si une mission peut être envisagée.\n[Autres finalités éventuelles : à compléter]"
+        },
+        {
+          "title": "Bases juridiques",
+          "text": "[À compléter]"
+        },
+        {
+          "title": "Catégories de données",
+          "text": "Via le formulaire de contact : nom et prénom, adresse e-mail, numéro de téléphone, entreprise ou organisation et fonction (facultatifs), qualité du demandeur, objet et description de la demande.\nIl est demandé de ne pas transmettre, à ce stade, de données sensibles ni de documents confidentiels concernant des tiers."
+        },
+        {
+          "title": "Destinataires",
+          "text": "[À compléter]"
+        },
+        {
+          "title": "Durées de conservation",
+          "text": "[À compléter]"
+        },
+        {
+          "title": "Vos droits",
+          "text": "Vous disposez d'un droit d'accès, de rectification, d'effacement, de limitation et d'opposition au traitement de vos données, ainsi que d'un droit à la portabilité et, lorsque le traitement repose sur votre consentement, du droit de le retirer à tout moment.\nPour exercer ces droits : {{email}}"
+        },
+        {
+          "title": "Réclamation",
+          "text": "Vous pouvez introduire une réclamation auprès de l'Autorité de protection des données (APD) : www.autoriteprotectiondonnees.be"
+        },
+        {
+          "title": "Sécurité et sous-traitants",
+          "text": "[Mesures de sécurité et sous-traitants : à compléter, par exemple l'hébergement du site et le service de messagerie utilisé pour recevoir les demandes]"
+        },
+        {
+          "title": "Transferts hors de l'Espace économique européen",
+          "text": "[À compléter le cas échéant]"
+        }
+      ]
+    },
+    "cookies": {
+      "seo": {
+        "title": "VESTIGE | Cookies",
+        "description": "Utilisation des cookies et du stockage local sur le site VESTIGE."
+      },
+      "title": "Cookies",
+      "sections": [
+        {
+          "title": "Notre approche",
+          "text": "Ce site utilise uniquement ce qui est nécessaire à son fonctionnement. Aucun cookie d'analyse, de publicité ou de réseau social n'est déposé."
+        },
+        {
+          "title": "Stockage local",
+          "text": "La langue que vous choisissez est mémorisée dans le stockage local de votre navigateur (localStorage), afin d'afficher le site dans cette langue lors de votre prochaine visite. Cette information reste sur votre appareil.\nVous pouvez la supprimer à tout moment depuis les réglages de votre navigateur."
+        },
+        {
+          "title": "Outils non essentiels",
+          "text": "Si un outil d'analyse, de publicité ou un contenu tiers déposant des cookies non essentiels devait être ajouté, un mécanisme de consentement serait mis en place avant son activation."
+        }
+      ]
+    }
   }
 }
