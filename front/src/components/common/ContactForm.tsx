@@ -5,13 +5,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslation } from "react-i18next";
 import { toast } from "sonner";
 
-const SUBJECTS = [
-  "surveillance",
-  "infidelity",
-  "background",
-  "missing",
-  "fraud",
-] as const;
+// "Vous nous contactez comme" (content document, section 9.2)
+const CLIENT_TYPES = ["individual", "company", "insurer", "professional", "other"] as const;
+
+const inputClass = "w-full border border-gray-300 rounded-lg p-2";
 
 export default function ContactForm() {
   const { t } = useTranslation();
@@ -25,6 +22,8 @@ export default function ContactForm() {
       .trim()
       .min(3, { message: t("errors.nameTooShort") })
       .max(100, { message: t("errors.nameTooLong") }),
+    company: z.string().trim().max(150, { message: t("errors.fieldTooLong") }).optional(),
+    role: z.string().trim().max(100, { message: t("errors.fieldTooLong") }).optional(),
     email: z
       .string()
       .trim()
@@ -36,13 +35,19 @@ export default function ContactForm() {
       .min(9, { message: t("errors.phoneInvalid") })
       .max(30, { message: t("errors.phoneInvalid") })
       .regex(/^[+0-9 ()./-]+$/, { message: t("errors.phoneInvalid") }),
-    subject: z.enum(SUBJECTS, { message: t("errors.subjectRequired") }),
+    clientType: z.enum(CLIENT_TYPES, { message: t("errors.clientTypeRequired") }),
+    subject: z
+      .string()
+      .trim()
+      .min(3, { message: t("errors.subjectRequired") })
+      .max(150, { message: t("errors.fieldTooLong") }),
     description: z
       .string()
       .trim()
       .min(1, { message: t("errors.descriptionRequired") })
       .min(25, { message: t("errors.descriptionTooShort") })
       .max(5000, { message: t("errors.descriptionTooLong") }),
+    consent: z.boolean().refine((value) => value === true, { message: t("errors.consentRequired") }),
     // Honeypot: hidden from humans, bots tend to fill it
     website: z.string().optional(),
   });
@@ -56,6 +61,7 @@ export default function ContactForm() {
     reset,
   } = useForm<FormData>({
     resolver: zodResolver(schema),
+    defaultValues: { consent: false },
   });
 
   const onSubmit = async (data: FormData) => {
@@ -81,135 +87,118 @@ export default function ContactForm() {
     }
   };
 
+  /** Error message under a field, linked to it for screen readers */
+  const fieldError = (name: keyof FormData) =>
+    errors[name] && (
+      <p id={`contact-${name}-error`} className="text-red-600 text-sm">
+        * {errors[name]?.message}
+      </p>
+    );
+
+  const a11y = (name: keyof FormData) => ({
+    id: `contact-${name}`,
+    "aria-invalid": errors[name] ? ("true" as const) : ("false" as const),
+    "aria-describedby": errors[name] ? `contact-${name}-error` : undefined,
+  });
+
   return (
     <form
-      className={"w-full h-full flex flex-col justify-start rounded-second space-y-8 bg-background p-7"}
+      className="w-full h-full flex flex-col justify-start rounded-second space-y-6 bg-background p-5 sm:p-7"
       onSubmit={handleSubmit(onSubmit)}
       noValidate
     >
-      <h4 className="md:mb-5 smd:mb-2">{t("form.title")}</h4>
+      {/* Honeypot: off-screen, not focusable, ignored by screen readers */}
+      <div aria-hidden="true" className="absolute -left-[9999px] w-px h-px overflow-hidden">
+        <label htmlFor="contact-website">Website</label>
+        <input {...register("website")} id="contact-website" type="text" tabIndex={-1} autoComplete="off" />
+      </div>
 
-      <div className="h-full flex flex-col justify-between space-y-8">
-
-        {/* Honeypot: off-screen, not focusable, ignored by screen readers */}
-        <div aria-hidden="true" className="absolute -left-[9999px] w-px h-px overflow-hidden">
-          <label htmlFor="contact-website">Website</label>
-          <input
-            {...register("website")}
-            id="contact-website"
-            type="text"
-            tabIndex={-1}
-            autoComplete="off"
-          />
-        </div>
-
-        <div className="w-full flex lg:flex-row flex-col gap-2">
-          <fieldset className={"w-full flex flex-col justify-center"}>
-            <label className="sr-only" htmlFor="contact-fullname">{t("form.name")}</label>
-            <input
-              {...register("fullname")}
-              id="contact-fullname"
-              type="text"
-              autoComplete="name"
-              placeholder={t("form.namePlaceholder")}
-              className="w-full border border-gray-300 rounded-lg p-2"
-              aria-invalid={errors.fullname ? "true" : "false"}
-              aria-describedby={errors.fullname ? "contact-fullname-error" : undefined}
-            />
-            {errors.fullname && (
-              <p id="contact-fullname-error" className="text-red-600 text-sm">
-                * {errors.fullname.message}
-              </p>
-            )}
-          </fieldset>
-
-          <fieldset className={"w-full flex flex-col justify-center"}>
-            <label className="sr-only" htmlFor="contact-email">{t("form.email")}</label>
-            <input
-              {...register("email")}
-              id="contact-email"
-              type="email"
-              autoComplete="email"
-              placeholder={t("form.emailPlaceholder")}
-              className="w-full border border-gray-300 rounded-lg p-2"
-              aria-invalid={errors.email ? "true" : "false"}
-              aria-describedby={errors.email ? "contact-email-error" : undefined}
-            />
-            {errors.email && (
-              <p id="contact-email-error" className="text-red-600 text-sm">* {errors.email.message}</p>
-            )}
-          </fieldset>
-        </div>
-
-        <div className="w-full flex lg:flex-row flex-col gap-2">
-          <fieldset className={"w-full flex flex-col justify-center"}>
-            <label className="sr-only" htmlFor="contact-phone">{t("form.phone")}</label>
-            <input
-              {...register("phone")}
-              id="contact-phone"
-              type="tel"
-              autoComplete="tel"
-              placeholder={t("form.phonePlaceholder")}
-              className="w-full border border-gray-300 rounded-lg p-2"
-              aria-invalid={errors.phone ? "true" : "false"}
-              aria-describedby={errors.phone ? "contact-phone-error" : undefined}
-            />
-            {errors.phone && (
-              <p id="contact-phone-error" className="text-red-600 text-sm">* {errors.phone.message}</p>
-            )}
-          </fieldset>
-
-          <fieldset className="w-full flex flex-col justify-center">
-            <label className="sr-only" htmlFor="contact-subject">{t("form.subjectTitle")}</label>
-            <select
-              {...register("subject")}
-              id="contact-subject"
-              className="w-full border border-gray-300 rounded-lg p-2"
-              aria-invalid={errors.subject ? "true" : "false"}
-              aria-describedby={errors.subject ? "contact-subject-error" : undefined}
-              defaultValue=""
-            >
-              <option value="" disabled>{t("form.subjectDefault")}</option>
-              {SUBJECTS.map((key) => (
-                <option key={key} value={key}>{t(`form.subject.${key}`)}</option>
-              ))}
-            </select>
-
-            {errors.subject && (
-              <p id="contact-subject-error" className="text-red-600 text-sm">* {errors.subject.message}</p>
-            )}
-          </fieldset>
-        </div>
-
+      <div className="w-full flex lg:flex-row flex-col gap-6 lg:gap-2">
         <fieldset className="w-full flex flex-col">
-          <label className="sr-only" htmlFor="contact-description">{t("form.description")}</label>
-          <textarea
-            {...register("description")}
-            id="contact-description"
-            maxLength={5000}
-            placeholder={t("form.descriptionPlaceholder")}
-            className="w-full border border-gray-300 rounded-lg p-2 resize-none min-h-[100px]"
-            aria-invalid={errors.description ? "true" : "false"}
-            aria-describedby={errors.description ? "contact-description-error" : undefined}
-          />
-          {errors.description && (
-            <p id="contact-description-error" className="text-red-600 text-sm">
-              * {errors.description.message}
-            </p>
-          )}
+          <label className="sr-only" htmlFor="contact-fullname">{t("form.name")}</label>
+          <input {...register("fullname")} {...a11y("fullname")} type="text" autoComplete="name"
+            placeholder={t("form.namePlaceholder")} className={inputClass} />
+          {fieldError("fullname")}
         </fieldset>
+        <fieldset className="w-full flex flex-col">
+          <label className="sr-only" htmlFor="contact-email">{t("form.email")}</label>
+          <input {...register("email")} {...a11y("email")} type="email" autoComplete="email"
+            placeholder={t("form.emailPlaceholder")} className={inputClass} />
+          {fieldError("email")}
+        </fieldset>
+      </div>
 
+      <div className="w-full flex lg:flex-row flex-col gap-6 lg:gap-2">
+        <fieldset className="w-full flex flex-col">
+          <label className="sr-only" htmlFor="contact-phone">{t("form.phone")}</label>
+          <input {...register("phone")} {...a11y("phone")} type="tel" autoComplete="tel"
+            placeholder={t("form.phonePlaceholder")} className={inputClass} />
+          {fieldError("phone")}
+        </fieldset>
+        <fieldset className="w-full flex flex-col">
+          <label className="sr-only" htmlFor="contact-clientType">{t("form.clientTypeTitle")}</label>
+          <select {...register("clientType")} {...a11y("clientType")} className={inputClass} defaultValue="">
+            <option value="" disabled>{t("form.clientTypeDefault")}</option>
+            {CLIENT_TYPES.map((key) => (
+              <option key={key} value={key}>{t(`form.clientType.${key}`)}</option>
+            ))}
+          </select>
+          {fieldError("clientType")}
+        </fieldset>
+      </div>
+
+      <div className="w-full flex lg:flex-row flex-col gap-6 lg:gap-2">
+        <fieldset className="w-full flex flex-col">
+          <label className="sr-only" htmlFor="contact-company">{t("form.company")}</label>
+          <input {...register("company")} {...a11y("company")} type="text" autoComplete="organization"
+            placeholder={t("form.companyPlaceholder")} className={inputClass} />
+          {fieldError("company")}
+        </fieldset>
+        <fieldset className="w-full flex flex-col">
+          <label className="sr-only" htmlFor="contact-role">{t("form.role")}</label>
+          <input {...register("role")} {...a11y("role")} type="text" autoComplete="organization-title"
+            placeholder={t("form.rolePlaceholder")} className={inputClass} />
+          {fieldError("role")}
+        </fieldset>
+      </div>
+
+      <fieldset className="w-full flex flex-col">
+        <label className="sr-only" htmlFor="contact-subject">{t("form.subject")}</label>
+        <input {...register("subject")} {...a11y("subject")} type="text"
+          placeholder={t("form.subjectPlaceholder")} className={inputClass} />
+        {fieldError("subject")}
+      </fieldset>
+
+      <fieldset className="w-full flex flex-col gap-2">
+        <label className="sr-only" htmlFor="contact-description">{t("form.description")}</label>
+        <textarea {...register("description")} {...a11y("description")} maxLength={5000}
+          placeholder={t("form.descriptionPlaceholder")}
+          className={`${inputClass} resize-none min-h-[100px]`} />
+        {fieldError("description")}
+        {/* 9.3: warning under the message field */}
+        <p className="text-xs text-main/70">{t("form.warning")}</p>
+      </fieldset>
+
+      <fieldset className="w-full flex flex-col gap-1">
+        <label htmlFor="contact-consent" className="flex flex-row items-start gap-2 text-sm cursor-pointer">
+          <input {...register("consent")} {...a11y("consent")} type="checkbox" className="mt-1 shrink-0 accent-second" />
+          <span>{t("form.consent")}</span>
+        </label>
+        {fieldError("consent")}
+      </fieldset>
+
+      <div className="space-y-2">
         <button
           type="submit"
-          className="btn-primary disabled:opacity-60 disabled:cursor-not-allowed"
+          className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
           disabled={isSubmitting}
           aria-busy={isSubmitting}
         >
           {isSubmitting ? t("form.sending") : t("form.send")}
         </button>
-
+        {/* 9.4: notice under the button */}
+        <p className="text-xs text-main/70 text-center">{t("form.notice")}</p>
       </div>
-
     </form>
   );
 }

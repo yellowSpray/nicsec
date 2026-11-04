@@ -1,21 +1,27 @@
 import nodemailer from "nodemailer";
 import { z } from "zod";
 
-const SUBJECTS = {
-  surveillance: "Surveillance",
-  infidelity: "Enquête d'infidélité",
-  background: "Vérification des antécédents",
-  missing: "Personne disparue",
-  fraud: "Enquête de fraude",
+// "Vous nous contactez comme" (content document, section 9.2)
+const CLIENT_TYPES = {
+  individual: "Particulier",
+  company: "Entreprise",
+  insurer: "Assurance",
+  professional: "Professionnel",
+  other: "Autre",
 };
 
 // Server-side validation: never trust what the browser sends.
 const schema = z.object({
   fullname: z.string().trim().min(3).max(100),
+  company: z.string().trim().max(150).optional().default(""),
+  role: z.string().trim().max(100).optional().default(""),
   email: z.string().trim().email().max(254),
   phone: z.string().trim().min(9).max(30).regex(/^[+0-9 ()./-]+$/),
-  subject: z.enum(Object.keys(SUBJECTS)),
+  clientType: z.enum(Object.keys(CLIENT_TYPES)),
+  subject: z.string().trim().min(3).max(150),
   description: z.string().trim().min(25).max(5000),
+  // Consent to the privacy policy is mandatory
+  consent: z.literal(true),
   // Anti-spam: hidden field that humans leave empty
   website: z.string().max(500).optional().default(""),
   // Anti-spam: timestamp (ms) when the form was displayed
@@ -81,8 +87,9 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: "Invalid form data" });
   }
 
-  const { fullname, email, phone, subject, description, website, startedAt } =
-    parsed.data;
+  const {
+    fullname, company, role, email, phone, clientType, subject, description, website, startedAt,
+  } = parsed.data;
 
   // Bots: honeypot filled or form submitted too fast / stale.
   // Answer 200 so they don't learn they were filtered.
@@ -97,7 +104,8 @@ export default async function handler(req, res) {
     return res.status(500).json({ error: "Server misconfigured" });
   }
 
-  const subjectLabel = SUBJECTS[subject];
+  const clientTypeLabel = CLIENT_TYPES[clientType];
+  const optional = (value) => value || "-";
 
   try {
     const transporter = nodemailer.createTransport({
@@ -110,27 +118,35 @@ export default async function handler(req, res) {
       from: `"Formulaire VESTIGE" <${MAIL_USER}>`,
       replyTo: { name: oneLine(fullname), address: email },
       to: MAIL_TO,
-      subject: oneLine(`[Site] ${subjectLabel} - ${fullname}`),
+      subject: oneLine(`[Site] ${clientTypeLabel} - ${subject}`),
       text: [
-        "Nouveau message depuis le formulaire",
+        "Nouvelle demande depuis le formulaire",
         "",
-        `Nom : ${fullname}`,
-        `Email : ${email}`,
+        `Nom et prénom : ${fullname}`,
+        `Entreprise / organisation : ${optional(company)}`,
+        `Fonction : ${optional(role)}`,
+        `E-mail : ${email}`,
         `Téléphone : ${phone}`,
-        `Sujet : ${subjectLabel}`,
+        `Contacte comme : ${clientTypeLabel}`,
+        `Objet : ${subject}`,
+        "Consentement politique de confidentialité : oui",
         "",
-        "Message :",
+        "Description :",
         description,
       ].join("\n"),
       html: `
         <div style="font-family:Arial, sans-serif; line-height:1.6; color:#333;">
-          <h3 style="color:#007bff;">Nouveau message depuis le formulaire</h3>
-          <p><strong>Nom :</strong> ${escapeHtml(fullname)}</p>
-          <p><strong>Email :</strong> ${escapeHtml(email)}</p>
+          <h3 style="color:#394149;">Nouvelle demande depuis le formulaire</h3>
+          <p><strong>Nom et prénom :</strong> ${escapeHtml(fullname)}</p>
+          <p><strong>Entreprise / organisation :</strong> ${escapeHtml(optional(company))}</p>
+          <p><strong>Fonction :</strong> ${escapeHtml(optional(role))}</p>
+          <p><strong>E-mail :</strong> ${escapeHtml(email)}</p>
           <p><strong>Téléphone :</strong> ${escapeHtml(phone)}</p>
-          <p><strong>Sujet :</strong> ${escapeHtml(subjectLabel)}</p>
+          <p><strong>Contacte comme :</strong> ${escapeHtml(clientTypeLabel)}</p>
+          <p><strong>Objet :</strong> ${escapeHtml(subject)}</p>
+          <p><strong>Consentement politique de confidentialité :</strong> oui</p>
           <br />
-          <p><strong>Message :</strong></p>
+          <p><strong>Description :</strong></p>
           <p style="white-space: pre-line">${escapeHtml(description)}</p>
         </div>
       `,
