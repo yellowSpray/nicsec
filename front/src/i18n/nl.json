@@ -40,7 +40,11 @@
     "description": "Beschrijving",
     "descriptionPlaceholder": "Beschrijf uw zaak",
     "confirm": "Uw bericht is verzonden!",
-    "send": "Verzenden"
+    "send": "Verzenden",
+    "sending": "Bezig met verzenden...",
+    "errorServer": "Uw bericht kon niet worden verzonden. Probeer het later opnieuw.",
+    "errorRateLimit": "Te veel berichten verzonden. Probeer het over enkele minuten opnieuw.",
+    "errorNetwork": "Netwerkfout. Controleer uw verbinding en probeer het opnieuw."
   },
   "errors": {
     "nameTooShort": "Naam te kort!",
@@ -48,9 +52,10 @@
     "phoneInvalid": "Telefoonnummer niet geldig",
     "subjectRequired": "Selecteer een onderwerp.",
     "descriptionTooShort": "Beschrijving is onvoldoende",
-    "descriptionRequired": "Dit veld is verplicht."
+    "descriptionRequired": "Dit veld is verplicht.",
+    "nameTooLong": "Naam te lang!",
+    "descriptionTooLong": "De beschrijving is te lang (maximaal 5000 tekens)."
   },
-
   "home": {
     "content": {
       "title": "Professionele en vriendelijke privédetective.",
@@ -101,8 +106,8 @@
       }
     },
     "testimonialsIntro": {
-        "title": "Klant <1>getuigenissen</1>",
-        "text": "Vertrouwd door <1>honderden tevreden</1> klanten."
+      "title": "Klant <1>getuigenissen</1>",
+      "text": "Vertrouwd door <1>honderden tevreden</1> klanten."
     },
     "testimonials": {
       "sarah": {
@@ -122,16 +127,13 @@
       }
     }
   },
-
   "services": {
     "mainTitle": "Deskundige privédetective diensten",
     "mainText": "Discrete en resultaatgerichte oplossingen afgestemd op uw specifieke behoeften. Vertrouw op onze expertise om de waarheid te onthullen met professionaliteit en integriteit.",
-
     "serviceIntro": {
       "title": "Mijn <1>onderzoeks</1>diensten",
       "text": "Ik bied professionele opsporingsdiensten <1>afgestemd op uw behoeften</1>. Elke zaak wordt benaderd met <1>vertrouwelijkheid en persoonlijke aandacht</1>."
     },
-
     "surveillance": {
       "title": "Observatiediensten",
       "text": "Discrete, effectieve observatie met bewezen methoden en moderne apparatuur.",
@@ -142,7 +144,6 @@
         "Documentatie voor voogdijzaken"
       ]
     },
-
     "background": {
       "title": "Antecedentenonderzoeken",
       "text": "Gedetailleerde antecedentencontroles voor persoonlijke, zakelijke of juridische aangelegenheden.",
@@ -153,7 +154,6 @@
         "Huurder antecedentencontroles"
       ]
     },
-
     "fraud": {
       "title": "Fraudeonderzoeken",
       "text": "Onderzoek naar fraude met nauwkeurigheid, discretie en juridisch inzicht.",
@@ -164,7 +164,6 @@
         "Interne werknemersfraude"
       ]
     },
-
     "legal": {
       "title": "Juridische ondersteuningsdiensten",
       "text": "Betrouwbare onderzoeksondersteuning voor advocaten, klanten en juridische zaken.",
@@ -175,7 +174,6 @@
         "Documentatie van rechtszaken"
       ]
     },
-
     "missing": {
       "title": "Vermiste personen",
       "text": "Het vinden van vermiste personen met zorg, discretie en ervaring.",
@@ -186,7 +184,6 @@
         "Adoptiereünies"
       ]
     },
-
     "digital": {
       "title": "Digitale onderzoeken",
       "text": "Digitaal bewijs ontdekken en online gedrag traceren met precisie.",
@@ -197,7 +194,6 @@
         "Cyberpest zaken"
       ]
     },
-
     "identity": {
       "title": "Identiteitsverificatie",
       "text": "Identiteiten discreet bevestigen met behulp van betrouwbare tools en bewezen methoden.",
@@ -208,7 +204,6 @@
         "Alias detectie"
       ]
     },
-
     "corporate": {
       "title": "Bedrijfsonderzoeken",
       "text": "Bescherm uw bedrijf met interne onderzoeken en risicobeheersing.",
@@ -219,7 +214,6 @@
         "Tracking van misbruik van bedrijfsmiddelen"
       ]
     },
-
     "specialized": {
       "title": "Gespecialiseerde <1>onderzoeken</1>",
       "text": "Geavanceerde opsporingsdiensten <1>voor complexe zaken</1>.",
@@ -236,7 +230,6 @@
         "text": "Arbeidsongeschiktheidsfraude, verificatie van invaliditeitsclaims en reconstructie van ongevallen."
       }
     },
-
     "process": {
       "title": "Mijn <1>onderzoeks</1>proces",
       "text": "Een systematische aanpak <1>die grondige en betrouwbare</1> resultaten garandeert.",
@@ -258,18 +251,15 @@
       }
     }
   },
-
   "about": {
     "title": "Over Nicsec Investigation.",
     "intro": "Meer dan 25 jaar ervaring in het leveren van waarheid met integriteit, discretie en onwrikbaar professionalisme.",
-    
     "story": {
       "title": "Mijn <1>verhaal</1>",
       "text1": "Opgericht in 1999, Elite Investigations is ontstaan uit een eenvoudige missie: particulieren en bedrijven voorzien van de waarheid die ze nodig hebben om weloverwogen beslissingen te nemen. Wat begon als een eenmanszaak is uitgegroeid tot een full-service opsporingsbureau dat vertrouwd wordt door advocaten, bedrijven en gezinnen in de hele regio.",
       "text2": "Onze oprichter, een voormalig wetshandhavingsambtenaar met meer dan 15 jaar ervaring, erkende de behoefte aan professionele, ethische en discrete opsporingsdiensten in de particuliere sector. Vandaag blijven we dezelfde waarden handhaven terwijl we gebruikmaken van geavanceerde technologie en bewezen methodologieën.",
       "text3": "We geloven dat iedereen recht heeft op toegang tot de waarheid, en we zijn toegewijd om deze te ontdekken met de hoogste normen van professionaliteit en vertrouwelijkheid."
     },
-
     "core": {
       "title": "Mijn <1>kern</1>waarden",
       "text": "De principes <1>die elk onderzoek leiden</1> dat we ondernemen.",
@@ -286,7 +276,6 @@
         "text": "We streven naar perfectie in elk onderzoek, met behulp van geavanceerde technieken, innovatieve tools en grondige methodologieën."
       }
     },
-
     "credentials": {
       "title": "Accreditaties <1>en</1> certificeringen",
       "text": "Professionele <1>kwalificaties die kwaliteitsservice</1> garanderen.",
@@ -307,7 +296,6 @@
         "text": "Volledig geborgd en verzekerd voor klantbescherming"
       }
     },
-
     "stats": {
       "title": "Nicsec in <1>cijfers</1>",
       "text": "Tekst om in te vullen <1>of niet</1>.",
@@ -329,7 +317,6 @@
       }
     }
   },
-
   "faq": {
     "title": "FAQ voor al uw vragen.",
     "description": "Het leveren van discrete, grondige en resultaatgerichte opsporingsdiensten die particulieren, bedrijven en juridische professionals in staat stellen weloverwogen beslissingen te nemen.",

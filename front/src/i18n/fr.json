@@ -40,7 +40,11 @@
     "description": "Description",
     "descriptionPlaceholder": "Décrivez votre cas",
     "confirm": "Votre message a été envoyé !",
-    "send": "Envoyer"
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "errorServer": "Le message n'a pas pu être envoyé. Veuillez réessayer plus tard.",
+    "errorRateLimit": "Trop de messages envoyés. Veuillez réessayer dans quelques minutes.",
+    "errorNetwork": "Erreur réseau. Vérifiez votre connexion et réessayez."
   },
   "errors": {
     "nameTooShort": "Nom trop court !",
@@ -48,9 +52,10 @@
     "phoneInvalid": "Numéro de téléphone non valide",
     "subjectRequired": "Veuillez sélectionner un sujet.",
     "descriptionTooShort": "La description n'est pas suffisante",
-    "descriptionRequired": "Ce champ est requis."
+    "descriptionRequired": "Ce champ est requis.",
+    "nameTooLong": "Nom trop long !",
+    "descriptionTooLong": "La description est trop longue (5000 caractères maximum)."
   },
-
   "home": {
     "content": {
       "title": "Détective privé professionnel et sympathique.",
@@ -101,8 +106,8 @@
       }
     },
     "testimonialsIntro": {
-        "title": "Témoignages <1>clients</1>",
-        "text": "Approuvé par <1>des centaines de clients</1> satisfaits."
+      "title": "Témoignages <1>clients</1>",
+      "text": "Approuvé par <1>des centaines de clients</1> satisfaits."
     },
     "testimonials": {
       "sarah": {
@@ -122,16 +127,13 @@
       }
     }
   },
-
   "services": {
     "mainTitle": "Services d'enquête privée experts",
     "mainText": "Des solutions discrètes et axées sur les résultats, adaptées à vos besoins spécifiques. Faites confiance à notre expertise pour découvrir la vérité avec professionnalisme et intégrité.",
-
     "serviceIntro": {
       "title": "Mes services <1>d'enquête</1>",
       "text": "Je fournis des services d'enquête professionnels <1>adaptés à vos besoins</1>. Chaque cas est abordé avec <1>confidentialité et attention personnelle</1>."
     },
-
     "surveillance": {
       "title": "Services de surveillance",
       "text": "Surveillance discrète et efficace utilisant des méthodes éprouvées et des équipements modernes.",
@@ -142,7 +144,6 @@
         "Documentation de garde d'enfants"
       ]
     },
-
     "background": {
       "title": "Vérifications des antécédents",
       "text": "Vérifications détaillées des antécédents pour des questions personnelles, commerciales ou juridiques.",
@@ -153,7 +154,6 @@
         "Vérifications de locataires"
       ]
     },
-
     "fraud": {
       "title": "Enquêtes de fraude",
       "text": "Enquête sur la fraude avec précision, discrétion et connaissance juridique.",
@@ -164,7 +164,6 @@
         "Fraude interne des employés"
       ]
     },
-
     "legal": {
       "title": "Services de soutien juridique",
       "text": "Soutien d'enquête de confiance pour les avocats, les clients et les affaires juridiques.",
@@ -175,7 +174,6 @@
         "Documentation de dossiers judiciaires"
       ]
     },
-
     "missing": {
       "title": "Personnes disparues",
       "text": "Recherche de personnes disparues avec soin, discrétion et expérience.",
@@ -186,7 +184,6 @@
         "Réunions d'adoption"
       ]
     },
-
     "digital": {
       "title": "Enquêtes numériques",
       "text": "Découvrir des preuves numériques et tracer les comportements en ligne avec précision.",
@@ -197,7 +194,6 @@
         "Cas de cyber-harcèlement"
       ]
     },
-
     "identity": {
       "title": "Vérification d'identité",
       "text": "Confirmer les identités discrètement en utilisant des outils de confiance et des méthodes éprouvées.",
@@ -208,7 +204,6 @@
         "Détection d'alias"
       ]
     },
-
     "corporate": {
       "title": "Enquêtes d'entreprise",
       "text": "Protégez votre entreprise avec des enquêtes internes et un contrôle des risques.",
@@ -219,7 +214,6 @@
         "Suivi de la mauvaise utilisation des actifs"
       ]
     },
-
     "specialized": {
       "title": "Enquêtes <1>spécialisées</1>",
       "text": "Services d'enquête avancés <1>pour des cas complexes</1>.",
@@ -236,7 +230,6 @@
         "text": "Fraude à l'indemnisation des accidents du travail, vérification des réclamations d'invalidité et reconstitution d'accidents."
       }
     },
-
     "process": {
       "title": "Mon processus <1>d'enquête</1>",
       "text": "Une approche systématique <1>garantissant des résultats approfondis et fiables</1>.",
@@ -258,18 +251,15 @@
       }
     }
   },
-
   "about": {
     "title": "À propos de Nicsec Investigation.",
     "intro": "Plus de 25 ans d'expérience à fournir la vérité avec intégrité, discrétion et professionnalisme inébranlable.",
-    
     "story": {
       "title": "Mon <1>histoire</1>",
       "text1": "Fondée en 1999, Elite Investigations est née d'une mission simple : fournir aux particuliers et aux entreprises la vérité dont ils ont besoin pour prendre des décisions éclairées. Ce qui a commencé comme une opération unipersonnelle s'est transformé en une agence d'enquête à service complet, de confiance pour les avocats, les entreprises et les familles de toute la région.",
       "text2": "Notre fondateur, un ancien agent des forces de l'ordre avec plus de 15 ans d'expérience, a reconnu le besoin de services d'enquête professionnels, éthiques et discrets dans le secteur privé. Aujourd'hui, nous continuons à maintenir ces mêmes valeurs tout en tirant parti de technologies de pointe et de méthodologies éprouvées.",
       "text3": "Nous croyons que tout le monde mérite d'avoir accès à la vérité, et nous nous engageons à la découvrir avec les plus hauts standards de professionnalisme et de confidentialité."
     },
-
     "core": {
       "title": "Mes valeurs <1>fondamentales</1>",
       "text": "Les principes <1>qui guident chaque enquête</1> que nous entreprenons.",
@@ -286,7 +276,6 @@
         "text": "Nous visons la perfection dans chaque enquête, en utilisant des techniques avancées, des outils innovants et des méthodologies approfondies."
       }
     },
-
     "credentials": {
       "title": "Accréditations <1>et</1> certifications",
       "text": "Qualifications professionnelles <1>qui garantissent un service de qualité</1>.",
@@ -307,7 +296,6 @@
         "text": "Entièrement cautionné et assuré pour la protection du client"
       }
     },
-
     "stats": {
       "title": "Nicsec en <1>chiffres</1>",
       "text": "Texte à remplir <1>ou non</1>.",
@@ -329,7 +317,6 @@
       }
     }
   },
-
   "faq": {
     "title": "FAQ pour toutes vos questions.",
     "description": "Offrir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, aux entreprises et aux professionnels du droit de prendre des décisions éclairées.",

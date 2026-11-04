@@ -14,9 +14,4 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  server: {
-    proxy: {
-      "/send-email": "http://localhost:5000",
-    },
-  },
 })

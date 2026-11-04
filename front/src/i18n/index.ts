@@ -21,4 +21,11 @@ i18n
         },
     });
 
+// Keep <html lang> in sync with the active language (accessibility + SEO)
+const syncHtmlLang = (lng?: string) => {
+    if (lng) document.documentElement.lang = lng.split('-')[0];
+};
+syncHtmlLang(i18n.resolvedLanguage);
+i18n.on('languageChanged', syncHtmlLang);
+
 export default i18n;

@@ -40,7 +40,11 @@
     "description": "Description",
     "descriptionPlaceholder": "Describe your case",
     "confirm": "Your message has been sent !",
-    "send": "Send"
+    "send": "Send",
+    "sending": "Sending...",
+    "errorServer": "Your message could not be sent. Please try again later.",
+    "errorRateLimit": "Too many messages sent. Please try again in a few minutes.",
+    "errorNetwork": "Network error. Check your connection and try again."
   },
   "errors": {
     "nameTooShort": "Name too short!",
@@ -48,9 +52,10 @@
     "phoneInvalid": "Phone number not valid",
     "subjectRequired": "Please select a subject.",
     "descriptionTooShort": "Description is not enough",
-    "descriptionRequired": "This field is required."
+    "descriptionRequired": "This field is required.",
+    "nameTooLong": "Name too long!",
+    "descriptionTooLong": "The description is too long (5000 characters max)."
   },
-
   "home": {
     "content": {
       "title": "Professional & Friendly Private Detective.",
@@ -101,8 +106,8 @@
       }
     },
     "testimonialsIntro": {
-        "title": "Client <1>Testimonials</1>",
-        "text": "Trusted by <1>hundreds of satisfied</1> clients."
+      "title": "Client <1>Testimonials</1>",
+      "text": "Trusted by <1>hundreds of satisfied</1> clients."
     },
     "testimonials": {
       "sarah": {
@@ -122,16 +127,13 @@
       }
     }
   },
-
   "services": {
     "mainTitle": "Expert Private Investigation Services",
     "mainText": "Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity.",
-
     "serviceIntro": {
       "title": "My Investigation <1>Services</1>",
       "text": "I provide professional investigative services <1>tailored to your needs</1>. Every case is approached with <1>confidentiality and personal attention</1>."
     },
-
     "surveillance": {
       "title": "Surveillance Services",
       "text": "Discrete, effective surveillance using proven methods and modern equipment.",
@@ -142,7 +144,6 @@
         "Child custody documentation"
       ]
     },
-
     "background": {
       "title": "Background Checks",
       "text": "Detailed background checks for personal, business, or legal matters.",
@@ -153,7 +154,6 @@
         "Tenant background checks"
       ]
     },
-
     "fraud": {
       "title": "Fraud Investigations",
       "text": "Investigating fraud with accuracy, discretion, and legal insight.",
@@ -164,7 +164,6 @@
         "Internal employee fraud"
       ]
     },
-
     "legal": {
       "title": "Legal Support Services",
       "text": "Trusted investigation support for attorneys, clients, and legal cases.",
@@ -175,7 +174,6 @@
         "Court case documentation"
       ]
     },
-
     "missing": {
       "title": "Missing Persons",
       "text": "Finding missing individuals with care, discretion, and experience.",
@@ -186,7 +184,6 @@
         "Adoption reunions"
       ]
     },
-
     "digital": {
       "title": "Digital Investigations",
       "text": "Uncover digital evidence and trace online behavior with precision.",
@@ -197,7 +194,6 @@
         "Cyber harassment cases"
       ]
     },
-
     "identity": {
       "title": "Identity Verification",
       "text": "Confirm identities discreetly using trusted tools and proven methods.",
@@ -208,7 +204,6 @@
         "Alias detection"
       ]
     },
-
     "corporate": {
       "title": "Corporate Investigations",
       "text": "Protect your business with internal investigations and risk control.",
@@ -219,7 +214,6 @@
         "Asset misuse tracking"
       ]
     },
-
     "specialized": {
       "title": "Specialized <1>Investigations</1>",
       "text": "Advanced investigative services <1>for complex cases</1>.",
@@ -236,7 +230,6 @@
         "text": "Workers' compensation fraud, disability claims verification, and accident reconstruction."
       }
     },
-
     "process": {
       "title": "My Investigation <1>Process</1>",
       "text": "A systematic approach <1>ensuring thorough and reliable</1> results.",
@@ -258,18 +251,15 @@
       }
     }
   },
-
   "about": {
     "title": "About Nicsec Investigation.",
     "intro": "25+ years of experience delivering truth with integrity, discretion, and unwavering professionalism.",
-    
     "story": {
       "title": "My <1>Story</1>",
       "text1": "Founded in 1999, Elite Investigations was born from a simple mission: to provide individuals and businesses with the truth they need to make informed decisions. What started as a one-person operation has grown into a full-service investigative agency trusted by attorneys, corporations, and families across the region.",
       "text2": "Our founder, a former law enforcement officer with over 15 years of experience, recognized the need for professional, ethical, and discreet investigative services in the private sector. Today, we continue to uphold those same values while leveraging cutting-edge technology and proven methodologies.",
       "text3": "We believe that everyone deserves access to the truth, and we're committed to uncovering it with the highest standards of professionalism and confidentiality."
     },
-
     "core": {
       "title": "My <1>Core</1> Value",
       "text": "The principles <1>that guide every investigation</1> we undertake.",
@@ -286,7 +276,6 @@
         "text": "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies."
       }
     },
-
     "credentials": {
       "title": "Credentials <1>&</1> Certifications",
       "text": "Professional <1>qualifications that ensure quality</1> service.",
@@ -307,7 +296,6 @@
         "text": "Fully bonded and insured for client protection"
       }
     },
-
     "stats": {
       "title": "Nicsec In <1>Numbers</1>",
       "text": "Text to fill <1>or not</1>.",
@@ -329,7 +317,6 @@
       }
     }
   },
-
   "faq": {
     "title": "Faq for all the question.",
     "description": "Providing discreet, thorough, and results-driven investigative services that empower individuals, businesses, and legal professionals, to make informed decisions.",
