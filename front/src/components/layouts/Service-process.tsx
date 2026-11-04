@@ -28,8 +28,9 @@ export default function StepProcess() {
     const [activeStep, setActiveStep] = useState(STEPS[0].key);
     const activeImage = STEPS.find((step) => step.key === activeStep)?.image ?? STEPS[0].image;
 
+    // Grey band to separate the method from the tabs section above
     return (
-        <section id="methode" className="w-full px-8 mb-16 md:mb-32 flex justify-center scroll-mt-8">
+        <section id="methode" className="w-full px-8 py-16 md:py-32 mb-16 md:mb-32 bg-background flex justify-center">
             <div className="max-w-6xl w-full space-y-8">
 
                 <div className="text-center space-y-8">
@@ -88,7 +89,7 @@ export default function StepProcess() {
                 </div>
 
                 {/* 6.7: compliance is not a step, it applies to the whole mission */}
-                <div className="bg-background rounded-second p-6 md:p-8 flex flex-col sm:flex-row gap-4 sm:items-start">
+                <div className="bg-main/5 rounded-second p-6 md:p-8 flex flex-col sm:flex-row gap-4 sm:items-start">
                     <ShieldCheck className="size-6 shrink-0 text-second" aria-hidden="true" />
                     <div className="space-y-2">
                         <h4>{t("services.method.compliance.title")}</h4>
