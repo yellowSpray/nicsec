@@ -9,29 +9,8 @@ import Paragraphs from "../ui/paragraphs";
 import { AUDIENCE_TABS, isAudienceTabId } from "@/data/audienceTabs";
 import { scrollToSection } from "@/features/scrollButton";
 import { usePageMeta } from "@/hooks/usePageMeta";
-import { useMediaQuery } from "@/hooks/use-media-query";
+import SteppedCardGrid from "../ui/steppedCardGrid";
 import type { AudienceTab } from "@/data/audienceTabs";
-
-/**
- * Concave rounded corner where the narrower last row meets the block above.
- * A white square hides the sharp corner of the two straight borders,
- * then a quarter-circle border is drawn on top of it.
- */
-function JoinCorner({ side }: { side: "left" | "right" }) {
-    const position = side === "left"
-        ? "-left-[var(--radius-second)]"
-        : "-right-[var(--radius-second)]";
-    const arc = side === "left"
-        ? "border-t border-r rounded-tr-second"
-        : "border-t border-l rounded-tl-second";
-    const box = `absolute top-0 ${position} w-[calc(var(--radius-second)+1px)] h-[calc(var(--radius-second)+1px)] pointer-events-none`;
-    return (
-        <>
-            <span aria-hidden="true" className={`${box} bg-white`} />
-            <span aria-hidden="true" className={`${box} ${arc} border-background`} />
-        </>
-    );
-}
 
 /**
  * Services page: one tab per client type (sections 2 to 5 of the
@@ -57,18 +36,6 @@ export default function AudienceTabs() {
     const base = `services.tabs.${activeTab.key}`;
 
     usePageMeta(t(`${base}.seo.title`), t(`${base}.seo.description`));
-
-    // Same breakpoints as Tailwind: sm = 40rem (2 columns), md = 60rem (3 columns)
-    const isSm = useMediaQuery("(min-width: 40rem)");
-    const isMd = useMediaQuery("(min-width: 60rem)");
-    const cols = isMd ? 3 : isSm ? 2 : 1;
-
-    // Full rows go in the main block, an incomplete last row in a narrower centered block
-    const cards = activeTab.cards;
-    const lastCount = cards.length % cols;
-    const fullCards = cards.slice(0, cards.length - lastCount);
-    const lastCards = cards.slice(cards.length - lastCount);
-    const fullRows = fullCards.length / cols;
 
     const renderCard = ({ key, icon: Icon }: AudienceTab["cards"][number], dividers: string) => (
         <Card key={key} className={`shadow-none rounded-none border-background p-4 ${dividers}`}>
@@ -157,38 +124,11 @@ export default function AudienceTabs() {
                         </p>
                     </div>
 
-                    <div>
-                        <div
-                            className="grid border-card overflow-hidden"
-                            style={{ gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))` }}
-                        >
-                            {fullCards.map((card, index) =>
-                                renderCard(card, [
-                                    index % cols < cols - 1 ? "border-r" : "",
-                                    Math.floor(index / cols) < fullRows - 1 ? "border-b" : "",
-                                ].join(" "))
-                            )}
-                        </div>
-
-                        {lastCards.length > 0 && (
-                            // Narrower block: shares the bottom border of the block above (-mt-px)
-                            <div
-                                className="relative mx-auto -mt-px"
-                                style={{ width: `${(lastCards.length / cols) * 100}%` }}
-                            >
-                                <div
-                                    className="grid border border-t-0 border-background rounded-b-second overflow-hidden"
-                                    style={{ gridTemplateColumns: `repeat(${lastCards.length}, minmax(0, 1fr))` }}
-                                >
-                                    {lastCards.map((card, index) =>
-                                        renderCard(card, index < lastCards.length - 1 ? "border-r" : "")
-                                    )}
-                                </div>
-                                <JoinCorner side="left" />
-                                <JoinCorner side="right" />
-                            </div>
-                        )}
-                    </div>
+                    <SteppedCardGrid
+                        items={activeTab.cards}
+                        columns={{ base: 1, sm: 2, md: 3 }}
+                        renderItem={renderCard}
+                    />
 
                     <div className="flex justify-center">
                         <Button
