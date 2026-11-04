@@ -127,104 +127,139 @@
   "services": {
     "mainTitle": "Services d'enquête privée experts",
     "mainText": "Des solutions discrètes et axées sur les résultats, adaptées à vos besoins spécifiques. Faites confiance à notre expertise pour découvrir la vérité avec professionnalisme et intégrité.",
-    "serviceIntro": {
-      "title": "Mes services <1>d'enquête</1>",
-      "text": "Je fournis des services d'enquête professionnels <1>adaptés à vos besoins</1>. Chaque cas est abordé avec <1>confidentialité et attention personnelle</1>."
-    },
-    "surveillance": {
-      "title": "Services de surveillance",
-      "text": "Surveillance discrète et efficace utilisant des méthodes éprouvées et des équipements modernes.",
-      "items": [
-        "Enquêtes d'infidélité",
-        "Détection de fraude à l'assurance",
-        "Surveillance d'inconduite des employés",
-        "Documentation de garde d'enfants"
-      ]
-    },
-    "background": {
-      "title": "Vérifications des antécédents",
-      "text": "Vérifications détaillées des antécédents pour des questions personnelles, commerciales ou juridiques.",
-      "items": [
-        "Contrôle de candidatures",
-        "Vérifications de casier judiciaire",
-        "Vérification d'identité",
-        "Vérifications de locataires"
-      ]
-    },
-    "fraud": {
-      "title": "Enquêtes de fraude",
-      "text": "Enquête sur la fraude avec précision, discrétion et connaissance juridique.",
-      "items": [
-        "Fraude aux réclamations d'assurance",
-        "Analyse de fraude d'entreprise",
-        "Vérification de documents",
-        "Fraude interne des employés"
-      ]
-    },
-    "legal": {
-      "title": "Services de soutien juridique",
-      "text": "Soutien d'enquête de confiance pour les avocats, les clients et les affaires juridiques.",
-      "items": [
-        "Localisation de témoins",
-        "Collecte de preuves",
-        "Soutien aux litiges",
-        "Documentation de dossiers judiciaires"
-      ]
-    },
-    "missing": {
-      "title": "Personnes disparues",
-      "text": "Recherche de personnes disparues avec soin, discrétion et expérience.",
-      "items": [
-        "Adolescents fugueurs",
-        "Proches perdus",
-        "Localisation de débiteurs",
-        "Réunions d'adoption"
-      ]
-    },
-    "digital": {
-      "title": "Enquêtes numériques",
-      "text": "Découvrir des preuves numériques et tracer les comportements en ligne avec précision.",
-      "items": [
-        "Suivi des réseaux sociaux",
-        "Traçage d'emails",
-        "Détection de fraude en ligne",
-        "Cas de cyber-harcèlement"
-      ]
-    },
-    "identity": {
-      "title": "Vérification d'identité",
-      "text": "Confirmer les identités discrètement en utilisant des outils de confiance et des méthodes éprouvées.",
-      "items": [
-        "Vérification de rencontres en ligne",
-        "Enquêtes prénuptiales",
-        "Contrôle de partenaires commerciaux",
-        "Détection d'alias"
-      ]
-    },
-    "corporate": {
-      "title": "Enquêtes d'entreprise",
-      "text": "Protégez votre entreprise avec des enquêtes internes et un contrôle des risques.",
-      "items": [
-        "Vol interne",
-        "Vérifications des antécédents des employés",
-        "Violations de politiques",
-        "Suivi de la mauvaise utilisation des actifs"
-      ]
-    },
-    "specialized": {
-      "title": "Enquêtes <1>spécialisées</1>",
-      "text": "Services d'enquête avancés <1>pour des cas complexes</1>.",
-      "corporate": {
-        "title": "Sécurité d'entreprise",
-        "text": "Vol interne, espionnage industriel et enquêtes sur le lieu de travail pour les entreprises de toutes tailles."
+    "tabsLabel": "Types de clients",
+    "tabs": {
+      "individuals": {
+        "label": "Particuliers",
+        "title": "Des faits vérifiés pour éclairer une situation <h>privée</h>",
+        "text": "Certaines situations privées deviennent difficiles à résoudre parce que les faits sont incomplets, contradictoires ou impossibles à vérifier seul. VESTIGE peut intervenir lorsqu'une mission entre dans le <b>cadre légal de la recherche privée</b> et que le mandant dispose d'un <b>intérêt légitime</b> à obtenir les renseignements recherchés.",
+        "cta": "Exposer ma situation",
+        "seo": {
+          "title": "VESTIGE | Enquêtes privées pour particuliers en Belgique",
+          "description": "Recherche de personnes ou de biens, vérification de faits et investigations dans les litiges privés : VESTIGE étudie chaque demande avant acceptation."
+        },
+        "cards": {
+          "disputes": {
+            "title": "Litiges et situations privées",
+            "text": "Dans un conflit actuel ou potentiel, une investigation peut aider à clarifier des faits précis, vérifier des informations ou documenter une situation.\nLa mission est toujours limitée à un objectif déterminé et à des moyens légalement admissibles."
+          },
+          "people": {
+            "title": "Recherche de personnes",
+            "text": "Retrouver une personne perdue de vue, vérifier une piste de localisation ou rechercher une personne disparue peut nécessiter de croiser différentes sources et vérifications.\nLa nature de la demande et l'intérêt du mandant sont examinés avant toute recherche."
+          },
+          "assets": {
+            "title": "Recherche de biens perdus ou volés",
+            "text": "Lorsqu'un bien a été perdu ou volé, VESTIGE peut analyser les informations disponibles, vérifier des pistes et effectuer les recherches compatibles avec le cadre légal applicable."
+          },
+          "facts": {
+            "title": "Vérification de faits",
+            "text": "Une information peut paraître crédible sans être exacte.\nVESTIGE distingue les éléments établis, les informations convergentes et ce qui ne peut pas être confirmé. Cette distinction constitue le cœur du rapport remis au mandant."
+          },
+          "limits": {
+            "title": "Ce que VESTIGE ne fait pas",
+            "text": "La discrétion ne signifie jamais contourner la loi.\nVESTIGE refuse notamment toute demande nécessitant une intrusion, un accès frauduleux à un compte ou à un système, une usurpation d'identité, la collecte d'informations interdites ou des méthodes disproportionnées."
+          },
+          "contact": {
+            "title": "Premier contact",
+            "text": "Décrivez la situation en quelques lignes, sans transmettre immédiatement de données sensibles ni de pièces confidentielles concernant des tiers.\nSi la demande peut être examinée, un canal approprié pourra ensuite être convenu."
+          }
+        }
       },
-      "digital": {
-        "title": "Informatique légale",
-        "text": "Enquêtes sur ordinateurs et appareils mobiles, récupération de données et analyse de cybercriminalité."
+      "companies": {
+        "label": "Entreprises",
+        "title": "Investigations pour <h>entreprises</h> et dirigeants",
+        "text": "Une entreprise peut devoir agir alors que les faits sont incomplets : soupçon de fraude, conflit commercial, comportement préjudiciable, informations contradictoires ou risque à documenter. VESTIGE aide à transformer cette incertitude en <b>éléments factuels vérifiés</b>.",
+        "cta": "Parler d'une situation professionnelle",
+        "seo": {
+          "title": "VESTIGE | Enquêtes et investigations pour entreprises",
+          "description": "Fraude interne, litiges commerciaux, vérification de faits et investigations : VESTIGE accompagne les entreprises dans les missions de recherche privée légalement admissibles."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Fraude et irrégularités internes",
+            "text": "Vol, détournement, faux frais, abus ou autres irrégularités peuvent nécessiter une investigation structurée.\nVESTIGE commence par définir précisément les faits à vérifier, les personnes concernées et les moyens qui peuvent légalement être utilisés."
+          },
+          "employee": {
+            "title": "Situations impliquant un salarié",
+            "text": "Les investigations concernant un travailleur sont soumises à un cadre particulier.\nVESTIGE vérifie les conditions applicables avant d'accepter la mission et n'engage aucune méthode d'enquête sur la seule base d'une demande informelle du dirigeant."
+          },
+          "commercial": {
+            "title": "Litiges commerciaux",
+            "text": "Dans un conflit avec un partenaire, un fournisseur, un client ou un autre acteur économique, des faits précis peuvent devoir être établis avant une décision, une négociation ou une procédure.\nVESTIGE recherche et recoupe uniquement les éléments utiles à l'objectif du mandat."
+          },
+          "partners": {
+            "title": "Vérification de partenaires et de situations",
+            "text": "Avant ou pendant une relation professionnelle, certaines incohérences peuvent justifier des vérifications ciblées.\nL'objectif n'est pas d'établir un profil exhaustif d'une personne ou d'une société, mais de répondre à des questions précises et légitimes."
+          },
+          "research": {
+            "title": "Recherche et analyse d'informations",
+            "text": "Registres, publications, sources ouvertes, documents accessibles et informations de terrain peuvent être combinés lorsqu'ils sont pertinents pour la mission.\nL'OSINT est utilisé comme méthode de recherche, pas comme prétexte à collecter tout ce qui est publiquement visible."
+          },
+          "field": {
+            "title": "Investigations de terrain",
+            "text": "Lorsque la recherche documentaire ne suffit pas, des vérifications de terrain ou des observations peuvent être envisagées.\nElles ne sont mises en œuvre que si elles sont nécessaires, proportionnées et autorisées par le cadre applicable."
+          },
+          "report": {
+            "title": "Rapport au décideur",
+            "text": "Le rapport privilégie ce qui aide réellement à décider : faits établis, chronologie, sources utiles, éléments convergents, points non confirmés et limites de la mission.\nIl évite les conclusions spéculatives présentées comme des certitudes."
+          }
+        }
       },
-      "insurance": {
-        "title": "Réclamations d'assurance",
-        "text": "Fraude à l'indemnisation des accidents du travail, vérification des réclamations d'invalidité et reconstitution d'accidents."
+      "insurers": {
+        "label": "Assurances",
+        "title": "Investigations et vérifications pour le secteur de l'<h>assurance</h>",
+        "text": "Certains dossiers d'assurance nécessitent de vérifier des circonstances, recouper des déclarations ou documenter des incohérences. VESTIGE intervient sur des <b>questions factuelles clairement définies</b>, avec une <b>méthodologie traçable et proportionnée</b>.",
+        "cta": "Discuter d'un dossier",
+        "seo": {
+          "title": "VESTIGE | Investigations pour assureurs et dossiers de fraude",
+          "description": "Vérification de faits, cohérence des déclarations, recherches documentaires et investigations de terrain pour les dossiers d'assurance, dans les limites légales applicables."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Suspicion de fraude",
+            "text": "Lorsqu'un dossier présente des anomalies ou des éléments contradictoires, une investigation peut permettre de vérifier des faits déterminés.\nLa mission doit être précisément délimitée : ce qui doit être établi, pourquoi, et par quels moyens."
+          },
+          "documents": {
+            "title": "Recherche documentaire",
+            "text": "Les sources accessibles peuvent être examinées afin de vérifier une chronologie, des liens, des activités ou d'autres éléments pertinents pour la mission.\nLe caractère public d'une information ne signifie pas automatiquement qu'elle peut être collectée ou communiquée."
+          },
+          "field": {
+            "title": "Investigations de terrain",
+            "text": "Des vérifications de terrain ou observations peuvent compléter le dossier lorsque celles-ci sont légalement admissibles et proportionnées à la finalité de la mission."
+          },
+          "sensitive": {
+            "title": "Données sensibles",
+            "text": "Les données de santé et autres catégories sensibles font l'objet de restrictions particulières.\nVESTIGE ne les recherche, ne les conserve ou ne les communique que lorsqu'une base légale spécifique le permet effectivement."
+          },
+          "report": {
+            "title": "Rapport",
+            "text": "Le rapport est structuré pour faciliter l'exploitation du dossier : objet de la mission, méthodologie, chronologie, constatations, sources, annexes utiles et limites des vérifications effectuées."
+          }
+        }
+      },
+      "professionals": {
+        "label": "Professionnels",
+        "title": "Un appui <h>factuel</h> pour les professionnels",
+        "text": "Avocats, conseils, confrères ou autres mandants professionnels : lorsqu'un dossier repose sur des faits à établir, VESTIGE intervient sur un <b>mandat précisément défini</b>, après vérification de sa recevabilité, et remet un rapport qui distingue les <b>constatations des hypothèses</b>.",
+        "cta": "Présenter une mission",
+        "seo": {
+          "title": "VESTIGE | Investigations pour avocats et professionnels",
+          "description": "Recherche de faits, localisation, vérifications documentaires et appui à des dossiers pour avocats, conseils et autres professionnels, sous réserve de recevabilité."
+        },
+        "cards": {
+          "lawyers": {
+            "title": "Avocats et conseils",
+            "text": "Lorsqu'un dossier nécessite de vérifier des faits, retrouver une personne, clarifier une chronologie ou documenter une situation, VESTIGE peut intervenir sur un mandat précisément défini.\nLe rapport distingue toujours les constatations des hypothèses et mentionne les limites de la recherche."
+          },
+          "peers": {
+            "title": "Confrères et sous-traitance",
+            "text": "VESTIGE peut intervenir en appui d'autres professionnels de la recherche privée lorsque les conditions légales de la sous-traitance sont réunies et que le périmètre de mission est clairement documenté."
+          },
+          "others": {
+            "title": "Autres mandants professionnels",
+            "text": "Chaque demande provenant d'un professionnel est qualifiée selon son objet réel.\nLe statut du mandant ne dispense jamais de vérifier l'intérêt légitime, la finalité et la licéité des méthodes envisagées."
+          }
+        }
       }
     },
     "process": {

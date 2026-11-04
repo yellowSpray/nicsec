@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardFooter, CardHeader } from '../ui/card'
 import { User, Building2, ShieldCheck, Scale } from 'lucide-react'
 import { useTranslation, Trans } from "react-i18next";
+import { fadeOutAndNavigate } from "@/features/pageTransition";
 
 /**
  * Sections 1.2 "Une approche factuelle" + 1.3 "Entrées par type de client"
@@ -10,33 +11,33 @@ import { useTranslation, Trans } from "react-i18next";
 export default function Features() {
 
     const { t } = useTranslation();
+    const navigate = useNavigate();
 
-    // TODO: point each card to its own page (/particuliers, /entreprises,
-    // /assurances, /professionnels) once those pages exist
+    // Each card opens the matching tab on the services page
     const audiences = [
         {
             icon: <User className='size-8 text-second'/>,
             title: t("home.audiences.individuals.title"),
             description: t("home.audiences.individuals.text"),
-            to: "/service",
+            to: "/service#particuliers",
         },
         {
             icon: <Building2 className='size-8 text-second'/>,
             title: t("home.audiences.companies.title"),
             description: t("home.audiences.companies.text"),
-            to: "/service",
+            to: "/service#entreprises",
         },
         {
             icon: <ShieldCheck className='size-8 text-second'/>,
             title: t("home.audiences.insurers.title"),
             description: t("home.audiences.insurers.text"),
-            to: "/service",
+            to: "/service#assurances",
         },
         {
             icon: <Scale className='size-8 text-second'/>,
             title: t("home.audiences.professionals.title"),
             description: t("home.audiences.professionals.text"),
-            to: "/service",
+            to: "/service#professionnels",
         }
     ]
 
@@ -84,6 +85,10 @@ export default function Features() {
                                 {/* Stretched link: the whole card is clickable */}
                                 <Link
                                     to={to}
+                                    onClick={(event) => {
+                                        event.preventDefault();
+                                        fadeOutAndNavigate(navigate, to);
+                                    }}
                                     className='btn-outline after:absolute after:inset-0 after:content-[""]'
                                     aria-label={`${title} : ${t("home.audiences.cta")}`}
                                 >

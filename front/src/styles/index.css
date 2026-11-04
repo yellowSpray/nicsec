@@ -124,6 +124,14 @@ body {
 
 
 @layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   .border-card {
     @apply border-background border-1 rounded-second
   }

@@ -3,8 +3,7 @@ import ServiceBg from "@/assets/images/service-background.png";
 
 // components 
 import Content from "@/components/common/Content";
-import Features from "@/components/layouts/Service-features"
-import Specialized from "@/components/layouts/Service-special";
+import AudienceTabs from "@/components/layouts/Service-features";
 import StepProcess from "@/components/layouts/Service-process";
 
 // library
@@ -24,9 +23,7 @@ export default function Service() {
         positionClassName="items-start text-start"
       />
 
-      <Features />
-
-      <Specialized />
+      <AudienceTabs />
 
       <StepProcess />
 

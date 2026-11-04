@@ -127,104 +127,139 @@
   "services": {
     "mainTitle": "Deskundige privédetective diensten",
     "mainText": "Discrete en resultaatgerichte oplossingen afgestemd op uw specifieke behoeften. Vertrouw op onze expertise om de waarheid te onthullen met professionaliteit en integriteit.",
-    "serviceIntro": {
-      "title": "Mijn <1>onderzoeks</1>diensten",
-      "text": "Ik bied professionele opsporingsdiensten <1>afgestemd op uw behoeften</1>. Elke zaak wordt benaderd met <1>vertrouwelijkheid en persoonlijke aandacht</1>."
-    },
-    "surveillance": {
-      "title": "Observatiediensten",
-      "text": "Discrete, effectieve observatie met bewezen methoden en moderne apparatuur.",
-      "items": [
-        "Ontrouwonderzoeken",
-        "Detectie van verzekeringsfraude",
-        "Monitoring van wangedrag van werknemers",
-        "Documentatie voor voogdijzaken"
-      ]
-    },
-    "background": {
-      "title": "Antecedentenonderzoeken",
-      "text": "Gedetailleerde antecedentencontroles voor persoonlijke, zakelijke of juridische aangelegenheden.",
-      "items": [
-        "Screening van werknemers",
-        "Strafbladcontroles",
-        "Identiteitsverificatie",
-        "Huurder antecedentencontroles"
-      ]
-    },
-    "fraud": {
-      "title": "Fraudeonderzoeken",
-      "text": "Onderzoek naar fraude met nauwkeurigheid, discretie en juridisch inzicht.",
-      "items": [
-        "Verzekeringsclaim fraude",
-        "Bedrijfsfraude analyse",
-        "Documentverificatie",
-        "Interne werknemersfraude"
-      ]
-    },
-    "legal": {
-      "title": "Juridische ondersteuningsdiensten",
-      "text": "Betrouwbare onderzoeksondersteuning voor advocaten, klanten en juridische zaken.",
-      "items": [
-        "Getuigen lokaliseren",
-        "Bewijsverzameling",
-        "Procesondersteuning",
-        "Documentatie van rechtszaken"
-      ]
-    },
-    "missing": {
-      "title": "Vermiste personen",
-      "text": "Het vinden van vermiste personen met zorg, discretie en ervaring.",
-      "items": [
-        "Weggelopen tieners",
-        "Verloren familieleden",
-        "Schuldenaar lokalisatie",
-        "Adoptiereünies"
-      ]
-    },
-    "digital": {
-      "title": "Digitale onderzoeken",
-      "text": "Digitaal bewijs ontdekken en online gedrag traceren met precisie.",
-      "items": [
-        "Social media tracking",
-        "E-mail tracking",
-        "Online fraudedetectie",
-        "Cyberpest zaken"
-      ]
-    },
-    "identity": {
-      "title": "Identiteitsverificatie",
-      "text": "Identiteiten discreet bevestigen met behulp van betrouwbare tools en bewezen methoden.",
-      "items": [
-        "Online dating verificatie",
-        "Pre-huwelijks onderzoeken",
-        "Zakelijke partner screening",
-        "Alias detectie"
-      ]
-    },
-    "corporate": {
-      "title": "Bedrijfsonderzoeken",
-      "text": "Bescherm uw bedrijf met interne onderzoeken en risicobeheersing.",
-      "items": [
-        "Interne diefstal",
-        "Antecedentenonderzoek werknemers",
-        "Beleidsschendingen",
-        "Tracking van misbruik van bedrijfsmiddelen"
-      ]
-    },
-    "specialized": {
-      "title": "Gespecialiseerde <1>onderzoeken</1>",
-      "text": "Geavanceerde opsporingsdiensten <1>voor complexe zaken</1>.",
-      "corporate": {
-        "title": "Bedrijfsbeveiliging",
-        "text": "Interne diefstal, bedrijfsspionage en werkplekonderzoeken voor bedrijven van elke omvang."
+    "tabsLabel": "Soorten klanten",
+    "tabs": {
+      "individuals": {
+        "label": "Particulieren",
+        "title": "Geverifieerde feiten om een <h>persoonlijke</h> situatie te verduidelijken",
+        "text": "Sommige persoonlijke situaties worden moeilijk op te lossen omdat de feiten onvolledig of tegenstrijdig zijn, of niet alleen te verifiëren. VESTIGE kan optreden wanneer een opdracht binnen het <b>wettelijk kader van privé-onderzoek</b> valt en de opdrachtgever een <b>rechtmatig belang</b> heeft bij het verkrijgen van de gezochte inlichtingen.",
+        "cta": "Mijn situatie voorleggen",
+        "seo": {
+          "title": "VESTIGE | Privé-onderzoek voor particulieren in België",
+          "description": "Opsporing van personen of goederen, verificatie van feiten en onderzoek bij private geschillen: VESTIGE bestudeert elke aanvraag vóór aanvaarding."
+        },
+        "cards": {
+          "disputes": {
+            "title": "Geschillen en persoonlijke situaties",
+            "text": "Bij een bestaand of mogelijk conflict kan een onderzoek helpen om precieze feiten te verduidelijken, informatie te verifiëren of een situatie te documenteren.\nDe opdracht blijft altijd beperkt tot een bepaald doel en tot wettelijk toelaatbare middelen."
+          },
+          "people": {
+            "title": "Opsporing van personen",
+            "text": "Iemand terugvinden met wie u het contact verloren bent, een spoor naar een verblijfplaats nagaan of een vermiste persoon zoeken kan vereisen dat verschillende bronnen en controles worden gekruist.\nDe aard van de aanvraag en het belang van de opdrachtgever worden vóór elke opzoeking onderzocht."
+          },
+          "assets": {
+            "title": "Opsporing van verloren of gestolen goederen",
+            "text": "Wanneer een goed verloren of gestolen is, kan VESTIGE de beschikbare informatie analyseren, sporen nagaan en de opzoekingen uitvoeren die verenigbaar zijn met het toepasselijke wettelijke kader."
+          },
+          "facts": {
+            "title": "Verificatie van feiten",
+            "text": "Informatie kan geloofwaardig lijken zonder juist te zijn.\nVESTIGE maakt een onderscheid tussen vastgestelde feiten, overeenstemmende informatie en wat niet kan worden bevestigd. Dat onderscheid vormt de kern van het rapport aan de opdrachtgever."
+          },
+          "limits": {
+            "title": "Wat VESTIGE niet doet",
+            "text": "Discretie betekent nooit de wet omzeilen.\nVESTIGE weigert met name elke aanvraag die een inbraak, frauduleuze toegang tot een account of systeem, identiteitsfraude, het verzamelen van verboden informatie of buitensporige methoden vereist."
+          },
+          "contact": {
+            "title": "Eerste contact",
+            "text": "Beschrijf de situatie in enkele regels, zonder meteen gevoelige gegevens of vertrouwelijke stukken over derden door te sturen.\nAls de aanvraag kan worden onderzocht, kan daarna een gepast kanaal worden afgesproken."
+          }
+        }
       },
-      "digital": {
-        "title": "Digitale forensiek",
-        "text": "Computer- en mobiele apparaat onderzoeken, gegevensherstel en cybercriminaliteitsanalyse."
+      "companies": {
+        "label": "Bedrijven",
+        "title": "Onderzoek voor <h>bedrijven</h> en bedrijfsleiders",
+        "text": "Een bedrijf moet soms handelen terwijl de feiten onvolledig zijn: vermoeden van fraude, commercieel conflict, schadelijk gedrag, tegenstrijdige informatie of een risico dat moet worden gedocumenteerd. VESTIGE helpt die onzekerheid om te zetten in <b>geverifieerde feitelijke elementen</b>.",
+        "cta": "Een professionele situatie bespreken",
+        "seo": {
+          "title": "VESTIGE | Onderzoek en investigaties voor bedrijven",
+          "description": "Interne fraude, commerciële geschillen, verificatie van feiten en onderzoek: VESTIGE begeleidt bedrijven bij wettelijk toelaatbare opdrachten van privé-onderzoek."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Interne fraude en onregelmatigheden",
+            "text": "Diefstal, verduistering, valse onkosten, misbruik of andere onregelmatigheden kunnen een gestructureerd onderzoek vereisen.\nVESTIGE begint met het nauwkeurig bepalen van de te verifiëren feiten, de betrokken personen en de middelen die wettelijk mogen worden ingezet."
+          },
+          "employee": {
+            "title": "Situaties met een werknemer",
+            "text": "Onderzoek naar een werknemer is onderworpen aan een specifiek kader.\nVESTIGE gaat de toepasselijke voorwaarden na vóór het aanvaarden van de opdracht en zet geen enkele onderzoeksmethode in op basis van een louter informele vraag van de bedrijfsleider."
+          },
+          "commercial": {
+            "title": "Commerciële geschillen",
+            "text": "Bij een conflict met een partner, leverancier, klant of andere economische speler moeten soms precieze feiten worden vastgesteld vóór een beslissing, een onderhandeling of een procedure.\nVESTIGE zoekt en controleert enkel de elementen die nuttig zijn voor het doel van de opdracht."
+          },
+          "partners": {
+            "title": "Verificatie van partners en situaties",
+            "text": "Vóór of tijdens een zakelijke relatie kunnen bepaalde inconsistenties gerichte verificaties rechtvaardigen.\nHet doel is niet om een volledig profiel van een persoon of bedrijf op te stellen, maar om precieze en rechtmatige vragen te beantwoorden."
+          },
+          "research": {
+            "title": "Opzoeking en analyse van informatie",
+            "text": "Registers, publicaties, open bronnen, toegankelijke documenten en informatie op het terrein kunnen worden gecombineerd wanneer ze relevant zijn voor de opdracht.\nOSINT wordt gebruikt als onderzoeksmethode, niet als voorwendsel om alles te verzamelen wat publiek zichtbaar is."
+          },
+          "field": {
+            "title": "Onderzoek op het terrein",
+            "text": "Wanneer documentair onderzoek niet volstaat, kunnen verificaties of observaties op het terrein worden overwogen.\nZe worden enkel ingezet als ze noodzakelijk, proportioneel en toegestaan zijn binnen het toepasselijke kader."
+          },
+          "report": {
+            "title": "Rapport voor de beslisser",
+            "text": "Het rapport legt de nadruk op wat echt helpt om te beslissen: vastgestelde feiten, chronologie, nuttige bronnen, overeenstemmende elementen, niet-bevestigde punten en de grenzen van de opdracht.\nHet vermijdt speculatieve conclusies die als zekerheden worden voorgesteld."
+          }
+        }
       },
-      "insurance": {
-        "title": "Verzekeringsclaims",
-        "text": "Arbeidsongeschiktheidsfraude, verificatie van invaliditeitsclaims en reconstructie van ongevallen."
+      "insurers": {
+        "label": "Verzekeraars",
+        "title": "Onderzoek en verificaties voor <h>verzekeraars</h>",
+        "text": "Sommige verzekeringsdossiers vereisen dat omstandigheden worden geverifieerd, verklaringen worden gecontroleerd of inconsistenties worden gedocumenteerd. VESTIGE werkt op <b>duidelijk omschreven feitelijke vragen</b>, met een <b>traceerbare en proportionele methodologie</b>.",
+        "cta": "Een dossier bespreken",
+        "seo": {
+          "title": "VESTIGE | Onderzoek voor verzekeraars en fraudedossiers",
+          "description": "Verificatie van feiten, samenhang van verklaringen, documentair onderzoek en onderzoek op het terrein voor verzekeringsdossiers, binnen de toepasselijke wettelijke grenzen."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Vermoeden van fraude",
+            "text": "Wanneer een dossier afwijkingen of tegenstrijdige elementen bevat, kan een onderzoek helpen om bepaalde feiten te verifiëren.\nDe opdracht moet nauwkeurig worden afgebakend: wat moet worden vastgesteld, waarom, en met welke middelen."
+          },
+          "documents": {
+            "title": "Documentair onderzoek",
+            "text": "Toegankelijke bronnen kunnen worden onderzocht om een chronologie, verbanden, activiteiten of andere relevante elementen voor de opdracht te verifiëren.\nDat informatie publiek is, betekent niet automatisch dat ze mag worden verzameld of meegedeeld."
+          },
+          "field": {
+            "title": "Onderzoek op het terrein",
+            "text": "Verificaties of observaties op het terrein kunnen het dossier aanvullen wanneer ze wettelijk toelaatbaar zijn en in verhouding staan tot het doel van de opdracht."
+          },
+          "sensitive": {
+            "title": "Gevoelige gegevens",
+            "text": "Gezondheidsgegevens en andere gevoelige categorieën zijn onderworpen aan bijzondere beperkingen.\nVESTIGE zoekt, bewaart of deelt ze enkel mee wanneer een specifieke wettelijke grondslag dat effectief toelaat."
+          },
+          "report": {
+            "title": "Rapport",
+            "text": "Het rapport is gestructureerd om het dossier vlot te kunnen gebruiken: doel van de opdracht, methodologie, chronologie, vaststellingen, bronnen, nuttige bijlagen en de grenzen van de uitgevoerde verificaties."
+          }
+        }
+      },
+      "professionals": {
+        "label": "Professionals",
+        "title": "<h>Feitelijke</h> ondersteuning voor professionals",
+        "text": "Advocaten, adviseurs, confraters of andere professionele opdrachtgevers: wanneer een dossier steunt op feiten die moeten worden vastgesteld, treedt VESTIGE op binnen een <b>nauwkeurig omschreven opdracht</b>, na controle van de ontvankelijkheid, en levert het een rapport dat <b>vaststellingen van hypothesen</b> onderscheidt.",
+        "cta": "Een opdracht voorleggen",
+        "seo": {
+          "title": "VESTIGE | Onderzoek voor advocaten en professionals",
+          "description": "Opzoeken van feiten, lokalisatie, documentaire verificaties en ondersteuning van dossiers voor advocaten, adviseurs en andere professionals, onder voorbehoud van ontvankelijkheid."
+        },
+        "cards": {
+          "lawyers": {
+            "title": "Advocaten en adviseurs",
+            "text": "Wanneer een dossier vereist dat feiten worden geverifieerd, een persoon wordt teruggevonden, een chronologie wordt verduidelijkt of een situatie wordt gedocumenteerd, kan VESTIGE optreden binnen een nauwkeurig omschreven opdracht.\nHet rapport maakt altijd een onderscheid tussen vaststellingen en hypothesen en vermeldt de grenzen van het onderzoek."
+          },
+          "peers": {
+            "title": "Confraters en onderaanneming",
+            "text": "VESTIGE kan andere professionals van het privé-onderzoek ondersteunen wanneer aan de wettelijke voorwaarden voor onderaanneming is voldaan en de reikwijdte van de opdracht duidelijk is gedocumenteerd."
+          },
+          "others": {
+            "title": "Andere professionele opdrachtgevers",
+            "text": "Elke aanvraag van een professional wordt beoordeeld op basis van haar werkelijke doel.\nHet statuut van de opdrachtgever ontslaat nooit van de verificatie van het rechtmatig belang, het doel en de wettigheid van de overwogen methoden."
+          }
+        }
       }
     },
     "process": {

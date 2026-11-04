@@ -127,104 +127,139 @@
   "services": {
     "mainTitle": "Expert Private Investigation Services",
     "mainText": "Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity.",
-    "serviceIntro": {
-      "title": "My Investigation <1>Services</1>",
-      "text": "I provide professional investigative services <1>tailored to your needs</1>. Every case is approached with <1>confidentiality and personal attention</1>."
-    },
-    "surveillance": {
-      "title": "Surveillance Services",
-      "text": "Discrete, effective surveillance using proven methods and modern equipment.",
-      "items": [
-        "Infidelity investigations",
-        "Insurance fraud detection",
-        "Employee misconduct monitoring",
-        "Child custody documentation"
-      ]
-    },
-    "background": {
-      "title": "Background Checks",
-      "text": "Detailed background checks for personal, business, or legal matters.",
-      "items": [
-        "Employment screening",
-        "Criminal record checks",
-        "Identity verification",
-        "Tenant background checks"
-      ]
-    },
-    "fraud": {
-      "title": "Fraud Investigations",
-      "text": "Investigating fraud with accuracy, discretion, and legal insight.",
-      "items": [
-        "Insurance claim fraud",
-        "Corporate fraud analysis",
-        "Document verification",
-        "Internal employee fraud"
-      ]
-    },
-    "legal": {
-      "title": "Legal Support Services",
-      "text": "Trusted investigation support for attorneys, clients, and legal cases.",
-      "items": [
-        "Witness location",
-        "Evidence gathering",
-        "Litigation support",
-        "Court case documentation"
-      ]
-    },
-    "missing": {
-      "title": "Missing Persons",
-      "text": "Finding missing individuals with care, discretion, and experience.",
-      "items": [
-        "Runaway teens",
-        "Lost relatives",
-        "Debtor location",
-        "Adoption reunions"
-      ]
-    },
-    "digital": {
-      "title": "Digital Investigations",
-      "text": "Uncover digital evidence and trace online behavior with precision.",
-      "items": [
-        "Social media tracking",
-        "Email tracing",
-        "Online fraud detection",
-        "Cyber harassment cases"
-      ]
-    },
-    "identity": {
-      "title": "Identity Verification",
-      "text": "Confirm identities discreetly using trusted tools and proven methods.",
-      "items": [
-        "Online dating verification",
-        "Pre-marital investigations",
-        "Business partner screening",
-        "Alias detection"
-      ]
-    },
-    "corporate": {
-      "title": "Corporate Investigations",
-      "text": "Protect your business with internal investigations and risk control.",
-      "items": [
-        "Internal theft",
-        "Employee background checks",
-        "Policy violations",
-        "Asset misuse tracking"
-      ]
-    },
-    "specialized": {
-      "title": "Specialized <1>Investigations</1>",
-      "text": "Advanced investigative services <1>for complex cases</1>.",
-      "corporate": {
-        "title": "Corporate Security",
-        "text": "Internal theft, corporate espionage, and workplace investigations for businesses of all sizes."
+    "tabsLabel": "Client types",
+    "tabs": {
+      "individuals": {
+        "label": "Individuals",
+        "title": "Verified facts to shed light on a <h>private</h> situation",
+        "text": "Some private situations become hard to resolve because the facts are incomplete, contradictory or impossible to verify alone. VESTIGE can act when an assignment falls within the <b>legal framework of private investigation</b> and the client has a <b>legitimate interest</b> in obtaining the information sought.",
+        "cta": "Describe my situation",
+        "seo": {
+          "title": "VESTIGE | Private investigations for individuals in Belgium",
+          "description": "Searches for people or assets, fact verification and investigations in private disputes: VESTIGE reviews every request before accepting it."
+        },
+        "cards": {
+          "disputes": {
+            "title": "Private disputes and situations",
+            "text": "In a current or potential conflict, an investigation can help clarify specific facts, verify information or document a situation.\nThe assignment is always limited to a defined objective and to legally admissible means."
+          },
+          "people": {
+            "title": "Finding people",
+            "text": "Finding someone you have lost touch with, checking a location lead or searching for a missing person may require cross-referencing different sources and checks.\nThe nature of the request and the client's interest are reviewed before any search."
+          },
+          "assets": {
+            "title": "Searching for lost or stolen property",
+            "text": "When property has been lost or stolen, VESTIGE can analyse the available information, check leads and carry out searches compatible with the applicable legal framework."
+          },
+          "facts": {
+            "title": "Fact verification",
+            "text": "Information can seem credible without being accurate.\nVESTIGE distinguishes established facts, converging information and what cannot be confirmed. This distinction is at the heart of the report delivered to the client."
+          },
+          "limits": {
+            "title": "What VESTIGE does not do",
+            "text": "Discretion never means getting around the law.\nVESTIGE refuses in particular any request requiring intrusion, fraudulent access to an account or system, identity theft, the collection of prohibited information or disproportionate methods."
+          },
+          "contact": {
+            "title": "First contact",
+            "text": "Describe the situation in a few lines, without immediately sending sensitive data or confidential documents about third parties.\nIf the request can be reviewed, an appropriate channel can then be agreed."
+          }
+        }
       },
-      "digital": {
-        "title": "Digital Forensics",
-        "text": "Computer and mobile device investigations, data recovery, and cybercrime analysis."
+      "companies": {
+        "label": "Businesses",
+        "title": "Investigations for <h>businesses</h> and executives",
+        "text": "A company may have to act while the facts are incomplete: suspected fraud, commercial conflict, harmful behaviour, contradictory information or a risk to document. VESTIGE helps turn this uncertainty into <b>verified factual elements</b>.",
+        "cta": "Discuss a business situation",
+        "seo": {
+          "title": "VESTIGE | Investigations for businesses",
+          "description": "Internal fraud, commercial disputes, fact verification and investigations: VESTIGE supports businesses with legally admissible private investigation assignments."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Internal fraud and irregularities",
+            "text": "Theft, embezzlement, false expenses, abuse or other irregularities may require a structured investigation.\nVESTIGE starts by precisely defining the facts to verify, the people concerned and the means that can lawfully be used."
+          },
+          "employee": {
+            "title": "Situations involving an employee",
+            "text": "Investigations concerning an employee are subject to a specific framework.\nVESTIGE checks the applicable conditions before accepting the assignment and does not start any investigative method based solely on an informal request from management."
+          },
+          "commercial": {
+            "title": "Commercial disputes",
+            "text": "In a conflict with a partner, supplier, customer or other economic player, specific facts may need to be established before a decision, a negotiation or legal proceedings.\nVESTIGE searches for and cross-checks only the elements relevant to the purpose of the assignment."
+          },
+          "partners": {
+            "title": "Checking partners and situations",
+            "text": "Before or during a business relationship, certain inconsistencies may justify targeted checks.\nThe aim is not to build an exhaustive profile of a person or company, but to answer precise and legitimate questions."
+          },
+          "research": {
+            "title": "Information research and analysis",
+            "text": "Registers, publications, open sources, accessible documents and field information can be combined when relevant to the assignment.\nOSINT is used as a research method, not as a pretext for collecting everything that is publicly visible."
+          },
+          "field": {
+            "title": "Field investigations",
+            "text": "When documentary research is not enough, field checks or observations may be considered.\nThey are only carried out if they are necessary, proportionate and permitted by the applicable framework."
+          },
+          "report": {
+            "title": "Report for decision-makers",
+            "text": "The report focuses on what really helps decision-making: established facts, chronology, useful sources, converging elements, unconfirmed points and the limits of the assignment.\nIt avoids speculative conclusions presented as certainties."
+          }
+        }
       },
-      "insurance": {
-        "title": "Insurance Claims",
-        "text": "Workers' compensation fraud, disability claims verification, and accident reconstruction."
+      "insurers": {
+        "label": "Insurers",
+        "title": "Investigations and verifications for the <h>insurance</h> sector",
+        "text": "Some insurance files require verifying circumstances, cross-checking statements or documenting inconsistencies. VESTIGE works on <b>clearly defined factual questions</b>, with a <b>traceable and proportionate methodology</b>.",
+        "cta": "Discuss a file",
+        "seo": {
+          "title": "VESTIGE | Investigations for insurers and fraud cases",
+          "description": "Fact verification, consistency of statements, documentary research and field investigations for insurance files, within the applicable legal limits."
+        },
+        "cards": {
+          "fraud": {
+            "title": "Suspected fraud",
+            "text": "When a file shows anomalies or contradictory elements, an investigation can help verify specific facts.\nThe assignment must be precisely defined: what needs to be established, why, and by what means."
+          },
+          "documents": {
+            "title": "Documentary research",
+            "text": "Accessible sources can be examined to verify a chronology, links, activities or other elements relevant to the assignment.\nThe fact that information is public does not automatically mean it can be collected or disclosed."
+          },
+          "field": {
+            "title": "Field investigations",
+            "text": "Field checks or observations can complete the file when they are legally admissible and proportionate to the purpose of the assignment."
+          },
+          "sensitive": {
+            "title": "Sensitive data",
+            "text": "Health data and other sensitive categories are subject to specific restrictions.\nVESTIGE only searches for, keeps or discloses them when a specific legal basis actually allows it."
+          },
+          "report": {
+            "title": "Report",
+            "text": "The report is structured to make the file easy to use: purpose of the assignment, methodology, chronology, findings, sources, useful appendices and limits of the checks carried out."
+          }
+        }
+      },
+      "professionals": {
+        "label": "Professionals",
+        "title": "<h>Factual</h> support for professionals",
+        "text": "Lawyers, advisers, fellow investigators or other professional clients: when a case depends on facts to be established, VESTIGE works on a <b>precisely defined mandate</b>, after checking its admissibility, and delivers a report that separates <b>findings from hypotheses</b>.",
+        "cta": "Present an assignment",
+        "seo": {
+          "title": "VESTIGE | Investigations for lawyers and professionals",
+          "description": "Fact-finding, tracing, documentary checks and case support for lawyers, advisers and other professionals, subject to admissibility."
+        },
+        "cards": {
+          "lawyers": {
+            "title": "Lawyers and advisers",
+            "text": "When a case requires verifying facts, finding a person, clarifying a chronology or documenting a situation, VESTIGE can act on a precisely defined mandate.\nThe report always distinguishes findings from hypotheses and states the limits of the research."
+          },
+          "peers": {
+            "title": "Fellow investigators and subcontracting",
+            "text": "VESTIGE can support other private investigation professionals when the legal conditions for subcontracting are met and the scope of the assignment is clearly documented."
+          },
+          "others": {
+            "title": "Other professional clients",
+            "text": "Every request from a professional is assessed according to its actual purpose.\nThe client's status never removes the need to verify the legitimate interest, the purpose and the lawfulness of the methods considered."
+          }
+        }
       }
     },
     "process": {
