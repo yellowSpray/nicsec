@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
 
 export function useMediaQuery(query: string) {
-  const [ value, setValue ] = useState(false);
+  // Read the real value on first render to avoid a layout flash
+  const [ value, setValue ] = useState(
+    () => typeof window !== "undefined" && window.matchMedia(query).matches
+  );
 
   useEffect(() => {
     function onChange(event: MediaQueryListEvent) {
