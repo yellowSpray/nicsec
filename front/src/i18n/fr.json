@@ -13,12 +13,18 @@
     "mainText": "La page que vous recherchez est introuvable !"
   },
   "footer": {
-    "contactTitle": "Contactez-moi aujourd'hui",
-    "contactText": "Avec expérience et précision, je propose des services d'enquête professionnels adaptés à vos besoins uniques, avec la plus grande discrétion.",
-    "call": "Appelez-moi aujourd'hui : 049XXXXXXX",
-    "hours": "Lun - Dim : 06h00 - 22h00",
-    "location": "Belgique, Bruxelles - Brabant Wallon - Namur",
-    "copyright": "© 2025 Nicosec. Tous droits réservés."
+    "contactTitle": "Exposez-nous la situation",
+    "contactText": "Chaque mission commence par un échange permettant de comprendre le besoin, d'identifier le mandant et de déterminer si VESTIGE peut intervenir.\nDécrivez brièvement la situation ; les documents et informations complémentaires pourront être demandés ensuite si nécessaire.",
+    "location": "Basé en Wallonie, intervient en Belgique",
+    "legal": {
+      "bce": "BCE :",
+      "vat": "TVA :",
+      "email": "E-mail :",
+      "phone": "Téléphone :",
+      "authorization": "Entreprise de recherche privée autorisée par le SPF Intérieur - Autorisation n° {{number}}"
+    },
+    "boip": "Marque VESTIGE déposée au BOIP sous le n° 1555059 - classes 35 et 45.",
+    "rights": "Tous droits réservés."
   },
   "form": {
     "name": "Nom et prénom",

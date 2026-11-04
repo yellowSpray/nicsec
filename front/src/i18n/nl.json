@@ -13,12 +13,18 @@
     "mainText": "De pagina die u zocht is verdwenen!"
   },
   "footer": {
-    "contactTitle": "Contacteer mij vandaag",
-    "contactText": "Met ervaring en precisie bied ik professionele opsporingsdiensten op maat, met de grootste discretie.",
-    "call": "Bel mij vandaag: 049XXXXXXX",
-    "hours": "Ma - Zo: 06:00 - 22:00",
-    "location": "België, Brussel - Waals-Brabant - Namen",
-    "copyright": "© 2025 Nicosec. Alle rechten voorbehouden."
+    "contactTitle": "Leg ons de situatie voor",
+    "contactText": "Elke opdracht begint met een gesprek om de behoefte te begrijpen, de opdrachtgever te identificeren en te bepalen of VESTIGE kan optreden.\nBeschrijf de situatie kort; aanvullende documenten en informatie kunnen indien nodig later worden opgevraagd.",
+    "location": "Gevestigd in Wallonië, actief in België",
+    "legal": {
+      "bce": "KBO:",
+      "vat": "btw:",
+      "email": "E-mail:",
+      "phone": "Telefoon:",
+      "authorization": "Onderneming voor privé-onderzoek vergund door de FOD Binnenlandse Zaken - Vergunning nr. {{number}}"
+    },
+    "boip": "Merk VESTIGE gedeponeerd bij het BBIE onder nr. 1555059 - klassen 35 en 45.",
+    "rights": "Alle rechten voorbehouden."
   },
   "form": {
     "name": "Naam en voornaam",

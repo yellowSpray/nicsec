@@ -13,12 +13,18 @@
     "mainText": "The page that you were looking for is lost !"
   },
   "footer": {
-    "contactTitle": "Contact Me Today",
-    "contactText": "With experience and precision, I offer professional investigative services tailored to meet your unique needs, with the utmost discretion.",
-    "call": "Call me today : 049XXXXXXX",
-    "hours": "Mon - Sun: 06:00 AM - 10:00 PM",
-    "location": "Belgium, Brussels - Walloon Brabant - Namur",
-    "copyright": "© 2025 Nicosec. All rights reserved."
+    "contactTitle": "Tell us about the situation",
+    "contactText": "Every assignment starts with a conversation to understand the need, identify the client and determine whether VESTIGE can act.\nBriefly describe the situation; additional documents and information can be requested later if necessary.",
+    "location": "Based in Wallonia, operating in Belgium",
+    "legal": {
+      "bce": "CBE:",
+      "vat": "VAT:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "authorization": "Private investigation company authorised by the FPS Home Affairs - Authorisation no. {{number}}"
+    },
+    "boip": "VESTIGE trademark filed with the BOIP under no. 1555059 - classes 35 and 45.",
+    "rights": "All rights reserved."
   },
   "form": {
     "name": "Full name",
