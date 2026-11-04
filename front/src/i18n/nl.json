@@ -353,71 +353,69 @@
     }
   },
   "faq": {
-    "title": "FAQ voor al uw vragen.",
-    "description": "Het leveren van discrete, grondige en resultaatgerichte opsporingsdiensten die particulieren, bedrijven en juridische professionals in staat stellen weloverwogen beslissingen te nemen.",
-    "intro": {
-      "title": "Hoe kan ik <1>u helpen</1>?",
-      "text": "Ik begrijp dat het inhuren van een privédetective veel vragen kan oproepen. Hieronder vindt u antwoorden op de meest gestelde vragen die we van onze klanten ontvangen.",
-      "note": "Ziet u uw vraag hieronder niet beantwoord? Neem contact met me op voor een gratis consultatie waarin we uw specifieke behoeften en zorgen kunnen bespreken."
+    "seo": {
+      "title": "VESTIGE | Veelgestelde vragen over privé-onderzoek",
+      "description": "Tarieven, termijnen, vertrouwelijkheid, sociale netwerken, observaties en rapporten: antwoorden op veelgestelde vragen over het verloop van een opdracht van VESTIGE."
     },
-    "general": {
-      "title": "Algemene vragen",
-      "questions": [
-        {
-          "question": "Wat is een privédetective?",
-          "answer": "Een privédetective is een gelicentieerde professional die onderzoeken uitvoert voor particulieren, advocaten, bedrijven en organisaties. We verzamelen feiten, verzamelen bewijs en leveren gedetailleerde rapporten om klanten te helpen weloverwogen beslissingen te nemen over juridische, persoonlijke of zakelijke aangelegenheden."
-        },
-        {
-          "question": "Is het inhuren van een privédetective legaal?",
-          "answer": "Ja, het inhuren van een gelicentieerde privédetective is legaal. Onderzoekers opereren binnen de grenzen van de wet en houden zich aan strikte ethische richtlijnen om de vertrouwelijkheid en privacy van klanten te beschermen."
-        },
-        {
-          "question": "Welk soort zaken behandelen privédetectives?",
-          "answer": "Privédetectives werken aan een breed scala aan zaken, waaronder ontrouwonderzoeken, antecedentencontroles, fraudedetectie, vermiste personen, observatie, verzekeringsclaims en meer."
-        },
-        {
-          "question": "Hoeveel kost een privéonderzoek?",
-          "answer": "De kosten variëren afhankelijk van de complexiteit van de zaak, de benodigde tijd en het type diensten dat nodig is. We geven een duidelijke schatting na een initieel consult."
-        },
-        {
-          "question": "Is het door een privédetective verzamelde bewijs toelaatbaar in de rechtbank?",
-          "answer": "Ja, bewijs dat legaal is verzameld door een gelicentieerde privédetective kan vaak worden gebruikt in de rechtbank. We zorgen ervoor dat alle informatie rechtmatig wordt verkregen en grondig wordt gedocumenteerd."
-        },
-        {
-          "question": "Hoe waarborgt u vertrouwelijkheid tijdens een onderzoek?",
-          "answer": "Vertrouwelijkheid is een topprioriteit. Alle onderzoeken worden discreet uitgevoerd en klantinformatie wordt nooit gedeeld zonder toestemming."
-        }
-      ]
-    },
-    "process": {
-      "title": "Proces en vertrouwelijkheid",
-      "questions": [
-        {
-          "question": "Hoe begint het onderzoeksproces?",
-          "answer": "Het proces begint met een initiële consultatie waarin we uw situatie, doelen en beschikbare informatie bespreken. Op basis hiervan ontwikkelen we een actieplan op maat en geven we een duidelijk overzicht van de volgende stappen en bijbehorende kosten."
-        },
-        {
-          "question": "Moet ik documenten of informatie verstrekken?",
-          "answer": "Ja, alle relevante details of documenten die u kunt verstrekken — zoals namen, adressen, foto's of eerdere incidenten — zullen ons helpen een efficiënter en gerichter onderzoek uit te voeren."
-        },
-        {
-          "question": "Hoe vaak ontvang ik updates tijdens het onderzoek?",
-          "answer": "We onderhouden regelmatige communicatie en geven updates op belangrijke momenten tijdens het onderzoek. U bent ook altijd welkom om contact met ons op te nemen met vragen of zorgen."
-        },
-        {
-          "question": "Blijft mijn identiteit vertrouwelijk?",
-          "answer": "Absoluut. Klantvertrouwelijkheid is een topprioriteit. We maken uw identiteit of betrokkenheid bij het onderzoek nooit bekend zonder uw expliciete toestemming."
-        },
-        {
-          "question": "Wordt het onderwerp van het onderzoek op de hoogte gesteld of gecontacteerd?",
-          "answer": "Nee. Onze onderzoeken worden discreet uitgevoerd en zonder medeweten van het onderwerp, tenzij vereist of toegestaan door de wet."
-        },
-        {
-          "question": "Hoe wordt de informatie die ik met u deel beschermd?",
-          "answer": "Alle informatie die u verstrekt wordt veilig opgeslagen en is alleen toegankelijk voor geautoriseerd personeel. We volgen strikte protocollen voor gegevensbescherming en privacy."
-        }
-      ]
-    }
+    "title": "Veelgestelde vragen",
+    "highlight": [
+      "vragen"
+    ],
+    "description": "Tarieven, termijnen, vertrouwelijkheid, methoden en rapporten: antwoorden op de meest gestelde vragen over het verloop van een opdracht van VESTIGE.",
+    "ctaPrimary": "Uw situatie voorleggen",
+    "ctaSecondary": "Ontdek onze methode",
+    "groups": [
+      {
+        "title": "Verloop van een opdracht",
+        "questions": [
+          {
+            "question": "Hoeveel kost een onderzoek?",
+            "answer": "De kostprijs hangt af van het voorwerp van de opdracht, de duur, de nodige middelen en eventuele kosten.\nNa de kwalificatie van de aanvraag licht VESTIGE de wijze van facturering toe en verstrekt het de nodige informatie vóór enig engagement."
+          },
+          {
+            "question": "Hoelang duurt een opdracht?",
+            "answer": "Er bestaat geen standaardduur.\nEen gerichte verificatie kan kort zijn; een complexe situatie kan meerdere fasen vereisen. De reikwijdte en de controlepunten worden vóór de uitvoering vastgelegd."
+          },
+          {
+            "question": "Wat moet ik bij het eerste contact doorsturen?",
+            "answer": "Een korte samenvatting van de situatie volstaat.\nHet is beter om niet meteen gevoelige gegevens of vertrouwelijke documenten over derden door te sturen."
+          },
+          {
+            "question": "Wanneer begint een opdracht?",
+            "answer": "Een eerste contact betekent geen aanvaarding.\nDe opdracht begint pas na de nodige controles, het akkoord over de reikwijdte en de vereiste formalisering."
+          },
+          {
+            "question": "Kan een opdracht worden geweigerd?",
+            "answer": "Ja. VESTIGE weigert een opdracht wanneer ze niet aan de wettelijke voorwaarden voldoet, wanneer het doel onvoldoende omschreven is, wanneer er een conflict bestaat of wanneer de gevraagde middelen verboden of buitensporig zijn."
+          }
+        ]
+      },
+      {
+        "title": "Wettelijk kader en vertrouwelijkheid",
+        "questions": [
+          {
+            "question": "Kan naar om het even wie een onderzoek worden gevoerd?",
+            "answer": "Neen. Een opdracht moet een rechtmatig doel dienen en voldoen aan de voorwaarden van de toepasselijke wetgeving.\nDe loutere wens om informatie over iemand te verkrijgen, volstaat niet."
+          },
+          {
+            "question": "Mogen sociale netwerken en openbare informatie worden gebruikt?",
+            "answer": "Soms, maar niet automatisch.\nDat informatie publiek toegankelijk is, betekent niet dat ze altijd mag worden verzameld, bewaard of meegedeeld. Bepaalde categorieën van gegevens zijn bijzonder beschermd of verboden."
+          },
+          {
+            "question": "Mag iemand worden gevolgd of geobserveerd?",
+            "answer": "Observatie is een gereglementeerde methode.\nZe wordt enkel overwogen wanneer ze noodzakelijk, proportioneel en toegestaan is binnen de context van de opdracht."
+          },
+          {
+            "question": "Zijn de gegevens vertrouwelijk?",
+            "answer": "Vertrouwelijkheid en de beveiliging van dossiers maken deel uit van de methode van VESTIGE.\nDe toegang tot informatie is beperkt tot de personen die ze effectief moeten verwerken in het kader van de opdracht."
+          },
+          {
+            "question": "Kan het rapport in een procedure worden gebruikt?",
+            "answer": "VESTIGE levert een feitelijk rapport op basis van de vaststellingen van de opdracht.\nHet procedurele gebruik en de bewijswaarde van een document hangen af van de juridische context en, in voorkomend geval, van de beoordeling door de rechter. Een advocaat kan de opdrachtgever adviseren over het gebruik ervan."
+          }
+        ]
+      }
+    ]
   },
   "easterEgg": {
     "jump": "springen",

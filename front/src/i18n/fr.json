@@ -353,71 +353,69 @@
     }
   },
   "faq": {
-    "title": "FAQ pour toutes vos questions.",
-    "description": "Offrir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, aux entreprises et aux professionnels du droit de prendre des décisions éclairées.",
-    "intro": {
-      "title": "Comment puis-je <1>vous aider</1> ?",
-      "text": "Je comprends qu'engager un détective privé peut soulever de nombreuses questions. Vous trouverez ci-dessous les réponses aux questions les plus courantes que nous recevons de nos clients.",
-      "note": "Vous ne voyez pas la réponse à votre question ci-dessous ? Contactez-moi pour une consultation gratuite où nous pourrons discuter de vos besoins et préoccupations spécifiques."
+    "seo": {
+      "title": "VESTIGE | Questions fréquentes sur la recherche privée",
+      "description": "Tarifs, délais, confidentialité, réseaux sociaux, observations et rapports : réponses aux questions fréquentes sur le fonctionnement d'une mission VESTIGE."
     },
-    "general": {
-      "title": "Questions générales",
-      "questions": [
-        {
-          "question": "Qu'est-ce qu'un détective privé ?",
-          "answer": "Un détective privé est un professionnel licencié qui mène des enquêtes pour des particuliers, des avocats, des entreprises et des organisations. Nous recueillons des faits, collectons des preuves et fournissons des rapports détaillés pour aider les clients à prendre des décisions éclairées sur des questions juridiques, personnelles ou commerciales."
-        },
-        {
-          "question": "Est-il légal d'engager un détective privé ?",
-          "answer": "Oui, engager un détective privé licencié est légal. Les enquêteurs opèrent dans les limites de la loi et respectent des directives éthiques strictes pour protéger la confidentialité et la vie privée des clients."
-        },
-        {
-          "question": "Quel type de cas les détectives privés traitent-ils ?",
-          "answer": "Les détectives privés travaillent sur un large éventail de cas, notamment les enquêtes d'infidélité, les vérifications des antécédents, la détection de fraude, les personnes disparues, la surveillance, les réclamations d'assurance, et plus encore."
-        },
-        {
-          "question": "Combien coûte une enquête privée ?",
-          "answer": "Les coûts varient en fonction de la complexité du cas, du temps requis et du type de services nécessaires. Nous fournissons une estimation claire après une consultation initiale."
-        },
-        {
-          "question": "Les informations collectées par un détective privé sont-elles recevables devant un tribunal ?",
-          "answer": "Oui, les preuves collectées légalement par un détective privé licencié peuvent souvent être utilisées devant un tribunal. Nous veillons à ce que toutes les informations soient obtenues légalement et documentées minutieusement."
-        },
-        {
-          "question": "Comment assurez-vous la confidentialité pendant une enquête ?",
-          "answer": "La confidentialité est une priorité absolue. Toutes les enquêtes sont menées discrètement et les informations des clients ne sont jamais partagées sans consentement."
-        }
-      ]
-    },
-    "process": {
-      "title": "Processus et confidentialité",
-      "questions": [
-        {
-          "question": "Comment commence le processus d'enquête ?",
-          "answer": "Le processus commence par une consultation initiale où nous discutons de votre situation, de vos objectifs et des informations disponibles. Sur cette base, nous développons un plan d'action sur mesure et fournissons un aperçu clair des prochaines étapes et des coûts associés."
-        },
-        {
-          "question": "Dois-je fournir des documents ou des informations ?",
-          "answer": "Oui, tous les détails ou documents pertinents que vous pouvez fournir — tels que des noms, adresses, photos ou incidents passés — nous aideront à mener une enquête plus efficace et ciblée."
-        },
-        {
-          "question": "À quelle fréquence recevrai-je des mises à jour pendant l'enquête ?",
-          "answer": "Nous maintenons une communication régulière et fournissons des mises à jour aux moments clés de l'enquête. Vous êtes également invité à nous contacter à tout moment avec des questions ou des préoccupations."
-        },
-        {
-          "question": "Mon identité restera-t-elle confidentielle ?",
-          "answer": "Absolument. La confidentialité du client est une priorité absolue. Nous ne divulguons jamais votre identité ou votre implication dans l'enquête sans votre consentement explicite."
-        },
-        {
-          "question": "Le sujet de l'enquête est-il notifié ou contacté ?",
-          "answer": "Non. Nos enquêtes sont menées discrètement et à l'insu du sujet, sauf si la loi l'exige ou l'autorise."
-        },
-        {
-          "question": "Comment les informations que je partage avec vous sont-elles protégées ?",
-          "answer": "Toutes les informations que vous fournissez sont stockées en toute sécurité et accessibles uniquement au personnel autorisé. Nous suivons des protocoles stricts de protection des données et de confidentialité."
-        }
-      ]
-    }
+    "title": "Questions fréquentes",
+    "highlight": [
+      "fréquentes"
+    ],
+    "description": "Tarifs, délais, confidentialité, méthodes et rapports : les réponses aux questions les plus courantes sur le fonctionnement d'une mission VESTIGE.",
+    "ctaPrimary": "Exposer une situation",
+    "ctaSecondary": "Découvrir notre méthode",
+    "groups": [
+      {
+        "title": "Fonctionnement d'une mission",
+        "questions": [
+          {
+            "question": "Combien coûte une enquête ?",
+            "answer": "Le coût dépend de l'objet de la mission, de sa durée, des moyens nécessaires et des frais éventuels.\nAprès qualification de la demande, VESTIGE précise le mode de facturation et fournit les informations nécessaires avant engagement."
+          },
+          {
+            "question": "Combien de temps dure une mission ?",
+            "answer": "Il n'existe pas de durée standard.\nUne vérification ciblée peut être courte ; une situation complexe peut nécessiter plusieurs phases. Le périmètre et les points de contrôle sont définis avant l'exécution."
+          },
+          {
+            "question": "Que dois-je envoyer lors du premier contact ?",
+            "answer": "Un résumé bref de la situation suffit.\nIl est préférable de ne pas transmettre immédiatement de données sensibles ni de documents confidentiels concernant des tiers."
+          },
+          {
+            "question": "Quand une mission commence-t-elle ?",
+            "answer": "Un premier contact ne vaut pas acceptation.\nLa mission ne commence qu'après les contrôles nécessaires, l'accord sur son périmètre et la formalisation requise."
+          },
+          {
+            "question": "Une mission peut-elle être refusée ?",
+            "answer": "Oui. VESTIGE refuse une mission lorsqu'elle ne remplit pas les conditions légales, lorsque l'objectif est insuffisamment défini, lorsqu'un conflit existe ou lorsque les moyens demandés sont interdits ou disproportionnés."
+          }
+        ]
+      },
+      {
+        "title": "Cadre légal et confidentialité",
+        "questions": [
+          {
+            "question": "Peut-on enquêter sur n'importe qui ?",
+            "answer": "Non. Une mission doit répondre à une finalité légitime et respecter les conditions prévues par la législation applicable.\nLe simple souhait d'obtenir des informations sur une personne ne suffit pas."
+          },
+          {
+            "question": "Peut-on utiliser les réseaux sociaux et les informations publiques ?",
+            "answer": "Parfois, mais pas automatiquement.\nLe fait qu'une information soit publiquement accessible ne signifie pas qu'elle peut toujours être collectée, conservée ou communiquée. Certaines catégories de données sont particulièrement protégées ou interdites."
+          },
+          {
+            "question": "Peut-on suivre ou observer une personne ?",
+            "answer": "L'observation est une méthode réglementée.\nElle n'est envisagée que lorsqu'elle est nécessaire, proportionnée et autorisée dans le contexte de la mission."
+          },
+          {
+            "question": "Les informations sont-elles confidentielles ?",
+            "answer": "La confidentialité et la sécurité des dossiers font partie de la méthode VESTIGE.\nL'accès aux informations est limité aux personnes qui doivent effectivement les traiter dans le cadre de la mission."
+          },
+          {
+            "question": "Le rapport peut-il être utilisé dans une procédure ?",
+            "answer": "VESTIGE remet un rapport factuel fondé sur les constatations de la mission.\nL'utilisation procédurale et la valeur probante d'un document dépendent du contexte juridique et, le cas échéant, de l'appréciation du juge. Un avocat peut conseiller le mandant sur son utilisation."
+          }
+        ]
+      }
+    ]
   },
   "easterEgg": {
     "jump": "sauter",
