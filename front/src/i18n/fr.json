@@ -1,7 +1,7 @@
 {
   "navbar": {
     "service": "Services",
-    "about": "À propos",
+    "about": "Le cabinet",
     "faq": "FAQ"
   },
   "button": {
@@ -304,69 +304,52 @@
     }
   },
   "about": {
-    "title": "À propos de Nicsec Investigation.",
-    "intro": "Plus de 25 ans d'expérience à fournir la vérité avec intégrité, discrétion et professionnalisme inébranlable.",
-    "story": {
-      "title": "Mon <1>histoire</1>",
-      "text1": "Fondée en 1999, Elite Investigations est née d'une mission simple : fournir aux particuliers et aux entreprises la vérité dont ils ont besoin pour prendre des décisions éclairées. Ce qui a commencé comme une opération unipersonnelle s'est transformé en une agence d'enquête à service complet, de confiance pour les avocats, les entreprises et les familles de toute la région.",
-      "text2": "Notre fondateur, un ancien agent des forces de l'ordre avec plus de 15 ans d'expérience, a reconnu le besoin de services d'enquête professionnels, éthiques et discrets dans le secteur privé. Aujourd'hui, nous continuons à maintenir ces mêmes valeurs tout en tirant parti de technologies de pointe et de méthodologies éprouvées.",
-      "text3": "Nous croyons que tout le monde mérite d'avoir accès à la vérité, et nous nous engageons à la découvrir avec les plus hauts standards de professionnalisme et de confidentialité."
+    "seo": {
+      "title": "VESTIGE | Cabinet de recherche privée en Belgique",
+      "description": "Découvrez VESTIGE, cabinet indépendant de recherche privée basé en Wallonie, sa méthode, ses valeurs et son approche des investigations."
     },
-    "core": {
-      "title": "Mes valeurs <1>fondamentales</1>",
-      "text": "Les principes <1>qui guident chaque enquête</1> que nous entreprenons.",
-      "integrity": {
-        "title": "Intégrité",
-        "text": "Nous menons toutes les enquêtes selon les normes éthiques les plus élevées, en assurant honnêteté et transparence dans chaque cas."
-      },
-      "discretion": {
-        "title": "Discrétion",
-        "text": "La confidentialité est primordiale. Nous protégeons la vie privée de nos clients et traitons les informations sensibles avec le plus grand soin."
-      },
-      "excellence": {
-        "title": "Excellence",
-        "text": "Nous visons la perfection dans chaque enquête, en utilisant des techniques avancées, des outils innovants et des méthodologies approfondies."
+    "title": "VESTIGE, un cabinet indépendant de recherche privée",
+    "highlight": [
+      "indépendant"
+    ],
+    "intro": "Créé autour d'une conviction simple : une investigation professionnelle doit produire des faits vérifiés et utiles à la décision, pas simplement davantage d'informations.",
+    "ctaPrimary": "Exposer une situation",
+    "ctaSecondary": "Découvrir notre méthode",
+    "cabinet": {
+      "title": "Le <h>cabinet</h>",
+      "text": "Le cabinet privilégie les missions dans lesquelles la qualité de l'analyse, la discrétion, le recoupement des sources et la traçabilité ont <b>une réelle valeur pour le mandant</b>.\nVESTIGE intervient auprès de particuliers, d'entreprises, d'assureurs et de professionnels selon la nature de la demande.",
+      "founderTitle": "Le fondateur",
+      "founderText": "Formé à la recherche privée et issu d'un parcours professionnel de terrain, le fondateur de VESTIGE privilégie une approche <b>concrète, structurée et sans surpromesse</b> : comprendre la situation, définir ce qui peut être vérifié, puis documenter les résultats de manière claire."
+    },
+    "values": {
+      "title": "Nos <h>valeurs</h>",
+      "text": "Rigueur, discrétion, indépendance, proportionnalité et confidentialité guident la manière dont les missions sont <b>acceptées et exécutées</b>.",
+      "items": {
+        "rigor": {
+          "title": "Rigueur",
+          "text": "Chaque élément est daté, sourcé et recoupé avant de figurer dans un rapport."
+        },
+        "discretion": {
+          "title": "Discrétion",
+          "text": "Les demandes sont traitées avec retenue, sans exposer inutilement le mandant ni les personnes concernées."
+        },
+        "independence": {
+          "title": "Indépendance",
+          "text": "Les constatations ne sont pas orientées par les attentes du mandant : seuls les faits vérifiés comptent."
+        },
+        "proportionality": {
+          "title": "Proportionnalité",
+          "text": "Les moyens engagés restent limités à ce que justifie l'objectif de la mission."
+        },
+        "confidentiality": {
+          "title": "Confidentialité",
+          "text": "L'accès aux informations est limité et les dossiers sont protégés, de l'ouverture à la clôture."
+        }
       }
     },
-    "credentials": {
-      "title": "Accréditations <1>et</1> certifications",
-      "text": "Qualifications professionnelles <1>qui garantissent un service de qualité</1>.",
-      "licensed": {
-        "title": "Licencié par le SPF",
-        "text": "Enquêteur privé licencié par l'État avec pleine autorité légale"
-      },
-      "asis": {
-        "title": "Certifié ASIS",
-        "text": "Certification professionnelle de l'American Society for Industrial Security"
-      },
-      "court": {
-        "title": "Qualifié pour les tribunaux",
-        "text": "Qualifié pour fournir un témoignage d'expert dans les procédures judiciaires"
-      },
-      "bonded": {
-        "title": "Cautionné et assuré",
-        "text": "Entièrement cautionné et assuré pour la protection du client"
-      }
-    },
-    "stats": {
-      "title": "Nicsec en <1>chiffres</1>",
-      "text": "Texte à remplir <1>ou non</1>.",
-      "cases": {
-        "title": "2500+",
-        "text": "Cas traités"
-      },
-      "success": {
-        "title": "95%",
-        "text": "Taux de réussite"
-      },
-      "years": {
-        "title": "25+",
-        "text": "Années d'expérience"
-      },
-      "support": {
-        "title": "24/7",
-        "text": "Support disponible"
-      }
+    "zone": {
+      "title": "Zone d'<h>intervention</h>",
+      "text": "VESTIGE est basé en Wallonie et intervient en Belgique selon la nature de la mission.\nLes besoins nécessitant des recherches ou vérifications hors de cette zone sont évalués au cas par cas."
     }
   },
   "faq": {

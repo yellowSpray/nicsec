@@ -1,7 +1,7 @@
 {
   "navbar": {
     "service": "Services",
-    "about": "About",
+    "about": "The firm",
     "faq": "FAQ"
   },
   "button": {
@@ -304,69 +304,52 @@
     }
   },
   "about": {
-    "title": "About Nicsec Investigation.",
-    "intro": "25+ years of experience delivering truth with integrity, discretion, and unwavering professionalism.",
-    "story": {
-      "title": "My <1>Story</1>",
-      "text1": "Founded in 1999, Elite Investigations was born from a simple mission: to provide individuals and businesses with the truth they need to make informed decisions. What started as a one-person operation has grown into a full-service investigative agency trusted by attorneys, corporations, and families across the region.",
-      "text2": "Our founder, a former law enforcement officer with over 15 years of experience, recognized the need for professional, ethical, and discreet investigative services in the private sector. Today, we continue to uphold those same values while leveraging cutting-edge technology and proven methodologies.",
-      "text3": "We believe that everyone deserves access to the truth, and we're committed to uncovering it with the highest standards of professionalism and confidentiality."
+    "seo": {
+      "title": "VESTIGE | Private investigation firm in Belgium",
+      "description": "Discover VESTIGE, an independent private investigation firm based in Wallonia, its method, its values and its approach to investigations."
     },
-    "core": {
-      "title": "My <1>Core</1> Value",
-      "text": "The principles <1>that guide every investigation</1> we undertake.",
-      "integrity": {
-        "title": "Integrity",
-        "text": "We conduct all investigations with the highest ethical standards, ensuring honesty and transparency in every case."
-      },
-      "discretion": {
-        "title": "Discretion",
-        "text": "Confidentiality is paramount. We protect our clients' privacy and handle sensitive information with utmost care."
-      },
-      "excellence": {
-        "title": "Excellence",
-        "text": "We strive for perfection in every investigation, using advanced techniques, innovative tools, and thorough methodologies."
+    "title": "VESTIGE, an independent private investigation firm",
+    "highlight": [
+      "independent"
+    ],
+    "intro": "Built around a simple conviction: a professional investigation must produce verified facts that are useful for decision-making, not simply more information.",
+    "ctaPrimary": "Describe your situation",
+    "ctaSecondary": "Discover our method",
+    "cabinet": {
+      "title": "The <h>firm</h>",
+      "text": "The firm favours assignments in which the quality of the analysis, discretion, cross-checking of sources and traceability bring <b>real value to the client</b>.\nVESTIGE works with individuals, businesses, insurers and professionals depending on the nature of the request.",
+      "founderTitle": "The founder",
+      "founderText": "Trained in private investigation and coming from a hands-on professional background, the founder of VESTIGE favours an approach that is <b>concrete, structured and free of overpromising</b>: understanding the situation, defining what can be verified, then documenting the results clearly."
+    },
+    "values": {
+      "title": "Our <h>values</h>",
+      "text": "Rigour, discretion, independence, proportionality and confidentiality guide the way assignments are <b>accepted and carried out</b>.",
+      "items": {
+        "rigor": {
+          "title": "Rigour",
+          "text": "Every element is dated, sourced and cross-checked before it appears in a report."
+        },
+        "discretion": {
+          "title": "Discretion",
+          "text": "Requests are handled with restraint, without needlessly exposing the client or the people concerned."
+        },
+        "independence": {
+          "title": "Independence",
+          "text": "Findings are not shaped by the client's expectations: only verified facts count."
+        },
+        "proportionality": {
+          "title": "Proportionality",
+          "text": "The means used remain limited to what the purpose of the assignment justifies."
+        },
+        "confidentiality": {
+          "title": "Confidentiality",
+          "text": "Access to information is restricted and files are protected, from opening to closure."
+        }
       }
     },
-    "credentials": {
-      "title": "Credentials <1>&</1> Certifications",
-      "text": "Professional <1>qualifications that ensure quality</1> service.",
-      "licensed": {
-        "title": "Licensed by SPF",
-        "text": "State licensed private investigator with full legal authority"
-      },
-      "asis": {
-        "title": "ASIS Certified",
-        "text": "American Society for Industrial Security professional certification"
-      },
-      "court": {
-        "title": "Court Qualified",
-        "text": "Qualified to provide expert testimony in legal proceedings"
-      },
-      "bonded": {
-        "title": "Bonded & Insured",
-        "text": "Fully bonded and insured for client protection"
-      }
-    },
-    "stats": {
-      "title": "Nicsec In <1>Numbers</1>",
-      "text": "Text to fill <1>or not</1>.",
-      "cases": {
-        "title": "2500+",
-        "text": "Cases Completed"
-      },
-      "success": {
-        "title": "95%",
-        "text": "Success Rate"
-      },
-      "years": {
-        "title": "25+",
-        "text": "Years Experience"
-      },
-      "support": {
-        "title": "24/7",
-        "text": "Available Support"
-      }
+    "zone": {
+      "title": "Area of <h>operation</h>",
+      "text": "VESTIGE is based in Wallonia and operates in Belgium depending on the nature of the assignment.\nNeeds requiring research or checks outside this area are assessed case by case."
     }
   },
   "faq": {

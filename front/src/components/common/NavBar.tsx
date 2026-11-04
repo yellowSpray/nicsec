@@ -26,7 +26,7 @@ export default function NavBar() {
       </NavLink>
 
       <NavLink
-        to="/about"
+        to="/cabinet"
         className={({ isActive }) =>
           `btn-navbar ${
             isActive ? "text-second" : ""
@@ -74,7 +74,7 @@ export default function NavBar() {
           </NavLink>
 
           <NavLink
-            to="/about"
+            to="/cabinet"
             className={({ isActive }) =>
               `btn-navbar ${
                 isActive ? "text-second" : ""

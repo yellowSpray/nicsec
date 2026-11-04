@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import type { RefObject } from "react";
 import { useScrollToHash } from "../hooks/useScrollToHash";
 import { PAGE_CONTENT_ID } from "../features/pageTransition";
@@ -21,7 +21,9 @@ export default function AppRouter({ ContentProps }: ContentProps) {
     <div ref={ContentProps} id={PAGE_CONTENT_ID} className="w-full">
       <Routes>
         <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/cabinet" element={<About />} />
+        {/* Old address kept for existing links */}
+        <Route path="/about" element={<Navigate to="/cabinet" replace />} />
         <Route path="/service" element={<Service />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="*" element={<NotFoundPage />} />

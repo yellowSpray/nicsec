@@ -89,7 +89,7 @@ export default function StepProcess() {
                 </div>
 
                 {/* 6.7: compliance is not a step, it applies to the whole mission */}
-                <div className="bg-main/5 rounded-second p-6 md:p-8 flex flex-col sm:flex-row gap-4 sm:items-start">
+                <div className="bg-surface rounded-second p-6 md:p-8 flex flex-col sm:flex-row gap-4 sm:items-start">
                     <ShieldCheck className="size-6 shrink-0 text-second" aria-hidden="true" />
                     <div className="space-y-2">
                         <h4>{t("services.method.compliance.title")}</h4>

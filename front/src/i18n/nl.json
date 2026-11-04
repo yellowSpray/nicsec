@@ -1,7 +1,7 @@
 {
   "navbar": {
     "service": "Diensten",
-    "about": "Over mij",
+    "about": "Het bureau",
     "faq": "FAQ"
   },
   "button": {
@@ -304,69 +304,52 @@
     }
   },
   "about": {
-    "title": "Over Nicsec Investigation.",
-    "intro": "Meer dan 25 jaar ervaring in het leveren van waarheid met integriteit, discretie en onwrikbaar professionalisme.",
-    "story": {
-      "title": "Mijn <1>verhaal</1>",
-      "text1": "Opgericht in 1999, Elite Investigations is ontstaan uit een eenvoudige missie: particulieren en bedrijven voorzien van de waarheid die ze nodig hebben om weloverwogen beslissingen te nemen. Wat begon als een eenmanszaak is uitgegroeid tot een full-service opsporingsbureau dat vertrouwd wordt door advocaten, bedrijven en gezinnen in de hele regio.",
-      "text2": "Onze oprichter, een voormalig wetshandhavingsambtenaar met meer dan 15 jaar ervaring, erkende de behoefte aan professionele, ethische en discrete opsporingsdiensten in de particuliere sector. Vandaag blijven we dezelfde waarden handhaven terwijl we gebruikmaken van geavanceerde technologie en bewezen methodologieën.",
-      "text3": "We geloven dat iedereen recht heeft op toegang tot de waarheid, en we zijn toegewijd om deze te ontdekken met de hoogste normen van professionaliteit en vertrouwelijkheid."
+    "seo": {
+      "title": "VESTIGE | Bureau voor privé-onderzoek in België",
+      "description": "Ontdek VESTIGE, een onafhankelijk bureau voor privé-onderzoek gevestigd in Wallonië, zijn methode, zijn waarden en zijn aanpak van onderzoeken."
     },
-    "core": {
-      "title": "Mijn <1>kern</1>waarden",
-      "text": "De principes <1>die elk onderzoek leiden</1> dat we ondernemen.",
-      "integrity": {
-        "title": "Integriteit",
-        "text": "We voeren alle onderzoeken uit volgens de hoogste ethische normen, waarbij we eerlijkheid en transparantie garanderen in elke zaak."
-      },
-      "discretion": {
-        "title": "Discretie",
-        "text": "Vertrouwelijkheid is van het grootste belang. We beschermen de privacy van onze klanten en behandelen gevoelige informatie met de grootste zorg."
-      },
-      "excellence": {
-        "title": "Excellentie",
-        "text": "We streven naar perfectie in elk onderzoek, met behulp van geavanceerde technieken, innovatieve tools en grondige methodologieën."
+    "title": "VESTIGE, een onafhankelijk bureau voor privé-onderzoek",
+    "highlight": [
+      "onafhankelijk"
+    ],
+    "intro": "Opgericht vanuit een eenvoudige overtuiging: een professioneel onderzoek moet geverifieerde feiten opleveren die nuttig zijn om te beslissen, niet gewoon meer informatie.",
+    "ctaPrimary": "Uw situatie voorleggen",
+    "ctaSecondary": "Ontdek onze methode",
+    "cabinet": {
+      "title": "Het <h>bureau</h>",
+      "text": "Het bureau geeft de voorkeur aan opdrachten waarin de kwaliteit van de analyse, discretie, het kruisen van bronnen en traceerbaarheid <b>een echte meerwaarde voor de opdrachtgever</b> hebben.\nVESTIGE treedt op voor particulieren, bedrijven, verzekeraars en professionals, naargelang de aard van de aanvraag.",
+      "founderTitle": "De oprichter",
+      "founderText": "Opgeleid in privé-onderzoek en afkomstig uit een professionele achtergrond op het terrein, kiest de oprichter van VESTIGE voor een aanpak die <b>concreet, gestructureerd en zonder overdreven beloften</b> is: de situatie begrijpen, bepalen wat kan worden geverifieerd en de resultaten vervolgens duidelijk documenteren."
+    },
+    "values": {
+      "title": "Onze <h>waarden</h>",
+      "text": "Nauwgezetheid, discretie, onafhankelijkheid, proportionaliteit en vertrouwelijkheid bepalen hoe opdrachten worden <b>aanvaard en uitgevoerd</b>.",
+      "items": {
+        "rigor": {
+          "title": "Nauwgezetheid",
+          "text": "Elk element wordt gedateerd, van een bron voorzien en gecontroleerd voordat het in een rapport wordt opgenomen."
+        },
+        "discretion": {
+          "title": "Discretie",
+          "text": "Aanvragen worden met terughoudendheid behandeld, zonder de opdrachtgever of de betrokken personen onnodig bloot te stellen."
+        },
+        "independence": {
+          "title": "Onafhankelijkheid",
+          "text": "De vaststellingen worden niet gestuurd door de verwachtingen van de opdrachtgever: enkel geverifieerde feiten tellen."
+        },
+        "proportionality": {
+          "title": "Proportionaliteit",
+          "text": "De ingezette middelen blijven beperkt tot wat het doel van de opdracht rechtvaardigt."
+        },
+        "confidentiality": {
+          "title": "Vertrouwelijkheid",
+          "text": "De toegang tot informatie is beperkt en de dossiers worden beschermd, van opening tot afsluiting."
+        }
       }
     },
-    "credentials": {
-      "title": "Accreditaties <1>en</1> certificeringen",
-      "text": "Professionele <1>kwalificaties die kwaliteitsservice</1> garanderen.",
-      "licensed": {
-        "title": "Gelicentieerd door FOD",
-        "text": "Door de staat gelicentieerde privédetective met volledige wettelijke bevoegdheid"
-      },
-      "asis": {
-        "title": "ASIS gecertificeerd",
-        "text": "American Society for Industrial Security professionele certificering"
-      },
-      "court": {
-        "title": "Rechtbank gekwalificeerd",
-        "text": "Gekwalificeerd om deskundige getuigenis te leveren in juridische procedures"
-      },
-      "bonded": {
-        "title": "Geborgd en verzekerd",
-        "text": "Volledig geborgd en verzekerd voor klantbescherming"
-      }
-    },
-    "stats": {
-      "title": "Nicsec in <1>cijfers</1>",
-      "text": "Tekst om in te vullen <1>of niet</1>.",
-      "cases": {
-        "title": "2500+",
-        "text": "Afgeronde zaken"
-      },
-      "success": {
-        "title": "95%",
-        "text": "Succespercentage"
-      },
-      "years": {
-        "title": "25+",
-        "text": "Jaren ervaring"
-      },
-      "support": {
-        "title": "24/7",
-        "text": "Beschikbare ondersteuning"
-      }
+    "zone": {
+      "title": "Ons <h>werkgebied</h>",
+      "text": "VESTIGE is gevestigd in Wallonië en treedt op in België, naargelang de aard van de opdracht.\nBehoeften die opzoekingen of verificaties buiten dit gebied vereisen, worden geval per geval beoordeeld."
     }
   },
   "faq": {

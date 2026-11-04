@@ -21,6 +21,8 @@ body {
   --color-background: #F3F2F2;
   --color-second: #C21F22;
   --color-main: #394149;
+  /* Slightly darker than the grey background (main at 5%), opaque */
+  --color-surface: color-mix(in srgb, var(--color-main) 5%, var(--color-background));
   --breakpoint-lg: 68.75rem;
   --breakpoint-md: 60rem;
   --breakpoint-smd: 51rem;
