@@ -63,52 +63,59 @@
     },
     "content": {
       "title": "Établir les faits. Réduire l'incertitude. Décider sur une base documentée.",
+      "highlight": [
+        "Établir",
+        "Réduire",
+        "Décider"
+      ],
       "text": "VESTIGE accompagne particuliers, entreprises, assureurs et professionnels confrontés à une situation où des faits doivent être vérifiés, recoupés ou documentés avec méthode, discrétion et dans le respect du cadre légal.",
       "ctaPrimary": "Exposer une situation",
       "ctaSecondary": "Découvrir notre méthode"
     },
     "servicesIntro": {
-      "title": "Quels <1>services</1> je propose",
-      "text": "Mon expérience fournit des <1>solutions discrètes fiables qui permettent à mes clients de prendre des décisions éclairées</1> et efficaces."
+      "title": "Une approche <1>factuelle</1>",
+      "text": "Une enquête utile ne consiste pas à accumuler des informations. Elle consiste à <b>identifier ce qui doit réellement être établi</b>, choisir des moyens adaptés, vérifier les éléments recueillis et restituer au mandant <b>un résultat clair, traçable et exploitable</b>."
     },
-    "services": {
-      "surveillance": {
-        "title": "Surveillance",
-        "text": "Obtenez des informations cruciales grâce à nos services de surveillance experts, menés avec une discrétion et un professionnalisme absolus."
+    "audiences": {
+      "intro": "Choisissez l'espace qui correspond à votre situation.",
+      "cta": "En savoir plus",
+      "individuals": {
+        "title": "Particuliers",
+        "text": "Litiges privés, recherches de personnes ou de biens, vérification de faits."
       },
-      "peopleTracing": {
-        "title": "Recherche de personnes",
-        "text": "Identifier la localisation et les biens d'un débiteur dans le cadre d'un dossier de recouvrement de créances"
+      "companies": {
+        "title": "Entreprises",
+        "text": "Fraude interne, situations de salariés, conflits commerciaux, vérifications et investigations."
       },
-      "insuranceFraud": {
-        "title": "Fraude à l'assurance",
-        "text": "Collecte professionnelle de preuves et de renseignements pour découvrir les réclamations d'assurance frauduleuses."
+      "insurers": {
+        "title": "Assurances",
+        "text": "Dossiers présentant une suspicion de fraude ou des incohérences à vérifier."
       },
-      "privateInvestigations": {
-        "title": "Enquêtes privées",
-        "text": "Collecte professionnelle d'informations et de preuves pour les particuliers de manière discrète, éthique et légale."
+      "professionals": {
+        "title": "Professionnels",
+        "text": "Avocats, conseils, confrères et autres mandants professionnels."
       }
     },
-    "reasonsIntro": {
-      "title": "Pourquoi <1>choisir</1> Nicsec investigations ?",
-      "text": "Expertise fiable fournissant des solutions d’enquête <1>confidentielles, précises et professionnelles</1>."
+    "principlesIntro": {
+      "title": "Les <1>principes</1> VESTIGE",
+      "text": "Chaque mission est conçue autour de <1>quatre principes</1> :"
     },
-    "reasons": {
-      "licensed": {
-        "title": "Licencié et assuré",
-        "text": "Enquêteur privé entièrement licencié avec une couverture d'assurance complète."
+    "principles": {
+      "admissibility": {
+        "title": "Recevabilité",
+        "text": "Vérifier que la mission peut légalement être acceptée."
       },
-      "confidential": {
-        "title": "100% confidentiel",
-        "text": "Votre vie privée et les détails de votre dossier sont protégés avec le plus haut niveau de discrétion."
+      "proportionality": {
+        "title": "Proportionnalité",
+        "text": "Utiliser uniquement les moyens justifiés par l'objectif."
       },
-      "availability": {
-        "title": "Disponibilité 24h/24 et 7j/7",
-        "text": "Disponible 24 heures sur 24 pour les cas urgents et les situations d'urgence."
+      "traceability": {
+        "title": "Traçabilité",
+        "text": "Dater, sourcer et recouper les éléments utiles."
       },
-      "proven": {
-        "title": "Expertise reconnue",
-        "text": "Large expérience en enquêtes garantissant des résultats précis et fiables."
+      "confidentiality": {
+        "title": "Confidentialité",
+        "text": "Limiter l'accès aux informations et protéger les dossiers."
       }
     },
     "testimonialsIntro": {

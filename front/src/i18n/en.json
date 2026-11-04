@@ -63,52 +63,59 @@
     },
     "content": {
       "title": "Establish the facts. Reduce uncertainty. Decide on a documented basis.",
+      "highlight": [
+        "Establish",
+        "Reduce",
+        "Decide"
+      ],
       "text": "VESTIGE supports individuals, companies, insurers and professionals facing a situation where facts need to be verified, cross-checked or documented with method, discretion and in compliance with the legal framework.",
       "ctaPrimary": "Describe your situation",
       "ctaSecondary": "Discover our method"
     },
     "servicesIntro": {
-      "title": "What <1>Service</1> I Offer",
-      "text": "My experience delivers reliable <1>discreet solutions that enable my clients to make informed</1>, effective decisions."
+      "title": "A <1>fact-based</1> approach",
+      "text": "A useful investigation is not about accumulating information. It is about <b>identifying what really needs to be established</b>, choosing appropriate means, verifying the information gathered and delivering to the client <b>a clear, traceable and usable result</b>."
     },
-    "services": {
-      "surveillance": {
-        "title": "Surveillance",
-        "text": "Gain critical insights with our expert surveillance services, which are carried out with absolute discretion and professionalism."
+    "audiences": {
+      "intro": "Choose the area that matches your situation.",
+      "cta": "Learn more",
+      "individuals": {
+        "title": "Individuals",
+        "text": "Private disputes, searches for people or assets, fact verification."
       },
-      "peopleTracing": {
-        "title": "People Tracing",
-        "text": "Identify the location and assets of a debtor in support of a debt recovery case"
+      "companies": {
+        "title": "Businesses",
+        "text": "Internal fraud, employee matters, commercial disputes, verifications and investigations."
       },
-      "insuranceFraud": {
-        "title": "Insurance Fraud",
-        "text": "Professional gathering of evidence and intelligence to uncover fraudulent insurance claims."
+      "insurers": {
+        "title": "Insurers",
+        "text": "Files involving suspected fraud or inconsistencies to be verified."
       },
-      "privateInvestigations": {
-        "title": "Private Investigations",
-        "text": "Professional gathering of information and evidence for individuals in a discreet, ethical and lawful manner."
+      "professionals": {
+        "title": "Professionals",
+        "text": "Lawyers, advisers, fellow investigators and other professional clients."
       }
     },
-    "reasonsIntro": {
-      "title": "Why <1>Choose</1> Nicsec investigations ?",
-      "text": "Trusted expertise delivering <1>confidential, accurate, and professional</1> investigative solutions."
+    "principlesIntro": {
+      "title": "The VESTIGE <1>principles</1>",
+      "text": "Each assignment is built around <1>four principles</1>:"
     },
-    "reasons": {
-      "licensed": {
-        "title": "Licensed & Insured",
-        "text": "Fully Licensed private investigator with comprehensive insurance coverage."
+    "principles": {
+      "admissibility": {
+        "title": "Admissibility",
+        "text": "Verifying that the assignment can lawfully be accepted."
       },
-      "confidential": {
-        "title": "100% Confidential",
-        "text": "Your privacy and case details are protected with the highest level of discretion."
+      "proportionality": {
+        "title": "Proportionality",
+        "text": "Using only the means justified by the objective."
       },
-      "availability": {
-        "title": "24/7 Availability",
-        "text": "Available around the clock for urgent cases and emergency situations."
+      "traceability": {
+        "title": "Traceability",
+        "text": "Dating, sourcing and cross-checking the relevant information."
       },
-      "proven": {
-        "title": "Proven Expertise",
-        "text": "Extensive investigative experience ensuring accurate results and dependable outcomes."
+      "confidentiality": {
+        "title": "Confidentiality",
+        "text": "Limiting access to information and protecting case files."
       }
     },
     "testimonialsIntro": {

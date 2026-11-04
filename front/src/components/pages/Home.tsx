@@ -27,6 +27,7 @@ export default function Home() {
         backgroundImage={Detective}
         title={t("home.content.title")}
         text={t("home.content.text")}
+        highlight={t("home.content.highlight", { returnObjects: true }) as string[]}
         positionClassName="items-center text-center"
         primaryButton={{
           label: t("home.content.ctaPrimary"),

@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { highlightKeywords } from "../../features/highLight";
 import { TiArrowDown, TiArrowBack } from "react-icons/ti";
@@ -24,6 +23,8 @@ interface ContentProps {
   /** Overrides the default "contact" button */
   primaryButton?: ContentButton;
   secondaryButton?: ContentButton;
+  /** Extra words of the title to show in the accent colour */
+  highlight?: string[];
 }
 
 export default function Content({
@@ -35,10 +36,10 @@ export default function Content({
   is404,
   primaryButton,
   secondaryButton,
+  highlight = [],
 }: ContentProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [parsedTitle, setParsedTitle] = useState<React.ReactNode[]>([]);
   const keywords = [
     "Professional",
     "Professionnel",
@@ -55,9 +56,10 @@ export default function Content({
     "Contact",
   ];
 
-  useEffect(() => {
-    setParsedTitle(highlightKeywords(title, keywords));
-  }, [title]);
+  const parsedTitle = highlightKeywords(title, [
+    ...keywords,
+    ...(Array.isArray(highlight) ? highlight.filter(Boolean) : []),
+  ]);
 
   const primary: ContentButton = primaryButton ?? {
     label: t("button.content"),
@@ -70,7 +72,11 @@ export default function Content({
         <div className="clipped-container relative w-full h-150 sm:h-140 overflow-hidden flex flex-col items-center">
           <SvgContent />
           {backgroundImage ? (
-            <img src={backgroundImage} alt={imageAlt} />
+            <>
+              <img src={backgroundImage} alt={imageAlt} />
+              {/* Dark veil so the white title and text stay readable */}
+              <div className="clipped-overlay" aria-hidden="true" />
+            </>
           ) : (
             <div className="clipped-bg" aria-hidden="true" />
           )}

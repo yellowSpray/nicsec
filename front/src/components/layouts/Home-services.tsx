@@ -1,33 +1,42 @@
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardFooter, CardHeader } from '../ui/card'
-import { Eye, Search, UserSearch, ShieldAlert } from 'lucide-react'
+import { User, Building2, ShieldCheck, Scale } from 'lucide-react'
 import { useTranslation, Trans } from "react-i18next";
 
-
+/**
+ * Sections 1.2 "Une approche factuelle" + 1.3 "Entrées par type de client"
+ * (VESTIGE content document)
+ */
 export default function Features() {
 
     const { t } = useTranslation();
 
-    const previewServices = [
+    // TODO: point each card to its own page (/particuliers, /entreprises,
+    // /assurances, /professionnels) once those pages exist
+    const audiences = [
         {
-            icon: <Eye className='size-8 text-second'/>,
-            title: t("home.services.surveillance.title"),
-            description : t("home.services.surveillance.text")
+            icon: <User className='size-8 text-second'/>,
+            title: t("home.audiences.individuals.title"),
+            description: t("home.audiences.individuals.text"),
+            to: "/service",
         },
         {
-            icon: <Search className='size-8 text-second'/>,
-            title: t("home.services.peopleTracing.title"),
-            description : t("home.services.peopleTracing.text")
+            icon: <Building2 className='size-8 text-second'/>,
+            title: t("home.audiences.companies.title"),
+            description: t("home.audiences.companies.text"),
+            to: "/service",
         },
         {
-            icon: <UserSearch className='size-8 text-second'/>,
-            title: t("home.services.privateInvestigations.title"),
-            description : t("home.services.privateInvestigations.text")
+            icon: <ShieldCheck className='size-8 text-second'/>,
+            title: t("home.audiences.insurers.title"),
+            description: t("home.audiences.insurers.text"),
+            to: "/service",
         },
         {
-            icon: <ShieldAlert className='size-8 text-second'/>,
-            title: t("home.services.insuranceFraud.title"),
-            description : t("home.services.insuranceFraud.text")
+            icon: <Scale className='size-8 text-second'/>,
+            title: t("home.audiences.professionals.title"),
+            description: t("home.audiences.professionals.text"),
+            to: "/service",
         }
     ]
 
@@ -36,21 +45,26 @@ export default function Features() {
                 <div className="text-center space-y-8">
                     <h3>
                         <Trans i18nKey="home.servicesIntro.title">
-                            What <span className="text-second">Service</span> I Offer
+                            A <span className="text-second">fact-based</span> approach
                         </Trans>
                     </h3>
                     <p>
-                        <Trans i18nKey="home.servicesIntro.text">
-                            My experience delivers reliable, <span className='font-bold'>discreet solutions that enable my clients to make informed</span>, effective decisions.
-                        </Trans>
+                        <Trans
+                            i18nKey="home.servicesIntro.text"
+                            components={{ b: <span className="font-bold" /> }}
+                        />
+                    </p>
+                    <p className="font-semibold">
+                        {t("home.audiences.intro")}
                     </p>
                 </div>
                 <div className="mx-auto *:text-center grid border-card sm:max-w-full sm:grid-cols-2 md:grid-cols-4">
-                    {previewServices.map(({icon, title, description}, index) => (
+                    {audiences.map(({icon, title, description, to}, index) => (
                         <Card 
                             key={index} 
                             className={`
-                                group shadow-none border-background
+                                group relative shadow-none border-background
+                                transition-colors duration-200 hover:bg-background/60
                                 ${index % 2 === 0 ? 'sm:border-r-1' : 'sm:border-r-0'} 
                                 ${index < 3 ? 'md:border-r-1' : 'md:border-r-0'}
                                 ${index >= 1 ? 'border-t-1' : ''} 
@@ -67,16 +81,18 @@ export default function Features() {
                                 <p>{description}</p>
                             </CardContent>
                             <CardFooter className='mt-auto justify-center'>
-                                <Link to="/service" className='btn-outline'>Read more</Link>
+                                {/* Stretched link: the whole card is clickable */}
+                                <Link
+                                    to={to}
+                                    className='btn-outline after:absolute after:inset-0 after:content-[""]'
+                                    aria-label={`${title} : ${t("home.audiences.cta")}`}
+                                >
+                                    {t("home.audiences.cta")}
+                                </Link>
                             </CardFooter>
                         </Card>
                     ))}
-
-
                 </div>
         </section>
     )
 }
-
-
-

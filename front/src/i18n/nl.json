@@ -63,52 +63,59 @@
     },
     "content": {
       "title": "De feiten vaststellen. Onzekerheid verminderen. Beslissen op een gedocumenteerde basis.",
+      "highlight": [
+        "vaststellen",
+        "verminderen",
+        "Beslissen"
+      ],
       "text": "VESTIGE begeleidt particulieren, bedrijven, verzekeraars en professionals die geconfronteerd worden met een situatie waarin feiten methodisch, discreet en met respect voor het wettelijk kader moeten worden geverifieerd, gecontroleerd of gedocumenteerd.",
       "ctaPrimary": "Uw situatie voorleggen",
       "ctaSecondary": "Ontdek onze methode"
     },
     "servicesIntro": {
-      "title": "Welke <1>diensten</1> ik aanbied",
-      "text": "Mijn ervaring levert betrouwbare <1>discrete oplossingen die mijn klanten in staat stellen weloverwogen</1> en effectieve beslissingen te nemen."
+      "title": "Een <1>feitelijke</1> aanpak",
+      "text": "Een nuttig onderzoek bestaat niet uit het opstapelen van informatie. Het bestaat erin <b>vast te stellen wat werkelijk moet worden aangetoond</b>, passende middelen te kiezen, de verzamelde gegevens te verifiëren en de opdrachtgever <b>een duidelijk, traceerbaar en bruikbaar resultaat</b> te bezorgen."
     },
-    "services": {
-      "surveillance": {
-        "title": "Observatie",
-        "text": "Verkrijg cruciale inzichten met onze deskundige observatiediensten, uitgevoerd met absolute discretie en professionaliteit."
+    "audiences": {
+      "intro": "Kies de rubriek die bij uw situatie past.",
+      "cta": "Meer weten",
+      "individuals": {
+        "title": "Particulieren",
+        "text": "Private geschillen, opsporing van personen of goederen, verificatie van feiten."
       },
-      "peopleTracing": {
-        "title": "Personen opsporen",
-        "text": "De locatie en activa van een schuldenaar identificeren ter ondersteuning van een schuldenvorderingszaak"
+      "companies": {
+        "title": "Bedrijven",
+        "text": "Interne fraude, situaties met werknemers, commerciële geschillen, verificaties en onderzoeken."
       },
-      "insuranceFraud": {
-        "title": "Verzekeringsfraude",
-        "text": "Professionele verzameling van bewijs en informatie om frauduleuze verzekeringsclaims aan het licht te brengen."
+      "insurers": {
+        "title": "Verzekeraars",
+        "text": "Dossiers met een vermoeden van fraude of inconsistenties die moeten worden nagegaan."
       },
-      "privateInvestigations": {
-        "title": "Privéonderzoeken",
-        "text": "Professionele verzameling van informatie en bewijs voor particulieren op een discrete, ethische en wettige manier."
+      "professionals": {
+        "title": "Professionals",
+        "text": "Advocaten, adviseurs, confraters en andere professionele opdrachtgevers."
       }
     },
-    "reasonsIntro": {
-      "title": "Waarom <1>kiezen voor</1> Nicsec investigations?",
-      "text": "Betrouwbare expertise die <1>vertrouwelijke, nauwkeurige en professionele</1> onderzoeksoplossingen levert."
+    "principlesIntro": {
+      "title": "De <1>principes</1> van VESTIGE",
+      "text": "Elke opdracht is opgebouwd rond <1>vier principes</1>:"
     },
-    "reasons": {
-      "licensed": {
-        "title": "Gelicentieerd en verzekerd",
-        "text": "Volledig gelicentieerde privédetective met uitgebreide verzekeringsdekking."
+    "principles": {
+      "admissibility": {
+        "title": "Ontvankelijkheid",
+        "text": "Nagaan of de opdracht wettelijk kan worden aanvaard."
       },
-      "confidential": {
-        "title": "100% vertrouwelijk",
-        "text": "Uw privacy en zaakdetails worden beschermd met het hoogste niveau van discretie."
+      "proportionality": {
+        "title": "Proportionaliteit",
+        "text": "Enkel de middelen inzetten die door het doel worden gerechtvaardigd."
       },
-      "availability": {
-        "title": "24/7 beschikbaarheid",
-        "text": "24 uur per dag beschikbaar voor urgente zaken en noodsituaties."
+      "traceability": {
+        "title": "Traceerbaarheid",
+        "text": "De relevante gegevens dateren, hun bron vermelden en ze kruiselings controleren."
       },
-      "proven": {
-        "title": "Bewezen expertise",
-        "text": "Uitgebreide onderzoekservaring die nauwkeurige resultaten en betrouwbare uitkomsten garandeert."
+      "confidentiality": {
+        "title": "Vertrouwelijkheid",
+        "text": "De toegang tot informatie beperken en de dossiers beschermen."
       }
     },
     "testimonialsIntro": {
