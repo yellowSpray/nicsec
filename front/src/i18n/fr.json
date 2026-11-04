@@ -57,9 +57,15 @@
     "descriptionTooLong": "La description est trop longue (5000 caractères maximum)."
   },
   "home": {
+    "seo": {
+      "title": "VESTIGE | Recherche privée et investigations en Belgique",
+      "description": "VESTIGE accompagne particuliers, entreprises, assureurs et professionnels dans la vérification de faits, la recherche d'informations et les investigations, dans un cadre légal et confidentiel."
+    },
     "content": {
-      "title": "Détective privé professionnel et sympathique.",
-      "text": "Offrir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, aux entreprises et aux professionnels du droit de prendre des décisions éclairées."
+      "title": "Établir les faits. Réduire l'incertitude. Décider sur une base documentée.",
+      "text": "VESTIGE accompagne particuliers, entreprises, assureurs et professionnels confrontés à une situation où des faits doivent être vérifiés, recoupés ou documentés avec méthode, discrétion et dans le respect du cadre légal.",
+      "ctaPrimary": "Exposer une situation",
+      "ctaSecondary": "Découvrir notre méthode"
     },
     "servicesIntro": {
       "title": "Quels <1>services</1> je propose",

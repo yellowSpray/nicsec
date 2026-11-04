@@ -50,7 +50,7 @@ export default function StepProcess() {
     
 
     return (
-        <section className="max-w-6xl mx-8 mb-16 md:mb-32 space-y-8">
+        <section id="processus" className="max-w-6xl mx-8 mb-16 md:mb-32 space-y-8 scroll-mt-8">
 
             <div className="text-center space-y-8">
                 <h3 className="text-center">

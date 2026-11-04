@@ -57,9 +57,15 @@
     "descriptionTooLong": "De beschrijving is te lang (maximaal 5000 tekens)."
   },
   "home": {
+    "seo": {
+      "title": "VESTIGE | Privé-onderzoek en investigaties in België",
+      "description": "VESTIGE begeleidt particulieren, bedrijven, verzekeraars en professionals bij het verifiëren van feiten, het opzoeken van informatie en het voeren van onderzoeken, binnen een wettelijk en vertrouwelijk kader."
+    },
     "content": {
-      "title": "Professionele en vriendelijke privédetective.",
-      "text": "Het leveren van discrete, grondige en resultaatgerichte opsporingsdiensten die particulieren, bedrijven en juridische professionals in staat stellen weloverwogen beslissingen te nemen."
+      "title": "De feiten vaststellen. Onzekerheid verminderen. Beslissen op een gedocumenteerde basis.",
+      "text": "VESTIGE begeleidt particulieren, bedrijven, verzekeraars en professionals die geconfronteerd worden met een situatie waarin feiten methodisch, discreet en met respect voor het wettelijk kader moeten worden geverifieerd, gecontroleerd of gedocumenteerd.",
+      "ctaPrimary": "Uw situatie voorleggen",
+      "ctaSecondary": "Ontdek onze methode"
     },
     "servicesIntro": {
       "title": "Welke <1>diensten</1> ik aanbied",

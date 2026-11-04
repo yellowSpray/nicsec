@@ -82,6 +82,13 @@ body {
   filter: grayscale(1);
 }
 
+.clipped-container .clipped-bg {
+  width: 100%;
+  height: 100%;
+  clip-path: url(#main-content-svg);
+  background: linear-gradient(135deg, var(--color-main) 0%, #1f2a36 100%);
+}
+
 .clipped-content {
   position: absolute;
   top: 20px;
@@ -99,6 +106,11 @@ body {
   .clipped-content {
     align-items: center;
     text-align: center;
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .clipped-content button {
+    white-space: nowrap;
   }
 }
 

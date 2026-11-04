@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import type { RefObject } from "react";
+import { useScrollToHash } from "../hooks/useScrollToHash";
+import { PAGE_CONTENT_ID } from "../features/pageTransition";
 
 // pages
 import Home from "../components/pages/Home";
@@ -13,8 +15,10 @@ interface ContentProps {
 }
 
 export default function AppRouter({ ContentProps }: ContentProps) {
+  useScrollToHash();
+
   return (
-    <div ref={ContentProps} className="w-full">
+    <div ref={ContentProps} id={PAGE_CONTENT_ID} className="w-full">
       <Routes>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -57,9 +57,15 @@
     "descriptionTooLong": "The description is too long (5000 characters max)."
   },
   "home": {
+    "seo": {
+      "title": "VESTIGE | Private investigation and inquiries in Belgium",
+      "description": "VESTIGE supports individuals, companies, insurers and professionals in verifying facts, researching information and conducting investigations, within a legal and confidential framework."
+    },
     "content": {
-      "title": "Professional & Friendly Private Detective.",
-      "text": "Providing discreet, thorough, and results-driven investigative services that empower individuals, businesses, and legal professionals, to make informed decisions."
+      "title": "Establish the facts. Reduce uncertainty. Decide on a documented basis.",
+      "text": "VESTIGE supports individuals, companies, insurers and professionals facing a situation where facts need to be verified, cross-checked or documented with method, discretion and in compliance with the legal framework.",
+      "ctaPrimary": "Describe your situation",
+      "ctaSecondary": "Discover our method"
     },
     "servicesIntro": {
       "title": "What <1>Service</1> I Offer",
