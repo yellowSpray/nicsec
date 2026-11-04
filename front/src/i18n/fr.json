@@ -10,13 +10,13 @@
   },
   "404": {
     "mainTitle": "Erreur 404",
-    "mainText": "La page que vous recherchez est introuvable !"
+    "mainText": "La page que vous recherchez est introuvable !"
   },
   "footer": {
     "contactTitle": "Contactez-moi aujourd'hui",
     "contactText": "Avec expérience et précision, je propose des services d'enquête professionnels adaptés à vos besoins uniques, avec la plus grande discrétion.",
-    "call": "Appelez-moi aujourd'hui : 049XXXXXXX",
-    "hours": "Lun - Dim : 06h00 - 22h00",
+    "call": "Appelez-moi aujourd'hui : 049XXXXXXX",
+    "hours": "Lun - Dim : 06h00 - 22h00",
     "location": "Belgique, Bruxelles - Brabant Wallon - Namur",
     "copyright": "© 2025 Nicosec. Tous droits réservés."
   },
@@ -39,7 +39,7 @@
     },
     "description": "Description",
     "descriptionPlaceholder": "Décrivez votre cas",
-    "confirm": "Votre message a été envoyé !",
+    "confirm": "Votre message a été envoyé !",
     "send": "Envoyer",
     "sending": "Envoi en cours...",
     "errorServer": "Le message n'a pas pu être envoyé. Veuillez réessayer plus tard.",
@@ -47,13 +47,13 @@
     "errorNetwork": "Erreur réseau. Vérifiez votre connexion et réessayez."
   },
   "errors": {
-    "nameTooShort": "Nom trop court !",
-    "emailInvalid": "Email non valide !",
+    "nameTooShort": "Nom trop court !",
+    "emailInvalid": "Email non valide !",
     "phoneInvalid": "Numéro de téléphone non valide",
     "subjectRequired": "Veuillez sélectionner un sujet.",
     "descriptionTooShort": "La description n'est pas suffisante",
     "descriptionRequired": "Ce champ est requis.",
-    "nameTooLong": "Nom trop long !",
+    "nameTooLong": "Nom trop long !",
     "descriptionTooLong": "La description est trop longue (5000 caractères maximum)."
   },
   "home": {
@@ -98,7 +98,7 @@
     },
     "principlesIntro": {
       "title": "Les <1>principes</1> VESTIGE",
-      "text": "Chaque mission est conçue autour de <1>quatre principes</1> :"
+      "text": "Chaque mission est conçue autour de <1>quatre principes</1> :"
     },
     "principles": {
       "admissibility": {
@@ -119,7 +119,7 @@
       }
     },
     "cta": {
-      "title": "Vous êtes confronté à une situation incertaine et souhaitez savoir si une <1>investigation</1> est possible ?",
+      "title": "Vous êtes confronté à une situation incertaine et souhaitez savoir si une <1>investigation</1> est possible ?",
       "text": "Exposez brièvement le contexte. Un premier échange permet de <1>qualifier la demande avant tout engagement</1>.",
       "button": "Parler de votre situation"
     }
@@ -129,7 +129,7 @@
     "highlight": [
       "domaines"
     ],
-    "mainText": "Particuliers, entreprises, assureurs ou professionnels : chaque demande est d'abord qualifiée, puis traitée selon une méthode traçable et proportionnée, dans le respect du cadre légal.",
+    "mainText": "Particuliers, entreprises, assureurs ou professionnels : chaque demande est d'abord qualifiée, puis traitée selon une méthode traçable et proportionnée, dans le respect du cadre légal.",
     "ctaPrimary": "Exposer une situation",
     "ctaSecondary": "Découvrir notre méthode",
     "tabsLabel": "Types de clients",
@@ -141,7 +141,7 @@
         "cta": "Exposer ma situation",
         "seo": {
           "title": "VESTIGE | Enquêtes privées pour particuliers en Belgique",
-          "description": "Recherche de personnes ou de biens, vérification de faits et investigations dans les litiges privés : VESTIGE étudie chaque demande avant acceptation."
+          "description": "Recherche de personnes ou de biens, vérification de faits et investigations dans les litiges privés : VESTIGE étudie chaque demande avant acceptation."
         },
         "cards": {
           "disputes": {
@@ -173,11 +173,11 @@
       "companies": {
         "label": "Entreprises",
         "title": "Investigations pour <h>entreprises</h> et dirigeants",
-        "text": "Une entreprise peut devoir agir alors que les faits sont incomplets : soupçon de fraude, conflit commercial, comportement préjudiciable, informations contradictoires ou risque à documenter. VESTIGE aide à transformer cette incertitude en <b>éléments factuels vérifiés</b>.",
+        "text": "Une entreprise peut devoir agir alors que les faits sont incomplets : soupçon de fraude, conflit commercial, comportement préjudiciable, informations contradictoires ou risque à documenter. VESTIGE aide à transformer cette incertitude en <b>éléments factuels vérifiés</b>.",
         "cta": "Parler d'une situation professionnelle",
         "seo": {
           "title": "VESTIGE | Enquêtes et investigations pour entreprises",
-          "description": "Fraude interne, litiges commerciaux, vérification de faits et investigations : VESTIGE accompagne les entreprises dans les missions de recherche privée légalement admissibles."
+          "description": "Fraude interne, litiges commerciaux, vérification de faits et investigations : VESTIGE accompagne les entreprises dans les missions de recherche privée légalement admissibles."
         },
         "cards": {
           "fraud": {
@@ -206,7 +206,7 @@
           },
           "report": {
             "title": "Rapport au décideur",
-            "text": "Le rapport privilégie ce qui aide réellement à décider : faits établis, chronologie, sources utiles, éléments convergents, points non confirmés et limites de la mission.\nIl évite les conclusions spéculatives présentées comme des certitudes."
+            "text": "Le rapport privilégie ce qui aide réellement à décider : faits établis, chronologie, sources utiles, éléments convergents, points non confirmés et limites de la mission.\nIl évite les conclusions spéculatives présentées comme des certitudes."
           }
         }
       },
@@ -222,7 +222,7 @@
         "cards": {
           "fraud": {
             "title": "Suspicion de fraude",
-            "text": "Lorsqu'un dossier présente des anomalies ou des éléments contradictoires, une investigation peut permettre de vérifier des faits déterminés.\nLa mission doit être précisément délimitée : ce qui doit être établi, pourquoi, et par quels moyens."
+            "text": "Lorsqu'un dossier présente des anomalies ou des éléments contradictoires, une investigation peut permettre de vérifier des faits déterminés.\nLa mission doit être précisément délimitée : ce qui doit être établi, pourquoi, et par quels moyens."
           },
           "documents": {
             "title": "Recherche documentaire",
@@ -238,14 +238,14 @@
           },
           "report": {
             "title": "Rapport",
-            "text": "Le rapport est structuré pour faciliter l'exploitation du dossier : objet de la mission, méthodologie, chronologie, constatations, sources, annexes utiles et limites des vérifications effectuées."
+            "text": "Le rapport est structuré pour faciliter l'exploitation du dossier : objet de la mission, méthodologie, chronologie, constatations, sources, annexes utiles et limites des vérifications effectuées."
           }
         }
       },
       "professionals": {
         "label": "Professionnels",
         "title": "Un appui <h>factuel</h> pour les professionnels",
-        "text": "Avocats, conseils, confrères ou autres mandants professionnels : lorsqu'un dossier repose sur des faits à établir, VESTIGE intervient sur un <b>mandat précisément défini</b>, après vérification de sa recevabilité, et remet un rapport qui distingue les <b>constatations des hypothèses</b>.",
+        "text": "Avocats, conseils, confrères ou autres mandants professionnels : lorsqu'un dossier repose sur des faits à établir, VESTIGE intervient sur un <b>mandat précisément défini</b>, après vérification de sa recevabilité, et remet un rapport qui distingue les <b>constatations des hypothèses</b>.",
         "cta": "Présenter une mission",
         "seo": {
           "title": "VESTIGE | Investigations pour avocats et professionnels",
@@ -273,7 +273,7 @@
       "steps": {
         "qualification": {
           "title": "Qualification de la demande",
-          "text": "Qui demande ? Quel est le problème ? Quels faits doivent réellement être établis ? Quel résultat serait utile au mandant ?\nCette première étape évite de confondre une inquiétude générale avec un objectif d'enquête exploitable."
+          "text": "Qui demande ? Quel est le problème ? Quels faits doivent réellement être établis ? Quel résultat serait utile au mandant ?\nCette première étape évite de confondre une inquiétude générale avec un objectif d'enquête exploitable."
         },
         "admissibility": {
           "title": "Recevabilité",
@@ -298,7 +298,7 @@
       },
       "compliance": {
         "title": "Conformité intégrée",
-        "text": "La conformité n'est pas une étape ajoutée à la fin.\nElle intervient dès l'acceptation de la mission et pendant toute son exécution : données collectées, méthodes utilisées, conservation, communication au mandant et clôture du dossier."
+        "text": "La conformité n'est pas une étape ajoutée à la fin.\nElle intervient dès l'acceptation de la mission et pendant toute son exécution : données collectées, méthodes utilisées, conservation, communication au mandant et clôture du dossier."
       },
       "cta": "Nous exposer votre besoin"
     }
@@ -312,14 +312,14 @@
     "highlight": [
       "indépendant"
     ],
-    "intro": "Créé autour d'une conviction simple : une investigation professionnelle doit produire des faits vérifiés et utiles à la décision, pas simplement davantage d'informations.",
+    "intro": "Créé autour d'une conviction simple : une investigation professionnelle doit produire des faits vérifiés et utiles à la décision, pas simplement davantage d'informations.",
     "ctaPrimary": "Exposer une situation",
     "ctaSecondary": "Découvrir notre méthode",
     "cabinet": {
       "title": "Le <h>cabinet</h>",
       "text": "Le cabinet privilégie les missions dans lesquelles la qualité de l'analyse, la discrétion, le recoupement des sources et la traçabilité ont <b>une réelle valeur pour le mandant</b>.\nVESTIGE intervient auprès de particuliers, d'entreprises, d'assureurs et de professionnels selon la nature de la demande.",
       "founderTitle": "Le fondateur",
-      "founderText": "Formé à la recherche privée et issu d'un parcours professionnel de terrain, le fondateur de VESTIGE privilégie une approche <b>concrète, structurée et sans surpromesse</b> : comprendre la situation, définir ce qui peut être vérifié, puis documenter les résultats de manière claire."
+      "founderText": "Formé à la recherche privée et issu d'un parcours professionnel de terrain, le fondateur de VESTIGE privilégie une approche <b>concrète, structurée et sans surpromesse</b> : comprendre la situation, définir ce qui peut être vérifié, puis documenter les résultats de manière claire."
     },
     "values": {
       "title": "Nos <h>valeurs</h>",
@@ -335,7 +335,7 @@
         },
         "independence": {
           "title": "Indépendance",
-          "text": "Les constatations ne sont pas orientées par les attentes du mandant : seuls les faits vérifiés comptent."
+          "text": "Les constatations ne sont pas orientées par les attentes du mandant : seuls les faits vérifiés comptent."
         },
         "proportionality": {
           "title": "Proportionnalité",
@@ -356,35 +356,35 @@
     "title": "FAQ pour toutes vos questions.",
     "description": "Offrir des services d'enquête discrets, approfondis et axés sur les résultats qui permettent aux particuliers, aux entreprises et aux professionnels du droit de prendre des décisions éclairées.",
     "intro": {
-      "title": "Comment puis-je <1>vous aider</1> ?",
+      "title": "Comment puis-je <1>vous aider</1> ?",
       "text": "Je comprends qu'engager un détective privé peut soulever de nombreuses questions. Vous trouverez ci-dessous les réponses aux questions les plus courantes que nous recevons de nos clients.",
-      "note": "Vous ne voyez pas la réponse à votre question ci-dessous ? Contactez-moi pour une consultation gratuite où nous pourrons discuter de vos besoins et préoccupations spécifiques."
+      "note": "Vous ne voyez pas la réponse à votre question ci-dessous ? Contactez-moi pour une consultation gratuite où nous pourrons discuter de vos besoins et préoccupations spécifiques."
     },
     "general": {
       "title": "Questions générales",
       "questions": [
         {
-          "question": "Qu'est-ce qu'un détective privé ?",
+          "question": "Qu'est-ce qu'un détective privé ?",
           "answer": "Un détective privé est un professionnel licencié qui mène des enquêtes pour des particuliers, des avocats, des entreprises et des organisations. Nous recueillons des faits, collectons des preuves et fournissons des rapports détaillés pour aider les clients à prendre des décisions éclairées sur des questions juridiques, personnelles ou commerciales."
         },
         {
-          "question": "Est-il légal d'engager un détective privé ?",
+          "question": "Est-il légal d'engager un détective privé ?",
           "answer": "Oui, engager un détective privé licencié est légal. Les enquêteurs opèrent dans les limites de la loi et respectent des directives éthiques strictes pour protéger la confidentialité et la vie privée des clients."
         },
         {
-          "question": "Quel type de cas les détectives privés traitent-ils ?",
+          "question": "Quel type de cas les détectives privés traitent-ils ?",
           "answer": "Les détectives privés travaillent sur un large éventail de cas, notamment les enquêtes d'infidélité, les vérifications des antécédents, la détection de fraude, les personnes disparues, la surveillance, les réclamations d'assurance, et plus encore."
         },
         {
-          "question": "Combien coûte une enquête privée ?",
+          "question": "Combien coûte une enquête privée ?",
           "answer": "Les coûts varient en fonction de la complexité du cas, du temps requis et du type de services nécessaires. Nous fournissons une estimation claire après une consultation initiale."
         },
         {
-          "question": "Les informations collectées par un détective privé sont-elles recevables devant un tribunal ?",
+          "question": "Les informations collectées par un détective privé sont-elles recevables devant un tribunal ?",
           "answer": "Oui, les preuves collectées légalement par un détective privé licencié peuvent souvent être utilisées devant un tribunal. Nous veillons à ce que toutes les informations soient obtenues légalement et documentées minutieusement."
         },
         {
-          "question": "Comment assurez-vous la confidentialité pendant une enquête ?",
+          "question": "Comment assurez-vous la confidentialité pendant une enquête ?",
           "answer": "La confidentialité est une priorité absolue. Toutes les enquêtes sont menées discrètement et les informations des clients ne sont jamais partagées sans consentement."
         }
       ]
@@ -393,27 +393,27 @@
       "title": "Processus et confidentialité",
       "questions": [
         {
-          "question": "Comment commence le processus d'enquête ?",
+          "question": "Comment commence le processus d'enquête ?",
           "answer": "Le processus commence par une consultation initiale où nous discutons de votre situation, de vos objectifs et des informations disponibles. Sur cette base, nous développons un plan d'action sur mesure et fournissons un aperçu clair des prochaines étapes et des coûts associés."
         },
         {
-          "question": "Dois-je fournir des documents ou des informations ?",
+          "question": "Dois-je fournir des documents ou des informations ?",
           "answer": "Oui, tous les détails ou documents pertinents que vous pouvez fournir — tels que des noms, adresses, photos ou incidents passés — nous aideront à mener une enquête plus efficace et ciblée."
         },
         {
-          "question": "À quelle fréquence recevrai-je des mises à jour pendant l'enquête ?",
+          "question": "À quelle fréquence recevrai-je des mises à jour pendant l'enquête ?",
           "answer": "Nous maintenons une communication régulière et fournissons des mises à jour aux moments clés de l'enquête. Vous êtes également invité à nous contacter à tout moment avec des questions ou des préoccupations."
         },
         {
-          "question": "Mon identité restera-t-elle confidentielle ?",
+          "question": "Mon identité restera-t-elle confidentielle ?",
           "answer": "Absolument. La confidentialité du client est une priorité absolue. Nous ne divulguons jamais votre identité ou votre implication dans l'enquête sans votre consentement explicite."
         },
         {
-          "question": "Le sujet de l'enquête est-il notifié ou contacté ?",
+          "question": "Le sujet de l'enquête est-il notifié ou contacté ?",
           "answer": "Non. Nos enquêtes sont menées discrètement et à l'insu du sujet, sauf si la loi l'exige ou l'autorise."
         },
         {
-          "question": "Comment les informations que je partage avec vous sont-elles protégées ?",
+          "question": "Comment les informations que je partage avec vous sont-elles protégées ?",
           "answer": "Toutes les informations que vous fournissez sont stockées en toute sécurité et accessibles uniquement au personnel autorisé. Nous suivons des protocoles stricts de protection des données et de confidentialité."
         }
       ]
