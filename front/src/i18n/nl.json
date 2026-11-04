@@ -125,8 +125,13 @@
     }
   },
   "services": {
-    "mainTitle": "Deskundige privédetective diensten",
-    "mainText": "Discrete en resultaatgerichte oplossingen afgestemd op uw specifieke behoeften. Vertrouw op onze expertise om de waarheid te onthullen met professionaliteit en integriteit.",
+    "mainTitle": "Duidelijk afgebakende domeinen van tussenkomst",
+    "highlight": [
+      "domeinen"
+    ],
+    "mainText": "Particulieren, bedrijven, verzekeraars of professionals: elke aanvraag wordt eerst gekwalificeerd en daarna behandeld volgens een traceerbare en proportionele methode, met respect voor het wettelijk kader.",
+    "ctaPrimary": "Uw situatie voorleggen",
+    "ctaSecondary": "Ontdek onze methode",
     "tabsLabel": "Soorten klanten",
     "tabs": {
       "individuals": {

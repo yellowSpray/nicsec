@@ -125,8 +125,13 @@
     }
   },
   "services": {
-    "mainTitle": "Services d'enquête privée experts",
-    "mainText": "Des solutions discrètes et axées sur les résultats, adaptées à vos besoins spécifiques. Faites confiance à notre expertise pour découvrir la vérité avec professionnalisme et intégrité.",
+    "mainTitle": "Des domaines d'intervention clairement définis",
+    "highlight": [
+      "domaines"
+    ],
+    "mainText": "Particuliers, entreprises, assureurs ou professionnels : chaque demande est d'abord qualifiée, puis traitée selon une méthode traçable et proportionnée, dans le respect du cadre légal.",
+    "ctaPrimary": "Exposer une situation",
+    "ctaSecondary": "Découvrir notre méthode",
     "tabsLabel": "Types de clients",
     "tabs": {
       "individuals": {

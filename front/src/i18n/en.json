@@ -125,8 +125,13 @@
     }
   },
   "services": {
-    "mainTitle": "Expert Private Investigation Services",
-    "mainText": "Discreet and results-driven solutions tailored to your specific needs.Trust our expertise to uncover the truth with professionalism and integrity.",
+    "mainTitle": "Clearly defined areas of intervention",
+    "highlight": [
+      "areas"
+    ],
+    "mainText": "Individuals, businesses, insurers or professionals: every request is first assessed, then handled with a traceable and proportionate method, within the legal framework.",
+    "ctaPrimary": "Describe your situation",
+    "ctaSecondary": "Discover our method",
     "tabsLabel": "Client types",
     "tabs": {
       "individuals": {

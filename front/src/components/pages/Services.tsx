@@ -8,6 +8,7 @@ import StepProcess from "@/components/layouts/Service-process";
 
 // library
 import { useTranslation } from "react-i18next";
+import { scrollToSection, scrollToId } from "@/features/scrollButton";
 
 export default function Service() {
 
@@ -20,7 +21,17 @@ export default function Service() {
         backgroundImage={ServiceBg}
         title={t("services.mainTitle")}
         text={t("services.mainText")}
+        highlight={t("services.highlight", { returnObjects: true }) as string[]}
         positionClassName="items-start text-start"
+        primaryButton={{
+          label: t("services.ctaPrimary"),
+          onClick: scrollToSection,
+        }}
+        secondaryButton={{
+          label: t("services.ctaSecondary"),
+          // Same page: smooth scroll down to the method section
+          onClick: () => scrollToId("methode"),
+        }}
       />
 
       <AudienceTabs />
