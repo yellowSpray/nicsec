@@ -262,25 +262,40 @@
         }
       }
     },
-    "process": {
-      "title": "Mijn <1>onderzoeks</1>proces",
-      "text": "Een systematische aanpak <1>die grondige en betrouwbare</1> resultaten garandeert.",
-      "initial": {
-        "title": "Initiële consultatie",
-        "text": "Begin met een vertrouwelijk consult om uw behoeften en doelen te begrijpen. Deze stap legt de basis voor een duidelijk en gericht onderzoek."
+    "method": {
+      "title": "Een <h>gestructureerd</h> onderzoek vóór het een onderzoek op het terrein wordt",
+      "text": "Vóór het een onderzoek op het terrein wordt, wordt elke opdracht eerst <b>gekwalificeerd, gecontroleerd en afgebakend</b>. De onderstaande stappen structureren het volledige werk, tot aan het <b>eindrapport</b>.",
+      "steps": {
+        "qualification": {
+          "title": "Kwalificatie van de aanvraag",
+          "text": "Wie vraagt het? Wat is het probleem? Welke feiten moeten echt worden vastgesteld? Welk resultaat zou nuttig zijn voor de opdrachtgever?\nDeze eerste stap voorkomt dat een algemene bezorgdheid wordt verward met een bruikbaar onderzoeksdoel."
+        },
+        "admissibility": {
+          "title": "Ontvankelijkheid",
+          "text": "Vóór elke opdracht controleert VESTIGE onder meer de identiteit van de opdrachtgever, zijn rechtmatig belang, het doel van de aanvraag, eventuele conflicten en de beperkingen die eigen zijn aan het beoogde type onderzoek."
+        },
+        "mandate": {
+          "title": "Omschrijving van de opdracht",
+          "text": "Een nuttige opdracht heeft grenzen.\nHet voorwerp, de te beantwoorden vragen, de duur, de beoogde middelen en de op te leveren resultaten worden vóór de uitvoering vastgelegd en bijgestuurd als de situatie evolueert."
+        },
+        "collection": {
+          "title": "Verzameling en onderzoek",
+          "text": "Documentair onderzoek, open bronnen, verificaties, gesprekken of terreinwerk kunnen naargelang de opdracht worden gecombineerd.\nElke methode blijft onderworpen aan haar eigen voorwaarden van wettigheid en proportionaliteit."
+        },
+        "crosscheck": {
+          "title": "Kruiscontrole en kwalificatie",
+          "text": "Een losstaand gegeven is niet automatisch een vastgesteld feit.\nVESTIGE vergelijkt de bronnen, controleert hun datum en context, en maakt een onderscheid tussen wat bevestigd, waarschijnlijk, tegenstrijdig of niet verifieerbaar is."
+        },
+        "report": {
+          "title": "Rapport",
+          "text": "Het eindrapport geeft de nuttige vaststellingen gestructureerd weer.\nHet vermeldt de relevante methodologie, de vastgestelde elementen, de grenzen en, indien nodig, de stukken of bijlagen waarmee de opdrachtgever de feitelijke redenering kan begrijpen."
+        }
       },
-      "strategy": {
-        "title": "Strategie ontwikkeling",
-        "text": "We maken een onderzoeksplan op maat op basis van de specificaties van uw zaak. Dit zorgt voor een efficiënte en juridisch solide aanpak om de feiten te ontdekken."
+      "compliance": {
+        "title": "Ingebouwde conformiteit",
+        "text": "Conformiteit is geen stap die op het einde wordt toegevoegd.\nZe speelt vanaf de aanvaarding van de opdracht en tijdens de volledige uitvoering: verzamelde gegevens, gebruikte methoden, bewaring, communicatie aan de opdrachtgever en afsluiting van het dossier."
       },
-      "evidence": {
-        "title": "Bewijsverzameling",
-        "text": "Onze onderzoekers verzamelen relevant en toelaatbaar bewijs met behulp van professionele en discrete technieken om uw zaak effectief te ondersteunen."
-      },
-      "reporting": {
-        "title": "Rapportage en oplossing",
-        "text": "U ontvangt een gedetailleerd en gestructureerd rapport met een samenvatting van de bevindingen, inclusief documentatie, analyse en aanbevolen vervolgstappen."
-      }
+      "cta": "Uw behoefte voorleggen"
     }
   },
   "about": {

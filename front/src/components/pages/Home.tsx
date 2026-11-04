@@ -35,8 +35,8 @@ export default function Home() {
         }}
         secondaryButton={{
           label: t("home.content.ctaSecondary"),
-          // Temporary target until the "Méthode" page exists
-          onClick: () => fadeOutAndNavigate(navigate, "/service#processus"),
+          // The method section lives on the services page
+          onClick: () => fadeOutAndNavigate(navigate, "/service#methode"),
         }}
       />
 

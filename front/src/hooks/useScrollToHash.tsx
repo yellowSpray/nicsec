@@ -6,7 +6,7 @@ import { consumePendingReveal, revealPage } from "../features/pageTransition";
 
 /**
  * After a route change:
- * - jumps to the element matching the URL hash (e.g. /service#processus)
+ * - jumps to the element matching the URL hash (e.g. /service#methode)
  * - reveals the page if it was covered by fadeOutAndNavigate
  */
 export function useScrollToHash() {

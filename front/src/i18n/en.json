@@ -262,25 +262,40 @@
         }
       }
     },
-    "process": {
-      "title": "My Investigation <1>Process</1>",
-      "text": "A systematic approach <1>ensuring thorough and reliable</1> results.",
-      "initial": {
-        "title": "Initial Consultation",
-        "text": "Begin with a confidential consultation to understand your needs and goals. This step lays the foundation for a clear and focused investigation."
+    "method": {
+      "title": "A <h>structured</h> investigation before it becomes a field investigation",
+      "text": "Before it becomes a field investigation, every assignment is first <b>qualified, checked and scoped</b>. The steps below structure the entire work, up to the <b>final report</b>.",
+      "steps": {
+        "qualification": {
+          "title": "Qualifying the request",
+          "text": "Who is asking? What is the problem? Which facts really need to be established? What result would be useful to the client?\nThis first step avoids confusing a general concern with a usable investigative objective."
+        },
+        "admissibility": {
+          "title": "Admissibility",
+          "text": "Before any assignment, VESTIGE checks in particular the client's identity, their legitimate interest, the purpose of the request, any conflicts and the restrictions specific to the type of investigation considered."
+        },
+        "mandate": {
+          "title": "Defining the mandate",
+          "text": "A useful assignment needs limits.\nThe purpose, the questions to resolve, the duration, the means considered and the deliverables are defined before execution and adjusted if the situation changes."
+        },
+        "collection": {
+          "title": "Collection and investigation",
+          "text": "Documentary research, open sources, checks, interviews or field work can be combined depending on the assignment.\nEach method remains subject to its own conditions of lawfulness and proportionality."
+        },
+        "crosscheck": {
+          "title": "Cross-checking and assessment",
+          "text": "An isolated piece of information is not automatically an established fact.\nVESTIGE compares sources, checks their date and context, and distinguishes what is confirmed, probable, contradictory or unverifiable."
+        },
+        "report": {
+          "title": "Report",
+          "text": "The final report presents the relevant findings in a structured way.\nIt sets out the relevant methodology, the established facts, the limits and, where necessary, the documents or appendices that allow the client to understand the factual reasoning."
+        }
       },
-      "strategy": {
-        "title": "Strategy Development",
-        "text": "We craft a tailored investigation plan based on your case specifics. This ensures an efficient and legally sound approach to uncovering the facts."
+      "compliance": {
+        "title": "Built-in compliance",
+        "text": "Compliance is not a step added at the end.\nIt applies from the acceptance of the assignment and throughout its execution: data collected, methods used, retention, communication to the client and closure of the file."
       },
-      "evidence": {
-        "title": "Evidence Collection",
-        "text": "Our investigators gather relevant and admissible evidence using professional and discreet techniques to support your case effectively."
-      },
-      "reporting": {
-        "title": "Reporting and Resolution",
-        "text": "You receive a detailed and structured report summarizing findings, including documentation, analysis, and recommended next steps."
-      }
+      "cta": "Tell us what you need"
     }
   },
   "about": {

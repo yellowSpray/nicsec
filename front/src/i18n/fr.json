@@ -262,25 +262,40 @@
         }
       }
     },
-    "process": {
-      "title": "Mon processus <1>d'enquête</1>",
-      "text": "Une approche systématique <1>garantissant des résultats approfondis et fiables</1>.",
-      "initial": {
-        "title": "Consultation initiale",
-        "text": "Commencez par une consultation confidentielle pour comprendre vos besoins et objectifs. Cette étape pose les bases d'une enquête claire et ciblée."
+    "method": {
+      "title": "Une enquête <h>structurée</h> avant d'être une enquête de terrain",
+      "text": "Avant d'être une enquête de terrain, chaque mission est d'abord <b>qualifiée, vérifiée et délimitée</b>. Les étapes ci-dessous structurent tout le travail, jusqu'au <b>rapport final</b>.",
+      "steps": {
+        "qualification": {
+          "title": "Qualification de la demande",
+          "text": "Qui demande ? Quel est le problème ? Quels faits doivent réellement être établis ? Quel résultat serait utile au mandant ?\nCette première étape évite de confondre une inquiétude générale avec un objectif d'enquête exploitable."
+        },
+        "admissibility": {
+          "title": "Recevabilité",
+          "text": "Avant toute mission, VESTIGE vérifie notamment l'identité du mandant, son intérêt légitime, la finalité de la demande, les éventuels conflits et les restrictions propres au type d'enquête envisagé."
+        },
+        "mandate": {
+          "title": "Définition du mandat",
+          "text": "Une mission utile doit avoir des limites.\nL'objet, les questions à résoudre, la durée, les moyens envisagés et les livrables sont définis avant l'exécution et ajustés si la situation évolue."
+        },
+        "collection": {
+          "title": "Collecte et investigation",
+          "text": "Recherche documentaire, sources ouvertes, vérifications, entretiens ou terrain peuvent être combinés selon la mission.\nChaque méthode reste soumise à ses propres conditions de licéité et de proportionnalité."
+        },
+        "crosscheck": {
+          "title": "Recoupement et qualification",
+          "text": "Une information isolée n'est pas automatiquement un fait établi.\nVESTIGE confronte les sources, vérifie leur date et leur contexte, et distingue ce qui est confirmé, probable, contradictoire ou non vérifiable."
+        },
+        "report": {
+          "title": "Rapport",
+          "text": "Le rapport final restitue les constatations utiles de manière structurée.\nIl indique la méthodologie pertinente, les éléments établis, les limites et, lorsque nécessaire, les pièces ou annexes permettant au mandant de comprendre le raisonnement factuel."
+        }
       },
-      "strategy": {
-        "title": "Développement de stratégie",
-        "text": "Nous élaborons un plan d'enquête sur mesure basé sur les spécificités de votre cas. Cela garantit une approche efficace et juridiquement solide pour découvrir les faits."
+      "compliance": {
+        "title": "Conformité intégrée",
+        "text": "La conformité n'est pas une étape ajoutée à la fin.\nElle intervient dès l'acceptation de la mission et pendant toute son exécution : données collectées, méthodes utilisées, conservation, communication au mandant et clôture du dossier."
       },
-      "evidence": {
-        "title": "Collecte de preuves",
-        "text": "Nos enquêteurs recueillent des preuves pertinentes et recevables en utilisant des techniques professionnelles et discrètes pour soutenir efficacement votre cas."
-      },
-      "reporting": {
-        "title": "Rapport et résolution",
-        "text": "Vous recevez un rapport détaillé et structuré résumant les conclusions, y compris la documentation, l'analyse et les prochaines étapes recommandées."
-      }
+      "cta": "Nous exposer votre besoin"
     }
   },
   "about": {

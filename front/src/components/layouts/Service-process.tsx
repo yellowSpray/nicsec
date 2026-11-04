@@ -1,109 +1,111 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
-import { ChartBarIncreasingIcon, Database, Fingerprint, IdCard } from 'lucide-react'
-import { useState } from 'react'
+import { useState } from "react";
+import { ShieldCheck } from "lucide-react";
 import { useTranslation, Trans } from "react-i18next";
-// import { gsap } from 'gsap'
-import imageDetective from '@/assets/images/detective_pic.png'
-import imageService from '@/assets/images/service-preview.jpg'
-import imagePreviewA from '@/assets/images/service-preview2.jpg'
-import imagePreviewB from '@/assets/images/service-preview3.jpg'
- 
+import { TiArrowDown } from "react-icons/ti";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import Button from "@/components/ui/button";
+import Paragraphs from "@/components/ui/paragraphs";
+import { scrollToSection } from "@/features/scrollButton";
+import imageDetective from "@/assets/images/detective_pic.png";
+import imageBoard from "@/assets/images/service-preview.jpg";
+import imageMagnifier from "@/assets/images/service-preview2.jpg";
+import imageReading from "@/assets/images/service-preview3.jpg";
 
+// Steps of the VESTIGE method (content document, sections 1.5 and 6)
+const STEPS = [
+    { key: "qualification", image: imageDetective },
+    { key: "admissibility", image: imageMagnifier },
+    { key: "mandate", image: imageBoard },
+    { key: "collection", image: imageReading },
+    { key: "crosscheck", image: imageBoard },
+    { key: "report", image: imageDetective },
+];
+
+/** Section "La méthode VESTIGE" on the services page (id="methode") */
 export default function StepProcess() {
 
-    const { t } = useTranslation(); 
-
-    const defaultProcess = [
-        {
-            id: 1,
-            icons: <ChartBarIncreasingIcon className='text-second size-4'/>,
-            title: t("services.process.initial.title"),
-            image: imageDetective,
-            description: t("services.process.initial.text"),
-        },
-        {
-            id: 2,
-            icons: <Database className='text-second size-4' />,
-            title: t("services.process.strategy.title"),
-            image: imageService,
-            description: t("services.process.strategy.text"),
-        },
-        {
-            id: 3,
-            icons: <Fingerprint className='text-second size-4' />,
-            title: t("services.process.evidence.title"),
-            image: imagePreviewA,
-            description: t("services.process.strategy.text"),
-        },
-        {
-            id: 4,
-            icons: <IdCard className='text-second size-4' />,
-            title: t("services.process.reporting.title"),
-            image: imagePreviewB,
-            description: t("services.process.strategy.text"),
-        },
-    ] 
-
-    const [activeTabId, setActiveTabId] = useState<number | null>(1);
-    const [activeImage, setActiveImage] = useState(defaultProcess[0].image);
-
-    
+    const { t } = useTranslation();
+    const [activeStep, setActiveStep] = useState(STEPS[0].key);
+    const activeImage = STEPS.find((step) => step.key === activeStep)?.image ?? STEPS[0].image;
 
     return (
-        <section id="processus" className="max-w-6xl mx-8 mb-16 md:mb-32 space-y-8 scroll-mt-8">
+        <section id="methode" className="w-full px-8 mb-16 md:mb-32 flex justify-center scroll-mt-8">
+            <div className="max-w-6xl w-full space-y-8">
 
-            <div className="text-center space-y-8">
-                <h3 className="text-center">
-                    <Trans i18nKey="services.process.title">
-                        My investigation <span className="text-second">Process</span>
-                    </Trans>
-                </h3>
-                <p>
-                    <Trans i18nKey="services.process.text">
-                        A systematic approach <span className='font-bold'>ensuring thorough and reliable</span> results.
-                    </Trans>
-                </p>
-            </div>
+                <div className="text-center space-y-8">
+                    <h3>
+                        <Trans i18nKey="services.method.title" components={{ h: <span className="text-second" /> }} />
+                    </h3>
+                    <p className="max-w-4xl mx-auto">
+                        <Trans i18nKey="services.method.text" components={{ b: <span className="font-bold" /> }} />
+                    </p>
+                </div>
 
-            <div className="grid gap-12 md:grid-cols-2">
+                <div className="grid gap-12 md:grid-cols-2">
 
-                <Accordion type='single' className='w-full' defaultValue='"item-1'>
-
-                    {defaultProcess.map((tab) => (
-                        <AccordionItem key={tab.id} value={`item-${tab.id}`}>
-                                <AccordionTrigger 
-                                    onClick={() => {
-                                        setActiveImage(tab.image)
-                                        setActiveTabId(tab.id)
-                                    }}
-                                    className="cursor-pointer py-5 !no-underline transition flex flex-row"
-                                >
-                                    <span className="shrink-0">{tab.icons}</span>
-                                    <h4 className={`${tab.id === activeTabId ? "text-foreground" : "text-muted-foreground"}`}>
-                                        {tab.title}
+                    {/* Controlled + not collapsible: one step is always open, so the image always matches */}
+                    <Accordion
+                        type="single"
+                        className="w-full"
+                        value={activeStep}
+                        onValueChange={(value) => value && setActiveStep(value)}
+                    >
+                        {STEPS.map(({ key }, index) => (
+                            <AccordionItem key={key} value={key}>
+                                <AccordionTrigger className="cursor-pointer py-5 !no-underline transition flex flex-row items-center">
+                                    <span
+                                        className={`shrink-0 flex items-center justify-center size-7 rounded-full border text-xs font-bold transition-colors ${
+                                            key === activeStep ? "bg-second border-second text-white" : "border-second text-second"
+                                        }`}
+                                        aria-hidden="true"
+                                    >
+                                        <span className="relative top-px">{index + 1}</span>
+                                    </span>
+                                    <h4 className={key === activeStep ? "text-foreground" : "text-muted-foreground"}>
+                                        {t(`services.method.steps.${key}.title`)}
                                     </h4>
                                 </AccordionTrigger>
                                 <AccordionContent>
-                                    <p className="mt-3 text-muted-foreground">
-                                        {tab.description}
-                                    </p>
+                                    <Paragraphs
+                                        className="mt-3"
+                                        paragraphClassName="text-muted-foreground"
+                                        text={t(`services.method.steps.${key}.text`)}
+                                    />
                                 </AccordionContent>
                             </AccordionItem>
-                    ))}
+                        ))}
+                    </Accordion>
 
-                </Accordion>
+                    <div className="w-full overflow-hidden rounded-second">
+                        <img
+                            key={activeImage}
+                            src={activeImage}
+                            alt=""
+                            className="rounded-second object-cover w-full h-full max-h-[480px] animate-in fade-in duration-300"
+                        />
+                    </div>
 
-                                        
-                <div className="w-full overflow-hidden rounded-second">
-                    <img
-                        src={activeImage}
-                        alt="Feature preview"
-                        className="rounded-second object-cover w-full"
+                </div>
+
+                {/* 6.7: compliance is not a step, it applies to the whole mission */}
+                <div className="bg-background rounded-second p-6 md:p-8 flex flex-col sm:flex-row gap-4 sm:items-start">
+                    <ShieldCheck className="size-6 shrink-0 text-second" aria-hidden="true" />
+                    <div className="space-y-2">
+                        <h4>{t("services.method.compliance.title")}</h4>
+                        <Paragraphs text={t("services.method.compliance.text")} />
+                    </div>
+                </div>
+
+                <div className="flex justify-center">
+                    <Button
+                        buttonTxt={t("services.method.cta")}
+                        iconeButton={<TiArrowDown size={20} />}
+                        className="btn-primary"
+                        onClick={() => scrollToSection()}
                     />
                 </div>
 
             </div>
-            
         </section>
     )
 }
